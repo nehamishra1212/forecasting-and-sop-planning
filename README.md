@@ -115,15 +115,4 @@ outputs/             tables and figures produced by the pipeline
 
 [`docs/business_context.md`](docs/business_context.md) connects each component to what demand-planning and S&OP roles are asked to do: consensus demand plans, error-measurement standards, exception-based review, NPI and phase-out handling, supply-constraint-aware demand, buffer sizing, and automating planning workflows.
 
-## Limitations
 
-1. Synthetic data, one random seed, one 12-month test year. Effect sizes are assumptions.
-2. The **sales forecast is simulated**; the consensus gain depends on how independent its errors are from the model's. With real data this must be measured, not assumed.
-3. GBM results move about 0.7 points with the random seed.
-4. Baselines used sensible defaults, not exhaustive tuning.
-5. The inventory simulation is intentionally simple; it ranks forecasts, it does not predict real cash impact.
-6. Not built on SAP IBP or any ERP, and no real company data was used.
-
-## License
-
-MIT - see `LICENSE`.
