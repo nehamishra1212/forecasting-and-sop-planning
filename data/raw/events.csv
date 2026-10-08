@@ -1,0 +1,70 @@
+date,event,product_line,known_in_advance
+2020-09-01,Competitor price cut,Edge Sensors & Modules,False
+2020-12-01,Competitor product launch,Edge Sensors & Modules,False
+2020-12-01,Competitor product launch,Accessories & Peripherals,False
+2021-03-01,Competitor product launch,Network Switches,False
+2021-05-01,Component shortage begins,All,False
+2021-11-01,Competitor price cut,Storage Arrays,False
+2021-12-01,Competitor price cut,Storage Arrays,False
+2021-12-01,Competitor product launch,Servers,False
+2021-12-01,Competitor product launch,Network Switches,False
+2022-04-01,Competitor product launch,Client PCs,False
+2022-07-01,Competitor price cut,Network Switches,False
+2022-07-01,Competitor price cut,Client PCs,False
+2022-08-01,Competitor product launch,Accessories & Peripherals,False
+2022-10-01,Competitor product launch,Storage Arrays,False
+2022-11-01,Competitor price cut,Servers,False
+2022-11-01,Component shortage eases,All,False
+2023-01-01,Competitor product launch,Storage Arrays,False
+2023-03-01,NPI launch SV-E2,Servers,True
+2023-05-01,Competitor product launch,Edge Sensors & Modules,False
+2023-05-01,NPI launch PC-P2,Client PCs,True
+2023-05-01,NPI launch SV-P2,Servers,True
+2023-05-01,NPI launch PC-E2,Client PCs,True
+2023-06-01,NPI launch AC-M2,Accessories & Peripherals,True
+2023-07-01,Competitor price cut,Client PCs,False
+2023-07-01,NPI launch ST-P2,Storage Arrays,True
+2023-09-01,Competitor product launch,Client PCs,False
+2023-10-01,Competitor price cut,Servers,False
+2023-11-01,Competitor price cut,Accessories & Peripherals,False
+2023-11-01,NPI launch NW-M2,Network Switches,True
+2023-12-01,NPI launch ST-M2,Storage Arrays,True
+2023-12-01,NPI launch NW-P2,Network Switches,True
+2024-01-01,Competitor product launch,Servers,False
+2024-02-01,NPI launch AC-P2,Accessories & Peripherals,True
+2024-03-01,NPI launch SN-E2,Edge Sensors & Modules,True
+2024-04-01,Competitor product launch,Accessories & Peripherals,False
+2024-04-01,NPI launch SV-M2,Servers,True
+2024-05-01,NPI launch PC-M2,Client PCs,True
+2024-05-01,Competitor price cut,Accessories & Peripherals,False
+2024-05-01,Competitor product launch,Client PCs,False
+2024-06-01,NPI launch ST-E2,Storage Arrays,True
+2024-07-01,NPI launch NW-E2,Network Switches,True
+2024-08-01,NPI launch SN-P2,Edge Sensors & Modules,True
+2024-09-01,NPI launch SN-M2,Edge Sensors & Modules,True
+2024-09-01,End-of-life start AC-P1,Accessories & Peripherals,True
+2024-09-01,Competitor product launch,Edge Sensors & Modules,False
+2024-10-01,NPI launch AC-E2,Accessories & Peripherals,True
+2024-11-01,End-of-life start NW-E1,Network Switches,True
+2024-11-01,Competitor product launch,Servers,False
+2024-11-01,End-of-life start PC-E1,Client PCs,True
+2024-12-01,End-of-life start ST-P1,Storage Arrays,True
+2025-01-01,End-of-life start ST-E1,Storage Arrays,True
+2025-01-01,Competitor price cut,Network Switches,False
+2025-02-01,End-of-life start SN-E1,Edge Sensors & Modules,True
+2025-02-01,Competitor price cut,Edge Sensors & Modules,False
+2025-02-01,Competitor product launch,Storage Arrays,False
+2025-03-01,End-of-life start AC-M1,Accessories & Peripherals,True
+2025-04-01,End-of-life start SN-M1,Edge Sensors & Modules,True
+2025-06-01,End-of-life start PC-M1,Client PCs,True
+2025-06-01,End-of-life start SV-E1,Servers,True
+2025-06-01,Competitor product launch,Network Switches,False
+2025-08-01,End-of-life start SV-M1,Servers,True
+2025-08-01,"OS end-of-support refresh peak (PCs, Accessories)",Client PCs / Accessories,True
+2025-08-01,End-of-life start NW-P1,Network Switches,True
+2025-08-01,End-of-life start AC-E1,Accessories & Peripherals,True
+2025-08-01,End-of-life start SN-P1,Edge Sensors & Modules,True
+2025-09-01,End-of-life start SV-P1,Servers,True
+2025-09-01,End-of-life start ST-M1,Storage Arrays,True
+2025-09-01,End-of-life start PC-P1,Client PCs,True
+2025-10-01,End-of-life start NW-M1,Network Switches,True

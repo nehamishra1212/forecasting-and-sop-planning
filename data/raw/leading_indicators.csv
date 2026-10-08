@@ -1,0 +1,433 @@
+date,product_line,leading_indicator_index,refresh_event_index
+2020-01-01,Client PCs,117.67,0.0
+2020-02-01,Client PCs,136.96,0.0
+2020-03-01,Client PCs,100.99,0.0
+2020-04-01,Client PCs,136.06,0.0
+2020-05-01,Client PCs,105.03,0.0
+2020-06-01,Client PCs,136.43,0.0
+2020-07-01,Client PCs,139.4,0.0
+2020-08-01,Client PCs,102.76,0.0
+2020-09-01,Client PCs,128.88,0.0
+2020-10-01,Client PCs,168.33,0.0
+2020-11-01,Client PCs,73.91,0.0
+2020-12-01,Client PCs,83.2,0.0
+2021-01-01,Client PCs,77.34,0.0
+2021-02-01,Client PCs,119.58,0.0
+2021-03-01,Client PCs,107.72,0.0
+2021-04-01,Client PCs,101.51,0.0
+2021-05-01,Client PCs,108.9,0.0
+2021-06-01,Client PCs,139.15,0.0
+2021-07-01,Client PCs,129.79,0.0
+2021-08-01,Client PCs,87.75,0.0
+2021-09-01,Client PCs,127.47,0.0
+2021-10-01,Client PCs,132.01,0.0
+2021-11-01,Client PCs,77.73,0.0
+2021-12-01,Client PCs,84.78,0.0
+2022-01-01,Client PCs,63.02,0.0
+2022-02-01,Client PCs,63.22,0.0
+2022-03-01,Client PCs,80.75,0.0
+2022-04-01,Client PCs,86.82,0.0
+2022-05-01,Client PCs,78.51,0.0
+2022-06-01,Client PCs,78.74,0.0
+2022-07-01,Client PCs,101.27,0.0
+2022-08-01,Client PCs,83.49,0.0
+2022-09-01,Client PCs,72.12,0.0
+2022-10-01,Client PCs,109.61,0.0
+2022-11-01,Client PCs,48.24,0.0
+2022-12-01,Client PCs,52.77,0.0
+2023-01-01,Client PCs,62.93,0.0
+2023-02-01,Client PCs,61.18,0.0
+2023-03-01,Client PCs,98.44,0.0
+2023-04-01,Client PCs,124.57,0.0
+2023-05-01,Client PCs,97.8,0.0
+2023-06-01,Client PCs,104.87,0.0
+2023-07-01,Client PCs,104.24,0.0
+2023-08-01,Client PCs,67.79,0.0
+2023-09-01,Client PCs,101.17,0.0
+2023-10-01,Client PCs,125.37,0.0
+2023-11-01,Client PCs,75.29,0.0
+2023-12-01,Client PCs,82.76,0.0
+2024-01-01,Client PCs,126.25,0.0
+2024-02-01,Client PCs,90.42,0.0
+2024-03-01,Client PCs,86.25,0.0
+2024-04-01,Client PCs,92.39,0.0
+2024-05-01,Client PCs,130.35,0.001
+2024-06-01,Client PCs,140.03,0.002
+2024-07-01,Client PCs,135.32,0.005
+2024-08-01,Client PCs,102.67,0.011
+2024-09-01,Client PCs,124.22,0.023
+2024-10-01,Client PCs,128.27,0.044
+2024-11-01,Client PCs,90.39,0.08
+2024-12-01,Client PCs,79.59,0.135
+2025-01-01,Client PCs,91.24,0.216
+2025-02-01,Client PCs,90.5,0.325
+2025-03-01,Client PCs,94.36,0.458
+2025-04-01,Client PCs,130.83,0.607
+2025-05-01,Client PCs,129.08,0.755
+2025-06-01,Client PCs,137.38,0.882
+2025-07-01,Client PCs,139.76,0.969
+2025-08-01,Client PCs,112.05,1.0
+2025-09-01,Client PCs,158.75,0.969
+2025-10-01,Client PCs,138.68,0.882
+2025-11-01,Client PCs,89.73,0.755
+2025-12-01,Client PCs,87.47,0.607
+2020-01-01,Accessories & Peripherals,98.24,0.0
+2020-02-01,Accessories & Peripherals,127.31,0.0
+2020-03-01,Accessories & Peripherals,117.14,0.0
+2020-04-01,Accessories & Peripherals,138.77,0.0
+2020-05-01,Accessories & Peripherals,144.89,0.0
+2020-06-01,Accessories & Peripherals,155.47,0.0
+2020-07-01,Accessories & Peripherals,97.9,0.0
+2020-08-01,Accessories & Peripherals,90.5,0.0
+2020-09-01,Accessories & Peripherals,153.1,0.0
+2020-10-01,Accessories & Peripherals,85.99,0.0
+2020-11-01,Accessories & Peripherals,64.14,0.0
+2020-12-01,Accessories & Peripherals,84.69,0.0
+2021-01-01,Accessories & Peripherals,93.85,0.0
+2021-02-01,Accessories & Peripherals,112.92,0.0
+2021-03-01,Accessories & Peripherals,113.24,0.0
+2021-04-01,Accessories & Peripherals,95.68,0.0
+2021-05-01,Accessories & Peripherals,95.59,0.0
+2021-06-01,Accessories & Peripherals,95.1,0.0
+2021-07-01,Accessories & Peripherals,106.57,0.0
+2021-08-01,Accessories & Peripherals,130.31,0.0
+2021-09-01,Accessories & Peripherals,168.99,0.0
+2021-10-01,Accessories & Peripherals,130.81,0.0
+2021-11-01,Accessories & Peripherals,91.36,0.0
+2021-12-01,Accessories & Peripherals,86.06,0.0
+2022-01-01,Accessories & Peripherals,92.22,0.0
+2022-02-01,Accessories & Peripherals,105.41,0.0
+2022-03-01,Accessories & Peripherals,73.32,0.0
+2022-04-01,Accessories & Peripherals,80.48,0.0
+2022-05-01,Accessories & Peripherals,100.38,0.0
+2022-06-01,Accessories & Peripherals,88.52,0.0
+2022-07-01,Accessories & Peripherals,78.25,0.0
+2022-08-01,Accessories & Peripherals,71.27,0.0
+2022-09-01,Accessories & Peripherals,87.94,0.0
+2022-10-01,Accessories & Peripherals,110.01,0.0
+2022-11-01,Accessories & Peripherals,84.25,0.0
+2022-12-01,Accessories & Peripherals,75.06,0.0
+2023-01-01,Accessories & Peripherals,89.46,0.0
+2023-02-01,Accessories & Peripherals,91.69,0.0
+2023-03-01,Accessories & Peripherals,91.38,0.0
+2023-04-01,Accessories & Peripherals,109.14,0.0
+2023-05-01,Accessories & Peripherals,119.74,0.0
+2023-06-01,Accessories & Peripherals,114.43,0.0
+2023-07-01,Accessories & Peripherals,104.18,0.0
+2023-08-01,Accessories & Peripherals,107.07,0.0
+2023-09-01,Accessories & Peripherals,115.44,0.0
+2023-10-01,Accessories & Peripherals,98.19,0.0
+2023-11-01,Accessories & Peripherals,94.27,0.0
+2023-12-01,Accessories & Peripherals,107.03,0.0
+2024-01-01,Accessories & Peripherals,146.2,0.0
+2024-02-01,Accessories & Peripherals,116.62,0.0
+2024-03-01,Accessories & Peripherals,126.09,0.0
+2024-04-01,Accessories & Peripherals,75.2,0.0
+2024-05-01,Accessories & Peripherals,94.17,0.001
+2024-06-01,Accessories & Peripherals,128.12,0.001
+2024-07-01,Accessories & Peripherals,108.56,0.003
+2024-08-01,Accessories & Peripherals,109.28,0.007
+2024-09-01,Accessories & Peripherals,158.36,0.014
+2024-10-01,Accessories & Peripherals,118.17,0.026
+2024-11-01,Accessories & Peripherals,115.17,0.048
+2024-12-01,Accessories & Peripherals,101.95,0.081
+2025-01-01,Accessories & Peripherals,90.03,0.13
+2025-02-01,Accessories & Peripherals,101.77,0.195
+2025-03-01,Accessories & Peripherals,94.3,0.275
+2025-04-01,Accessories & Peripherals,129.6,0.364
+2025-05-01,Accessories & Peripherals,142.05,0.453
+2025-06-01,Accessories & Peripherals,138.62,0.529
+2025-07-01,Accessories & Peripherals,108.43,0.582
+2025-08-01,Accessories & Peripherals,93.8,0.6
+2025-09-01,Accessories & Peripherals,148.51,0.582
+2025-10-01,Accessories & Peripherals,118.6,0.529
+2025-11-01,Accessories & Peripherals,67.73,0.453
+2025-12-01,Accessories & Peripherals,84.0,0.364
+2020-01-01,Network Switches,144.08,0.0
+2020-02-01,Network Switches,97.22,0.0
+2020-03-01,Network Switches,95.28,0.0
+2020-04-01,Network Switches,113.18,0.0
+2020-05-01,Network Switches,85.23,0.0
+2020-06-01,Network Switches,92.44,0.0
+2020-07-01,Network Switches,134.38,0.0
+2020-08-01,Network Switches,107.1,0.0
+2020-09-01,Network Switches,98.93,0.0
+2020-10-01,Network Switches,117.09,0.0
+2020-11-01,Network Switches,105.51,0.0
+2020-12-01,Network Switches,78.46,0.0
+2021-01-01,Network Switches,114.16,0.0
+2021-02-01,Network Switches,128.75,0.0
+2021-03-01,Network Switches,124.87,0.0
+2021-04-01,Network Switches,134.14,0.0
+2021-05-01,Network Switches,122.07,0.0
+2021-06-01,Network Switches,129.71,0.0
+2021-07-01,Network Switches,132.2,0.0
+2021-08-01,Network Switches,124.35,0.0
+2021-09-01,Network Switches,142.51,0.0
+2021-10-01,Network Switches,111.36,0.0
+2021-11-01,Network Switches,97.47,0.0
+2021-12-01,Network Switches,104.55,0.0
+2022-01-01,Network Switches,127.24,0.0
+2022-02-01,Network Switches,98.39,0.0
+2022-03-01,Network Switches,106.83,0.0
+2022-04-01,Network Switches,123.58,0.0
+2022-05-01,Network Switches,111.41,0.0
+2022-06-01,Network Switches,102.61,0.0
+2022-07-01,Network Switches,107.78,0.0
+2022-08-01,Network Switches,85.76,0.0
+2022-09-01,Network Switches,91.39,0.0
+2022-10-01,Network Switches,109.34,0.0
+2022-11-01,Network Switches,76.68,0.0
+2022-12-01,Network Switches,91.93,0.0
+2023-01-01,Network Switches,113.46,0.0
+2023-02-01,Network Switches,105.74,0.0
+2023-03-01,Network Switches,100.27,0.0
+2023-04-01,Network Switches,108.51,0.0
+2023-05-01,Network Switches,123.8,0.0
+2023-06-01,Network Switches,122.77,0.0
+2023-07-01,Network Switches,128.46,0.0
+2023-08-01,Network Switches,128.63,0.0
+2023-09-01,Network Switches,152.37,0.0
+2023-10-01,Network Switches,160.77,0.0
+2023-11-01,Network Switches,145.15,0.0
+2023-12-01,Network Switches,107.13,0.0
+2024-01-01,Network Switches,145.58,0.0
+2024-02-01,Network Switches,90.57,0.0
+2024-03-01,Network Switches,107.44,0.0
+2024-04-01,Network Switches,116.26,0.0
+2024-05-01,Network Switches,90.2,0.0
+2024-06-01,Network Switches,122.17,0.0
+2024-07-01,Network Switches,110.5,0.0
+2024-08-01,Network Switches,120.91,0.0
+2024-09-01,Network Switches,121.91,0.0
+2024-10-01,Network Switches,112.79,0.0
+2024-11-01,Network Switches,76.95,0.0
+2024-12-01,Network Switches,95.11,0.0
+2025-01-01,Network Switches,110.31,0.0
+2025-02-01,Network Switches,87.94,0.0
+2025-03-01,Network Switches,108.02,0.0
+2025-04-01,Network Switches,95.18,0.0
+2025-05-01,Network Switches,88.52,0.0
+2025-06-01,Network Switches,109.6,0.0
+2025-07-01,Network Switches,104.39,0.0
+2025-08-01,Network Switches,125.66,0.0
+2025-09-01,Network Switches,101.74,0.0
+2025-10-01,Network Switches,133.1,0.0
+2025-11-01,Network Switches,96.32,0.0
+2025-12-01,Network Switches,87.98,0.0
+2020-01-01,Servers,135.72,0.0
+2020-02-01,Servers,97.76,0.0
+2020-03-01,Servers,100.8,0.0
+2020-04-01,Servers,114.89,0.0
+2020-05-01,Servers,83.57,0.0
+2020-06-01,Servers,114.12,0.0
+2020-07-01,Servers,123.0,0.0
+2020-08-01,Servers,112.33,0.0
+2020-09-01,Servers,110.99,0.0
+2020-10-01,Servers,145.28,0.0
+2020-11-01,Servers,106.79,0.0
+2020-12-01,Servers,95.46,0.0
+2021-01-01,Servers,129.81,0.0
+2021-02-01,Servers,95.17,0.0
+2021-03-01,Servers,99.54,0.0
+2021-04-01,Servers,126.87,0.0
+2021-05-01,Servers,99.79,0.0
+2021-06-01,Servers,128.49,0.0
+2021-07-01,Servers,153.46,0.0
+2021-08-01,Servers,108.17,0.0
+2021-09-01,Servers,128.22,0.0
+2021-10-01,Servers,117.01,0.0
+2021-11-01,Servers,98.63,0.0
+2021-12-01,Servers,104.87,0.0
+2022-01-01,Servers,167.74,0.0
+2022-02-01,Servers,102.51,0.0
+2022-03-01,Servers,105.56,0.0
+2022-04-01,Servers,146.16,0.0
+2022-05-01,Servers,92.79,0.0
+2022-06-01,Servers,96.5,0.0
+2022-07-01,Servers,132.19,0.0
+2022-08-01,Servers,110.15,0.0
+2022-09-01,Servers,89.45,0.0
+2022-10-01,Servers,114.4,0.0
+2022-11-01,Servers,80.75,0.0
+2022-12-01,Servers,92.42,0.0
+2023-01-01,Servers,122.39,0.0
+2023-02-01,Servers,114.6,0.0
+2023-03-01,Servers,137.08,0.0
+2023-04-01,Servers,169.36,0.0
+2023-05-01,Servers,118.9,0.0
+2023-06-01,Servers,110.04,0.0
+2023-07-01,Servers,173.99,0.0
+2023-08-01,Servers,113.81,0.0
+2023-09-01,Servers,131.06,0.0
+2023-10-01,Servers,186.25,0.0
+2023-11-01,Servers,93.43,0.0
+2023-12-01,Servers,85.97,0.0
+2024-01-01,Servers,123.2,0.0
+2024-02-01,Servers,110.76,0.0
+2024-03-01,Servers,129.65,0.0
+2024-04-01,Servers,150.87,0.0
+2024-05-01,Servers,130.45,0.0
+2024-06-01,Servers,112.8,0.0
+2024-07-01,Servers,140.7,0.0
+2024-08-01,Servers,96.44,0.0
+2024-09-01,Servers,122.77,0.0
+2024-10-01,Servers,144.18,0.0
+2024-11-01,Servers,75.67,0.0
+2024-12-01,Servers,93.49,0.0
+2025-01-01,Servers,115.06,0.0
+2025-02-01,Servers,96.37,0.0
+2025-03-01,Servers,109.79,0.0
+2025-04-01,Servers,124.63,0.0
+2025-05-01,Servers,104.23,0.0
+2025-06-01,Servers,98.11,0.0
+2025-07-01,Servers,118.1,0.0
+2025-08-01,Servers,90.83,0.0
+2025-09-01,Servers,103.66,0.0
+2025-10-01,Servers,123.4,0.0
+2025-11-01,Servers,85.67,0.0
+2025-12-01,Servers,87.12,0.0
+2020-01-01,Storage Arrays,171.36,0.0
+2020-02-01,Storage Arrays,121.31,0.0
+2020-03-01,Storage Arrays,106.13,0.0
+2020-04-01,Storage Arrays,131.29,0.0
+2020-05-01,Storage Arrays,100.53,0.0
+2020-06-01,Storage Arrays,101.86,0.0
+2020-07-01,Storage Arrays,137.21,0.0
+2020-08-01,Storage Arrays,105.65,0.0
+2020-09-01,Storage Arrays,105.0,0.0
+2020-10-01,Storage Arrays,167.89,0.0
+2020-11-01,Storage Arrays,90.84,0.0
+2020-12-01,Storage Arrays,103.6,0.0
+2021-01-01,Storage Arrays,156.51,0.0
+2021-02-01,Storage Arrays,84.21,0.0
+2021-03-01,Storage Arrays,110.89,0.0
+2021-04-01,Storage Arrays,104.42,0.0
+2021-05-01,Storage Arrays,116.56,0.0
+2021-06-01,Storage Arrays,88.49,0.0
+2021-07-01,Storage Arrays,141.66,0.0
+2021-08-01,Storage Arrays,106.23,0.0
+2021-09-01,Storage Arrays,120.24,0.0
+2021-10-01,Storage Arrays,141.7,0.0
+2021-11-01,Storage Arrays,64.38,0.0
+2021-12-01,Storage Arrays,82.07,0.0
+2022-01-01,Storage Arrays,123.56,0.0
+2022-02-01,Storage Arrays,68.31,0.0
+2022-03-01,Storage Arrays,93.7,0.0
+2022-04-01,Storage Arrays,117.58,0.0
+2022-05-01,Storage Arrays,91.37,0.0
+2022-06-01,Storage Arrays,91.73,0.0
+2022-07-01,Storage Arrays,149.98,0.0
+2022-08-01,Storage Arrays,85.27,0.0
+2022-09-01,Storage Arrays,98.81,0.0
+2022-10-01,Storage Arrays,125.19,0.0
+2022-11-01,Storage Arrays,59.35,0.0
+2022-12-01,Storage Arrays,75.69,0.0
+2023-01-01,Storage Arrays,131.66,0.0
+2023-02-01,Storage Arrays,85.22,0.0
+2023-03-01,Storage Arrays,89.84,0.0
+2023-04-01,Storage Arrays,113.0,0.0
+2023-05-01,Storage Arrays,110.99,0.0
+2023-06-01,Storage Arrays,120.91,0.0
+2023-07-01,Storage Arrays,158.73,0.0
+2023-08-01,Storage Arrays,105.73,0.0
+2023-09-01,Storage Arrays,101.54,0.0
+2023-10-01,Storage Arrays,182.26,0.0
+2023-11-01,Storage Arrays,105.85,0.0
+2023-12-01,Storage Arrays,110.39,0.0
+2024-01-01,Storage Arrays,136.27,0.0
+2024-02-01,Storage Arrays,89.1,0.0
+2024-03-01,Storage Arrays,101.27,0.0
+2024-04-01,Storage Arrays,135.95,0.0
+2024-05-01,Storage Arrays,94.34,0.0
+2024-06-01,Storage Arrays,100.18,0.0
+2024-07-01,Storage Arrays,112.4,0.0
+2024-08-01,Storage Arrays,95.65,0.0
+2024-09-01,Storage Arrays,142.06,0.0
+2024-10-01,Storage Arrays,178.32,0.0
+2024-11-01,Storage Arrays,84.97,0.0
+2024-12-01,Storage Arrays,90.92,0.0
+2025-01-01,Storage Arrays,108.76,0.0
+2025-02-01,Storage Arrays,102.59,0.0
+2025-03-01,Storage Arrays,82.63,0.0
+2025-04-01,Storage Arrays,147.04,0.0
+2025-05-01,Storage Arrays,111.64,0.0
+2025-06-01,Storage Arrays,85.39,0.0
+2025-07-01,Storage Arrays,147.68,0.0
+2025-08-01,Storage Arrays,94.64,0.0
+2025-09-01,Storage Arrays,102.65,0.0
+2025-10-01,Storage Arrays,151.41,0.0
+2025-11-01,Storage Arrays,73.1,0.0
+2025-12-01,Storage Arrays,90.54,0.0
+2020-01-01,Edge Sensors & Modules,104.07,0.0
+2020-02-01,Edge Sensors & Modules,115.41,0.0
+2020-03-01,Edge Sensors & Modules,136.39,0.0
+2020-04-01,Edge Sensors & Modules,108.17,0.0
+2020-05-01,Edge Sensors & Modules,90.84,0.0
+2020-06-01,Edge Sensors & Modules,105.41,0.0
+2020-07-01,Edge Sensors & Modules,84.94,0.0
+2020-08-01,Edge Sensors & Modules,94.18,0.0
+2020-09-01,Edge Sensors & Modules,95.15,0.0
+2020-10-01,Edge Sensors & Modules,113.75,0.0
+2020-11-01,Edge Sensors & Modules,95.28,0.0
+2020-12-01,Edge Sensors & Modules,101.21,0.0
+2021-01-01,Edge Sensors & Modules,112.84,0.0
+2021-02-01,Edge Sensors & Modules,95.81,0.0
+2021-03-01,Edge Sensors & Modules,147.79,0.0
+2021-04-01,Edge Sensors & Modules,101.03,0.0
+2021-05-01,Edge Sensors & Modules,120.13,0.0
+2021-06-01,Edge Sensors & Modules,117.36,0.0
+2021-07-01,Edge Sensors & Modules,146.14,0.0
+2021-08-01,Edge Sensors & Modules,124.71,0.0
+2021-09-01,Edge Sensors & Modules,152.65,0.0
+2021-10-01,Edge Sensors & Modules,157.75,0.0
+2021-11-01,Edge Sensors & Modules,128.06,0.0
+2021-12-01,Edge Sensors & Modules,116.45,0.0
+2022-01-01,Edge Sensors & Modules,115.42,0.0
+2022-02-01,Edge Sensors & Modules,177.81,0.0
+2022-03-01,Edge Sensors & Modules,101.48,0.0
+2022-04-01,Edge Sensors & Modules,124.36,0.0
+2022-05-01,Edge Sensors & Modules,107.85,0.0
+2022-06-01,Edge Sensors & Modules,102.04,0.0
+2022-07-01,Edge Sensors & Modules,116.15,0.0
+2022-08-01,Edge Sensors & Modules,106.45,0.0
+2022-09-01,Edge Sensors & Modules,123.38,0.0
+2022-10-01,Edge Sensors & Modules,131.95,0.0
+2022-11-01,Edge Sensors & Modules,163.82,0.0
+2022-12-01,Edge Sensors & Modules,134.4,0.0
+2023-01-01,Edge Sensors & Modules,132.57,0.0
+2023-02-01,Edge Sensors & Modules,127.19,0.0
+2023-03-01,Edge Sensors & Modules,150.83,0.0
+2023-04-01,Edge Sensors & Modules,95.99,0.0
+2023-05-01,Edge Sensors & Modules,105.84,0.0
+2023-06-01,Edge Sensors & Modules,81.98,0.0
+2023-07-01,Edge Sensors & Modules,131.16,0.0
+2023-08-01,Edge Sensors & Modules,137.47,0.0
+2023-09-01,Edge Sensors & Modules,100.31,0.0
+2023-10-01,Edge Sensors & Modules,148.54,0.0
+2023-11-01,Edge Sensors & Modules,91.91,0.0
+2023-12-01,Edge Sensors & Modules,105.15,0.0
+2024-01-01,Edge Sensors & Modules,139.1,0.0
+2024-02-01,Edge Sensors & Modules,178.31,0.0
+2024-03-01,Edge Sensors & Modules,123.12,0.0
+2024-04-01,Edge Sensors & Modules,138.34,0.0
+2024-05-01,Edge Sensors & Modules,143.73,0.0
+2024-06-01,Edge Sensors & Modules,153.08,0.0
+2024-07-01,Edge Sensors & Modules,173.92,0.0
+2024-08-01,Edge Sensors & Modules,170.68,0.0
+2024-09-01,Edge Sensors & Modules,117.26,0.0
+2024-10-01,Edge Sensors & Modules,160.77,0.0
+2024-11-01,Edge Sensors & Modules,110.56,0.0
+2024-12-01,Edge Sensors & Modules,104.91,0.0
+2025-01-01,Edge Sensors & Modules,153.59,0.0
+2025-02-01,Edge Sensors & Modules,110.13,0.0
+2025-03-01,Edge Sensors & Modules,134.95,0.0
+2025-04-01,Edge Sensors & Modules,114.11,0.0
+2025-05-01,Edge Sensors & Modules,179.06,0.0
+2025-06-01,Edge Sensors & Modules,166.45,0.0
+2025-07-01,Edge Sensors & Modules,121.7,0.0
+2025-08-01,Edge Sensors & Modules,132.76,0.0
+2025-09-01,Edge Sensors & Modules,116.48,0.0
+2025-10-01,Edge Sensors & Modules,114.78,0.0
+2025-11-01,Edge Sensors & Modules,99.8,0.0
+2025-12-01,Edge Sensors & Modules,101.19,0.0

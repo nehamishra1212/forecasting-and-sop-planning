@@ -1,0 +1,433 @@
+date,product_line,marketing_spend_actual_usd_k,marketing_spend_plan_usd_k,campaign_multiplier
+2020-01-01,Client PCs,781.6,778.8,0.904
+2020-02-01,Client PCs,885.4,801.1,1.006
+2020-03-01,Client PCs,1016.2,1021.4,1.13
+2020-04-01,Client PCs,987.4,1084.1,0.946
+2020-05-01,Client PCs,927.1,884.9,1.003
+2020-06-01,Client PCs,1027.4,1032.5,1.006
+2020-07-01,Client PCs,1035.8,1046.1,1.048
+2020-08-01,Client PCs,1045.4,1106.2,1.007
+2020-09-01,Client PCs,1137.1,1111.0,1.063
+2020-10-01,Client PCs,1232.6,1170.0,1.15
+2020-11-01,Client PCs,1076.7,1114.1,0.994
+2020-12-01,Client PCs,1309.7,1252.5,1.055
+2021-01-01,Client PCs,1004.1,899.4,0.952
+2021-02-01,Client PCs,1251.9,1398.1,1.151
+2021-03-01,Client PCs,1286.4,1360.0,1.172
+2021-04-01,Client PCs,1120.2,1254.2,1.019
+2021-05-01,Client PCs,1235.8,1302.4,1.027
+2021-06-01,Client PCs,1180.6,1229.8,1.098
+2021-07-01,Client PCs,1133.0,1158.4,1.04
+2021-08-01,Client PCs,1060.0,1048.2,0.923
+2021-09-01,Client PCs,1096.8,1131.0,1.073
+2021-10-01,Client PCs,1240.4,1199.9,1.131
+2021-11-01,Client PCs,991.2,929.6,1.005
+2021-12-01,Client PCs,896.5,878.8,0.938
+2022-01-01,Client PCs,994.2,1074.3,1.027
+2022-02-01,Client PCs,1047.8,973.1,0.968
+2022-03-01,Client PCs,1212.7,1127.4,1.156
+2022-04-01,Client PCs,854.2,885.1,0.986
+2022-05-01,Client PCs,967.6,943.8,1.101
+2022-06-01,Client PCs,914.8,941.8,1.104
+2022-07-01,Client PCs,752.9,798.9,1.002
+2022-08-01,Client PCs,724.8,745.1,1.003
+2022-09-01,Client PCs,712.8,686.3,0.982
+2022-10-01,Client PCs,918.2,991.7,1.215
+2022-11-01,Client PCs,658.1,688.0,0.984
+2022-12-01,Client PCs,659.6,660.6,0.979
+2023-01-01,Client PCs,659.3,658.4,1.05
+2023-02-01,Client PCs,694.8,710.6,0.973
+2023-03-01,Client PCs,748.5,734.6,1.148
+2023-04-01,Client PCs,1319.3,1196.3,2.079
+2023-05-01,Client PCs,2969.0,3105.7,3.356
+2023-06-01,Client PCs,2169.9,2261.8,2.479
+2023-07-01,Client PCs,730.5,636.3,1.037
+2023-08-01,Client PCs,697.2,718.9,1.076
+2023-09-01,Client PCs,603.4,670.5,0.959
+2023-10-01,Client PCs,716.5,669.7,1.164
+2023-11-01,Client PCs,681.6,678.6,0.954
+2023-12-01,Client PCs,691.5,684.0,0.989
+2024-01-01,Client PCs,685.2,757.0,1.039
+2024-02-01,Client PCs,708.7,758.0,1.005
+2024-03-01,Client PCs,869.9,825.3,1.072
+2024-04-01,Client PCs,1002.2,1023.0,1.405
+2024-05-01,Client PCs,1327.9,1524.7,1.68
+2024-06-01,Client PCs,1171.4,1128.3,1.537
+2024-07-01,Client PCs,833.1,832.6,1.109
+2024-08-01,Client PCs,759.6,783.4,1.07
+2024-09-01,Client PCs,702.5,677.2,0.91
+2024-10-01,Client PCs,1087.4,1208.7,1.235
+2024-11-01,Client PCs,791.0,768.8,1.048
+2024-12-01,Client PCs,677.7,623.5,0.926
+2025-01-01,Client PCs,784.1,759.8,0.985
+2025-02-01,Client PCs,828.1,861.2,1.056
+2025-03-01,Client PCs,956.3,911.6,1.182
+2025-04-01,Client PCs,800.2,814.9,0.937
+2025-05-01,Client PCs,953.9,986.6,1.031
+2025-06-01,Client PCs,818.8,761.6,0.899
+2025-07-01,Client PCs,906.7,876.5,0.989
+2025-08-01,Client PCs,1048.7,1070.9,1.059
+2025-09-01,Client PCs,950.6,991.5,1.001
+2025-10-01,Client PCs,1010.1,978.0,1.122
+2025-11-01,Client PCs,936.1,944.6,1.045
+2025-12-01,Client PCs,903.0,887.8,1.05
+2020-01-01,Accessories & Peripherals,224.8,234.0,0.98
+2020-02-01,Accessories & Peripherals,200.2,206.7,0.98
+2020-03-01,Accessories & Peripherals,262.2,269.2,1.154
+2020-04-01,Accessories & Peripherals,236.4,220.2,1.074
+2020-05-01,Accessories & Peripherals,231.4,235.2,1.041
+2020-06-01,Accessories & Peripherals,302.2,322.2,0.952
+2020-07-01,Accessories & Peripherals,283.4,279.0,1.035
+2020-08-01,Accessories & Peripherals,285.9,303.2,1.033
+2020-09-01,Accessories & Peripherals,258.9,267.5,0.96
+2020-10-01,Accessories & Peripherals,284.8,299.3,1.2
+2020-11-01,Accessories & Peripherals,291.0,291.9,0.992
+2020-12-01,Accessories & Peripherals,205.2,216.4,0.932
+2021-01-01,Accessories & Peripherals,230.5,211.1,1.023
+2021-02-01,Accessories & Peripherals,261.0,261.5,1.011
+2021-03-01,Accessories & Peripherals,274.0,285.9,1.137
+2021-04-01,Accessories & Peripherals,289.9,295.1,0.998
+2021-05-01,Accessories & Peripherals,239.1,255.4,0.965
+2021-06-01,Accessories & Peripherals,262.1,259.6,1.031
+2021-07-01,Accessories & Peripherals,254.5,246.3,0.998
+2021-08-01,Accessories & Peripherals,253.8,230.0,1.008
+2021-09-01,Accessories & Peripherals,266.3,262.0,1.018
+2021-10-01,Accessories & Peripherals,318.1,328.1,1.085
+2021-11-01,Accessories & Peripherals,301.7,315.8,0.956
+2021-12-01,Accessories & Peripherals,241.1,221.7,0.895
+2022-01-01,Accessories & Peripherals,254.3,272.9,1.029
+2022-02-01,Accessories & Peripherals,212.7,200.6,0.941
+2022-03-01,Accessories & Peripherals,301.8,299.6,1.158
+2022-04-01,Accessories & Peripherals,258.6,249.9,1.019
+2022-05-01,Accessories & Peripherals,228.6,234.4,1.031
+2022-06-01,Accessories & Peripherals,212.0,213.2,0.942
+2022-07-01,Accessories & Peripherals,280.1,291.7,0.997
+2022-08-01,Accessories & Peripherals,210.5,235.1,1.087
+2022-09-01,Accessories & Peripherals,247.4,253.4,1.089
+2022-10-01,Accessories & Peripherals,239.5,231.3,1.208
+2022-11-01,Accessories & Peripherals,249.7,256.7,1.017
+2022-12-01,Accessories & Peripherals,215.7,242.4,0.951
+2023-01-01,Accessories & Peripherals,217.1,225.8,1.037
+2023-02-01,Accessories & Peripherals,195.2,206.6,0.992
+2023-03-01,Accessories & Peripherals,253.9,230.8,1.183
+2023-04-01,Accessories & Peripherals,207.7,212.6,0.969
+2023-05-01,Accessories & Peripherals,303.0,298.2,1.487
+2023-06-01,Accessories & Peripherals,433.8,416.4,1.815
+2023-07-01,Accessories & Peripherals,368.9,368.4,1.519
+2023-08-01,Accessories & Peripherals,253.3,254.9,1.025
+2023-09-01,Accessories & Peripherals,212.5,204.7,0.971
+2023-10-01,Accessories & Peripherals,250.7,253.5,1.075
+2023-11-01,Accessories & Peripherals,237.5,235.0,1.085
+2023-12-01,Accessories & Peripherals,251.9,262.8,1.133
+2024-01-01,Accessories & Peripherals,418.0,423.8,1.534
+2024-02-01,Accessories & Peripherals,453.1,463.4,1.685
+2024-03-01,Accessories & Peripherals,531.7,563.9,1.66
+2024-04-01,Accessories & Peripherals,299.3,309.4,1.026
+2024-05-01,Accessories & Peripherals,243.6,243.5,1.069
+2024-06-01,Accessories & Peripherals,204.3,180.2,0.941
+2024-07-01,Accessories & Peripherals,219.8,226.7,0.994
+2024-08-01,Accessories & Peripherals,248.0,234.8,1.01
+2024-09-01,Accessories & Peripherals,348.5,346.7,1.566
+2024-10-01,Accessories & Peripherals,502.4,513.7,2.035
+2024-11-01,Accessories & Peripherals,394.1,426.9,1.387
+2024-12-01,Accessories & Peripherals,252.4,281.9,1.032
+2025-01-01,Accessories & Peripherals,286.3,270.9,1.058
+2025-02-01,Accessories & Peripherals,260.8,241.0,0.996
+2025-03-01,Accessories & Peripherals,323.7,330.1,1.174
+2025-04-01,Accessories & Peripherals,264.0,267.9,0.977
+2025-05-01,Accessories & Peripherals,287.1,267.1,0.959
+2025-06-01,Accessories & Peripherals,297.8,297.5,1.053
+2025-07-01,Accessories & Peripherals,359.0,372.1,1.02
+2025-08-01,Accessories & Peripherals,285.4,265.1,1.025
+2025-09-01,Accessories & Peripherals,305.4,287.7,1.078
+2025-10-01,Accessories & Peripherals,350.0,336.7,1.091
+2025-11-01,Accessories & Peripherals,244.8,241.7,0.973
+2025-12-01,Accessories & Peripherals,284.5,296.6,1.008
+2020-01-01,Network Switches,665.6,717.5,1.07
+2020-02-01,Network Switches,626.0,606.7,0.999
+2020-03-01,Network Switches,710.5,824.8,1.214
+2020-04-01,Network Switches,628.1,637.3,1.048
+2020-05-01,Network Switches,612.8,656.4,1.034
+2020-06-01,Network Switches,539.7,528.1,0.915
+2020-07-01,Network Switches,608.5,627.0,1.057
+2020-08-01,Network Switches,583.3,602.7,0.977
+2020-09-01,Network Switches,624.9,591.0,1.036
+2020-10-01,Network Switches,688.4,650.0,1.095
+2020-11-01,Network Switches,583.5,576.4,0.942
+2020-12-01,Network Switches,695.2,742.9,1.104
+2021-01-01,Network Switches,610.8,547.2,0.953
+2021-02-01,Network Switches,681.3,666.6,1.059
+2021-03-01,Network Switches,710.5,768.6,1.157
+2021-04-01,Network Switches,638.9,593.3,0.979
+2021-05-01,Network Switches,628.8,678.0,0.998
+2021-06-01,Network Switches,638.7,596.9,0.937
+2021-07-01,Network Switches,647.3,612.6,0.999
+2021-08-01,Network Switches,639.6,633.9,0.947
+2021-09-01,Network Switches,697.4,780.4,0.98
+2021-10-01,Network Switches,797.9,767.9,1.204
+2021-11-01,Network Switches,709.9,639.8,1.013
+2021-12-01,Network Switches,620.7,570.7,0.929
+2022-01-01,Network Switches,677.5,716.4,1.043
+2022-02-01,Network Switches,706.9,651.7,1.0
+2022-03-01,Network Switches,816.0,876.3,1.119
+2022-04-01,Network Switches,717.0,720.0,1.038
+2022-05-01,Network Switches,722.9,721.5,0.992
+2022-06-01,Network Switches,714.7,727.6,0.943
+2022-07-01,Network Switches,815.2,776.9,1.097
+2022-08-01,Network Switches,739.9,746.0,0.999
+2022-09-01,Network Switches,771.1,717.8,0.996
+2022-10-01,Network Switches,832.1,902.2,1.127
+2022-11-01,Network Switches,821.9,772.8,1.061
+2022-12-01,Network Switches,762.7,783.1,0.974
+2023-01-01,Network Switches,743.8,699.0,0.926
+2023-02-01,Network Switches,776.2,751.7,0.967
+2023-03-01,Network Switches,1040.6,1017.5,1.229
+2023-04-01,Network Switches,890.4,1064.8,1.042
+2023-05-01,Network Switches,897.1,896.3,0.987
+2023-06-01,Network Switches,925.8,881.3,1.071
+2023-07-01,Network Switches,946.9,921.9,1.038
+2023-08-01,Network Switches,959.8,877.0,0.987
+2023-09-01,Network Switches,943.2,934.0,0.992
+2023-10-01,Network Switches,1677.7,1874.7,1.754
+2023-11-01,Network Switches,2937.5,2997.3,2.59
+2023-12-01,Network Switches,3551.6,3749.5,2.701
+2024-01-01,Network Switches,1889.0,1788.6,1.523
+2024-02-01,Network Switches,1048.6,1035.9,0.919
+2024-03-01,Network Switches,1217.7,1232.7,1.139
+2024-04-01,Network Switches,1095.5,1048.8,0.985
+2024-05-01,Network Switches,1172.1,1200.5,1.053
+2024-06-01,Network Switches,1561.1,1619.9,1.368
+2024-07-01,Network Switches,2166.5,2238.2,1.766
+2024-08-01,Network Switches,1877.9,1861.0,1.464
+2024-09-01,Network Switches,1448.7,1546.7,1.049
+2024-10-01,Network Switches,1626.9,1602.0,1.147
+2024-11-01,Network Switches,1378.9,1350.4,1.094
+2024-12-01,Network Switches,1300.2,1417.7,1.034
+2025-01-01,Network Switches,1150.5,1076.6,0.98
+2025-02-01,Network Switches,1206.0,1088.9,1.012
+2025-03-01,Network Switches,1413.4,1341.7,1.13
+2025-04-01,Network Switches,1268.2,1298.0,1.044
+2025-05-01,Network Switches,1158.6,1251.4,0.936
+2025-06-01,Network Switches,1183.4,1137.4,0.96
+2025-07-01,Network Switches,1252.5,1396.6,1.023
+2025-08-01,Network Switches,1391.6,1393.8,1.063
+2025-09-01,Network Switches,1236.9,1228.3,0.896
+2025-10-01,Network Switches,1639.8,1558.3,1.232
+2025-11-01,Network Switches,1280.5,1439.6,0.993
+2025-12-01,Network Switches,1214.1,1203.2,0.91
+2020-01-01,Servers,1014.0,990.1,0.89
+2020-02-01,Servers,1101.8,1070.1,0.972
+2020-03-01,Servers,1286.7,1248.2,1.14
+2020-04-01,Servers,1181.2,1193.5,1.091
+2020-05-01,Servers,1040.2,1017.7,0.943
+2020-06-01,Servers,1166.6,1276.3,1.034
+2020-07-01,Servers,1122.9,1318.8,1.054
+2020-08-01,Servers,1097.1,1060.4,0.965
+2020-09-01,Servers,1135.5,1155.7,0.981
+2020-10-01,Servers,1385.8,1474.8,1.158
+2020-11-01,Servers,1142.3,1124.3,0.929
+2020-12-01,Servers,1211.0,1140.9,0.978
+2021-01-01,Servers,1361.2,1510.9,1.066
+2021-02-01,Servers,1332.5,1388.5,1.026
+2021-03-01,Servers,1542.0,1571.7,1.141
+2021-04-01,Servers,1323.4,1443.8,1.006
+2021-05-01,Servers,1368.2,1432.9,1.029
+2021-06-01,Servers,1395.8,1391.8,1.039
+2021-07-01,Servers,1288.5,1215.2,0.973
+2021-08-01,Servers,1458.1,1415.5,1.08
+2021-09-01,Servers,1457.7,1566.9,1.068
+2021-10-01,Servers,1640.1,1708.6,1.19
+2021-11-01,Servers,1340.5,1325.6,0.959
+2021-12-01,Servers,1230.5,1368.1,0.95
+2022-01-01,Servers,1323.9,1311.5,0.984
+2022-02-01,Servers,1383.9,1468.4,1.003
+2022-03-01,Servers,1579.7,1600.7,1.053
+2022-04-01,Servers,1455.0,1633.9,1.025
+2022-05-01,Servers,1593.3,1666.9,1.066
+2022-06-01,Servers,1576.6,1581.0,1.029
+2022-07-01,Servers,1505.7,1489.6,0.967
+2022-08-01,Servers,1546.6,1545.2,0.961
+2022-09-01,Servers,1725.6,1652.1,1.015
+2022-10-01,Servers,1849.3,1703.7,1.141
+2022-11-01,Servers,1686.8,1718.3,1.022
+2022-12-01,Servers,1739.5,1684.7,1.031
+2023-01-01,Servers,1853.5,1794.8,1.056
+2023-02-01,Servers,2595.3,2581.5,1.417
+2023-03-01,Servers,4302.5,4316.0,2.093
+2023-04-01,Servers,4930.4,4932.6,2.209
+2023-05-01,Servers,4149.3,4605.5,1.791
+2023-06-01,Servers,3562.6,3707.0,1.566
+2023-07-01,Servers,2351.9,2669.0,1.05
+2023-08-01,Servers,2321.5,2261.1,1.072
+2023-09-01,Servers,2274.8,2384.3,1.022
+2023-10-01,Servers,2543.7,2485.8,1.144
+2023-11-01,Servers,2245.7,2171.3,0.987
+2023-12-01,Servers,2111.4,2401.5,0.917
+2024-01-01,Servers,2313.1,2208.9,1.069
+2024-02-01,Servers,2302.1,2013.6,0.984
+2024-03-01,Servers,4572.8,4382.6,1.769
+2024-04-01,Servers,5450.9,4832.1,1.862
+2024-05-01,Servers,4254.2,4018.2,1.409
+2024-06-01,Servers,2768.0,2629.0,0.955
+2024-07-01,Servers,2977.9,2984.2,1.08
+2024-08-01,Servers,2902.7,2566.8,1.015
+2024-09-01,Servers,2916.3,3133.3,0.971
+2024-10-01,Servers,3290.4,2940.1,1.143
+2024-11-01,Servers,3006.7,2983.8,1.056
+2024-12-01,Servers,3095.8,3036.2,1.048
+2025-01-01,Servers,2769.3,2909.9,0.929
+2025-02-01,Servers,3311.5,3382.1,1.085
+2025-03-01,Servers,3782.2,4061.4,1.207
+2025-04-01,Servers,3387.9,3315.2,0.992
+2025-05-01,Servers,3374.9,3282.1,0.942
+2025-06-01,Servers,3717.8,3811.1,1.054
+2025-07-01,Servers,3754.7,3993.8,1.024
+2025-08-01,Servers,3284.6,3451.2,0.93
+2025-09-01,Servers,3285.4,3349.5,0.988
+2025-10-01,Servers,4542.8,4606.6,1.345
+2025-11-01,Servers,3513.8,3506.1,1.001
+2025-12-01,Servers,3267.5,3348.9,0.964
+2020-01-01,Storage Arrays,2126.2,2121.1,0.943
+2020-02-01,Storage Arrays,2348.6,2272.3,1.052
+2020-03-01,Storage Arrays,2582.9,2686.7,1.158
+2020-04-01,Storage Arrays,2292.2,2438.4,1.017
+2020-05-01,Storage Arrays,2169.0,2078.0,0.921
+2020-06-01,Storage Arrays,2217.2,1966.8,1.033
+2020-07-01,Storage Arrays,2259.6,2025.1,1.014
+2020-08-01,Storage Arrays,2274.1,2310.1,0.997
+2020-09-01,Storage Arrays,2451.2,2688.5,1.018
+2020-10-01,Storage Arrays,2695.7,2493.3,1.127
+2020-11-01,Storage Arrays,2441.2,2401.6,0.971
+2020-12-01,Storage Arrays,2447.1,2396.5,0.988
+2021-01-01,Storage Arrays,2508.5,2814.9,0.977
+2021-02-01,Storage Arrays,2795.0,3200.7,1.115
+2021-03-01,Storage Arrays,3314.1,3399.6,1.204
+2021-04-01,Storage Arrays,2460.4,2596.6,0.953
+2021-05-01,Storage Arrays,2868.2,3021.9,1.107
+2021-06-01,Storage Arrays,2600.9,2408.6,0.979
+2021-07-01,Storage Arrays,2625.9,2738.2,1.001
+2021-08-01,Storage Arrays,2761.7,2597.8,1.046
+2021-09-01,Storage Arrays,2440.7,2415.7,0.906
+2021-10-01,Storage Arrays,3009.5,3222.5,1.136
+2021-11-01,Storage Arrays,2545.4,2557.8,0.972
+2021-12-01,Storage Arrays,2706.2,2891.3,1.01
+2022-01-01,Storage Arrays,2596.8,2807.4,1.019
+2022-02-01,Storage Arrays,2610.1,2349.0,0.996
+2022-03-01,Storage Arrays,3059.9,2685.1,1.143
+2022-04-01,Storage Arrays,2833.3,3038.0,1.055
+2022-05-01,Storage Arrays,2770.0,2977.2,1.015
+2022-06-01,Storage Arrays,2914.2,2959.4,1.002
+2022-07-01,Storage Arrays,2711.8,2776.4,1.007
+2022-08-01,Storage Arrays,3137.5,3310.2,1.096
+2022-09-01,Storage Arrays,2940.3,3098.7,1.009
+2022-10-01,Storage Arrays,3047.8,2992.7,1.121
+2022-11-01,Storage Arrays,2528.5,2677.7,0.909
+2022-12-01,Storage Arrays,2621.0,2567.1,0.931
+2023-01-01,Storage Arrays,2623.0,2661.6,0.977
+2023-02-01,Storage Arrays,2804.9,2838.8,0.995
+2023-03-01,Storage Arrays,3374.9,3205.2,1.118
+2023-04-01,Storage Arrays,2978.1,2848.2,1.018
+2023-05-01,Storage Arrays,2934.8,3355.8,0.972
+2023-06-01,Storage Arrays,4492.7,4258.6,1.433
+2023-07-01,Storage Arrays,6376.3,6519.5,1.856
+2023-08-01,Storage Arrays,5779.5,5984.1,1.606
+2023-09-01,Storage Arrays,3309.0,3298.2,0.946
+2023-10-01,Storage Arrays,3951.3,4113.8,1.164
+2023-11-01,Storage Arrays,4794.0,4889.6,1.364
+2023-12-01,Storage Arrays,6372.6,6048.4,1.672
+2024-01-01,Storage Arrays,6025.1,6222.3,1.456
+2024-02-01,Storage Arrays,3931.7,3805.3,1.058
+2024-03-01,Storage Arrays,4102.3,4553.9,1.106
+2024-04-01,Storage Arrays,3596.2,3689.9,0.96
+2024-05-01,Storage Arrays,5695.9,5461.6,1.503
+2024-06-01,Storage Arrays,7712.9,7872.9,1.803
+2024-07-01,Storage Arrays,6078.6,5750.5,1.442
+2024-08-01,Storage Arrays,4565.2,4636.3,1.104
+2024-09-01,Storage Arrays,3848.9,3797.1,0.987
+2024-10-01,Storage Arrays,4645.5,4420.6,1.157
+2024-11-01,Storage Arrays,4376.1,4161.1,0.98
+2024-12-01,Storage Arrays,4700.3,5439.6,1.022
+2025-01-01,Storage Arrays,4430.1,4454.4,1.064
+2025-02-01,Storage Arrays,4159.2,4052.9,1.087
+2025-03-01,Storage Arrays,4394.3,4237.6,1.107
+2025-04-01,Storage Arrays,4268.0,4390.4,1.057
+2025-05-01,Storage Arrays,4110.1,3955.6,1.028
+2025-06-01,Storage Arrays,4375.5,4097.4,1.05
+2025-07-01,Storage Arrays,4390.6,4382.1,0.995
+2025-08-01,Storage Arrays,4581.8,4570.9,0.991
+2025-09-01,Storage Arrays,4648.6,4533.7,1.048
+2025-10-01,Storage Arrays,5287.0,5011.7,1.206
+2025-11-01,Storage Arrays,4928.0,4813.8,1.081
+2025-12-01,Storage Arrays,4538.6,4412.5,1.01
+2020-01-01,Edge Sensors & Modules,98.1,104.5,0.967
+2020-02-01,Edge Sensors & Modules,107.5,103.5,1.048
+2020-03-01,Edge Sensors & Modules,124.2,132.2,1.193
+2020-04-01,Edge Sensors & Modules,108.3,98.5,1.021
+2020-05-01,Edge Sensors & Modules,100.4,100.5,0.95
+2020-06-01,Edge Sensors & Modules,99.3,98.6,0.963
+2020-07-01,Edge Sensors & Modules,113.1,113.7,1.088
+2020-08-01,Edge Sensors & Modules,101.5,102.0,0.963
+2020-09-01,Edge Sensors & Modules,105.7,105.2,1.033
+2020-10-01,Edge Sensors & Modules,114.0,111.4,1.097
+2020-11-01,Edge Sensors & Modules,109.7,108.9,1.052
+2020-12-01,Edge Sensors & Modules,96.2,104.4,0.966
+2021-01-01,Edge Sensors & Modules,98.2,94.9,0.953
+2021-02-01,Edge Sensors & Modules,98.2,112.5,0.965
+2021-03-01,Edge Sensors & Modules,125.1,120.5,1.119
+2021-04-01,Edge Sensors & Modules,112.9,114.5,1.02
+2021-05-01,Edge Sensors & Modules,115.5,119.5,1.003
+2021-06-01,Edge Sensors & Modules,108.0,106.1,0.947
+2021-07-01,Edge Sensors & Modules,120.6,131.0,0.999
+2021-08-01,Edge Sensors & Modules,120.9,124.9,0.944
+2021-09-01,Edge Sensors & Modules,135.4,133.8,1.033
+2021-10-01,Edge Sensors & Modules,163.2,177.2,1.199
+2021-11-01,Edge Sensors & Modules,140.2,132.0,0.999
+2021-12-01,Edge Sensors & Modules,137.5,133.0,1.014
+2022-01-01,Edge Sensors & Modules,153.4,158.6,1.092
+2022-02-01,Edge Sensors & Modules,140.4,147.3,0.992
+2022-03-01,Edge Sensors & Modules,156.3,159.4,1.097
+2022-04-01,Edge Sensors & Modules,149.9,148.8,1.029
+2022-05-01,Edge Sensors & Modules,136.0,133.9,0.945
+2022-06-01,Edge Sensors & Modules,143.3,153.4,0.99
+2022-07-01,Edge Sensors & Modules,143.9,146.0,0.97
+2022-08-01,Edge Sensors & Modules,148.3,140.7,0.966
+2022-09-01,Edge Sensors & Modules,155.0,146.6,0.988
+2022-10-01,Edge Sensors & Modules,197.8,216.6,1.203
+2022-11-01,Edge Sensors & Modules,189.7,181.7,1.057
+2022-12-01,Edge Sensors & Modules,199.3,202.6,1.047
+2023-01-01,Edge Sensors & Modules,201.6,218.7,1.017
+2023-02-01,Edge Sensors & Modules,198.7,205.3,0.987
+2023-03-01,Edge Sensors & Modules,202.5,193.5,1.022
+2023-04-01,Edge Sensors & Modules,203.4,191.4,1.019
+2023-05-01,Edge Sensors & Modules,167.8,187.7,0.892
+2023-06-01,Edge Sensors & Modules,175.4,164.8,0.908
+2023-07-01,Edge Sensors & Modules,199.2,192.7,0.992
+2023-08-01,Edge Sensors & Modules,207.1,211.8,1.013
+2023-09-01,Edge Sensors & Modules,203.5,200.8,0.978
+2023-10-01,Edge Sensors & Modules,264.4,273.6,1.242
+2023-11-01,Edge Sensors & Modules,225.2,206.2,1.023
+2023-12-01,Edge Sensors & Modules,217.7,214.9,0.988
+2024-01-01,Edge Sensors & Modules,240.1,250.1,1.072
+2024-02-01,Edge Sensors & Modules,378.3,394.1,1.622
+2024-03-01,Edge Sensors & Modules,560.4,541.5,2.124
+2024-04-01,Edge Sensors & Modules,417.6,392.7,1.443
+2024-05-01,Edge Sensors & Modules,276.0,279.5,0.973
+2024-06-01,Edge Sensors & Modules,271.9,251.3,0.93
+2024-07-01,Edge Sensors & Modules,462.7,499.8,1.497
+2024-08-01,Edge Sensors & Modules,902.2,910.8,2.562
+2024-09-01,Edge Sensors & Modules,991.0,950.4,2.656
+2024-10-01,Edge Sensors & Modules,654.9,614.8,1.748
+2024-11-01,Edge Sensors & Modules,314.9,303.2,0.906
+2024-12-01,Edge Sensors & Modules,320.3,291.7,0.939
+2025-01-01,Edge Sensors & Modules,362.5,373.5,0.975
+2025-02-01,Edge Sensors & Modules,352.2,335.6,0.997
+2025-03-01,Edge Sensors & Modules,428.2,438.6,1.122
+2025-04-01,Edge Sensors & Modules,392.7,405.6,0.987
+2025-05-01,Edge Sensors & Modules,401.0,425.0,0.965
+2025-06-01,Edge Sensors & Modules,411.9,418.2,0.93
+2025-07-01,Edge Sensors & Modules,452.4,484.0,0.974
+2025-08-01,Edge Sensors & Modules,456.5,496.1,0.989
+2025-09-01,Edge Sensors & Modules,446.3,453.2,0.985
+2025-10-01,Edge Sensors & Modules,531.9,542.1,1.156
+2025-11-01,Edge Sensors & Modules,475.7,460.1,1.021
+2025-12-01,Edge Sensors & Modules,485.9,457.9,1.035

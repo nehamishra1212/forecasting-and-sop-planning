@@ -1,0 +1,37 @@
+sku,product_line,tier,generation,launch_idx,eol_idx,launch_date,eol_date,asp_usd,unit_cost_usd,base_lead_time_weeks,moq,supplier,cm_site
+PC-E1,Client PCs,Entry,1,-24,58,2018-01-01,2024-11-01,650.0,520.0,10,225,Supplier-PC-1,CM-Shenzhen
+PC-E2,Client PCs,Entry,2,40,999,2023-05-01,,702.0,561.6,10,225,Supplier-PC-1,CM-Austin
+PC-M1,Client PCs,Mainstream,1,-24,65,2018-01-01,2025-06-01,1000.0,800.0,10,158,Supplier-PC-2,CM-Austin
+PC-M2,Client PCs,Mainstream,2,52,999,2024-05-01,,1080.0,864.0,10,158,Supplier-PC-2,CM-Penang
+PC-P1,Client PCs,Premium,1,-24,68,2018-01-01,2025-09-01,1800.0,1440.0,10,68,Supplier-PC-1,CM-Penang
+PC-P2,Client PCs,Premium,2,40,999,2023-05-01,,1944.0000000000002,1555.2000000000003,10,68,Supplier-PC-1,CM-Shenzhen
+AC-E1,Accessories & Peripherals,Entry,1,-24,67,2018-01-01,2025-08-01,80.0,56.0,6,375,Supplier-AC-1,CM-Shenzhen
+AC-E2,Accessories & Peripherals,Entry,2,57,999,2024-10-01,,86.4,60.48,6,375,Supplier-AC-1,CM-Austin
+AC-M1,Accessories & Peripherals,Mainstream,1,-24,62,2018-01-01,2025-03-01,140.0,98.0,6,262,Supplier-AC-2,CM-Austin
+AC-M2,Accessories & Peripherals,Mainstream,2,41,999,2023-06-01,,151.20000000000002,105.84,6,262,Supplier-AC-2,CM-Penang
+AC-P1,Accessories & Peripherals,Premium,1,-24,56,2018-01-01,2024-09-01,260.0,182.0,6,112,Supplier-AC-1,CM-Penang
+AC-P2,Accessories & Peripherals,Premium,2,49,999,2024-02-01,,280.8,196.56,6,112,Supplier-AC-1,CM-Shenzhen
+NW-E1,Network Switches,Entry,1,-24,58,2018-01-01,2024-11-01,1500.0,930.0,14,22,Supplier-NW-1,CM-Shenzhen
+NW-E2,Network Switches,Entry,2,54,999,2024-07-01,,1620.0,1004.4,14,22,Supplier-NW-1,CM-Austin
+NW-M1,Network Switches,Mainstream,1,-24,69,2018-01-01,2025-10-01,4500.0,2790.0,14,16,Supplier-NW-2,CM-Austin
+NW-M2,Network Switches,Mainstream,2,46,999,2023-11-01,,4860.0,3013.2,14,16,Supplier-NW-2,CM-Penang
+NW-P1,Network Switches,Premium,1,-24,67,2018-01-01,2025-08-01,12000.0,7440.0,14,7,Supplier-NW-1,CM-Penang
+NW-P2,Network Switches,Premium,2,47,999,2023-12-01,,12960.0,8035.2,14,7,Supplier-NW-1,CM-Shenzhen
+SV-E1,Servers,Entry,1,-24,65,2018-01-01,2025-06-01,6000.0,4320.0,16,11,Supplier-SV-1,CM-Shenzhen
+SV-E2,Servers,Entry,2,38,999,2023-03-01,,6480.0,4665.599999999999,16,11,Supplier-SV-1,CM-Austin
+SV-M1,Servers,Mainstream,1,-24,67,2018-01-01,2025-08-01,15000.0,10800.0,16,8,Supplier-SV-2,CM-Austin
+SV-M2,Servers,Mainstream,2,51,999,2024-04-01,,16200.000000000002,11664.0,16,8,Supplier-SV-2,CM-Penang
+SV-P1,Servers,Premium,1,-24,68,2018-01-01,2025-09-01,45000.0,32400.0,16,3,Supplier-SV-1,CM-Penang
+SV-P2,Servers,Premium,2,40,999,2023-05-01,,48600.0,34992.0,16,3,Supplier-SV-1,CM-Shenzhen
+ST-E1,Storage Arrays,Entry,1,-24,60,2018-01-01,2025-01-01,40000.0,22000.0,14,3,Supplier-ST-1,CM-Shenzhen
+ST-E2,Storage Arrays,Entry,2,53,999,2024-06-01,,43200.0,23760.000000000004,14,3,Supplier-ST-1,CM-Austin
+ST-M1,Storage Arrays,Mainstream,1,-24,68,2018-01-01,2025-09-01,110000.0,60500.00000000001,14,2,Supplier-ST-2,CM-Austin
+ST-M2,Storage Arrays,Mainstream,2,47,999,2023-12-01,,118800.00000000001,65340.000000000015,14,2,Supplier-ST-2,CM-Penang
+ST-P1,Storage Arrays,Premium,1,-24,59,2018-01-01,2024-12-01,300000.0,165000.0,14,1,Supplier-ST-1,CM-Penang
+ST-P2,Storage Arrays,Premium,2,42,999,2023-07-01,,324000.0,178200.0,14,1,Supplier-ST-1,CM-Shenzhen
+SN-E1,Edge Sensors & Modules,Entry,1,-24,61,2018-01-01,2025-02-01,400.0,260.0,20,15,Supplier-SN-1,CM-Shenzhen
+SN-E2,Edge Sensors & Modules,Entry,2,50,999,2024-03-01,,432.0,280.8,20,15,Supplier-SN-1,CM-Austin
+SN-M1,Edge Sensors & Modules,Mainstream,1,-24,63,2018-01-01,2025-04-01,1200.0,780.0,20,10,Supplier-SN-2,CM-Austin
+SN-M2,Edge Sensors & Modules,Mainstream,2,56,999,2024-09-01,,1296.0,842.4,20,10,Supplier-SN-2,CM-Penang
+SN-P1,Edge Sensors & Modules,Premium,1,-24,67,2018-01-01,2025-08-01,3500.0,2275.0,20,4,Supplier-SN-1,CM-Penang
+SN-P2,Edge Sensors & Modules,Premium,2,55,999,2024-08-01,,3780.0000000000005,2457.0000000000005,20,4,Supplier-SN-1,CM-Shenzhen

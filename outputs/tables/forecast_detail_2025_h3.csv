@@ -1,0 +1,1297 @@
+model,h,O,T,j,forecast,actual,scale,sku,line,asp,cost,demand_class,abc,xyz,hist_len,life
+naive,3,57,60,0,6621.0,1542.0,8236.333333333334,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,58,Established
+naive,3,57,60,1,4709.0,6217.0,8236.333333333334,PC-E2,Client PCs,702.0,561.6,smooth,A,X,18,Established
+naive,3,57,60,2,2764.0,1659.0,5583.083333333333,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,58,Established
+naive,3,57,60,3,2868.0,2586.0,5583.083333333333,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,6,NPI (<12m history)
+naive,3,57,60,4,828.0,890.0,2412.416666666667,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,58,Established
+naive,3,57,60,5,1508.0,1148.0,2412.416666666667,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,18,Established
+naive,3,57,60,6,17744.0,10276.0,20021.58333333333,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,58,Established
+naive,3,57,60,7,6006.474999999999,8535.0,20021.58333333333,AC-E2,Accessories & Peripherals,86.4,60.48,new,C,Z,1,NPI (<12m history)
+naive,3,57,60,8,5746.0,6233.0,13523.666666666668,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,58,Established
+naive,3,57,60,9,7985.0,9487.0,13523.666666666668,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,17,Established
+naive,3,57,60,10,1823.0,1025.0,5559.0,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,58,Established
+naive,3,57,60,11,3396.0,3963.0,5559.0,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,9,NPI (<12m history)
+naive,3,57,60,12,3527.0,517.0,1975.0,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,58,Established
+naive,3,57,60,13,592.5,978.0,1975.0,NW-E2,Network Switches,1620.0,1004.4,new,C,Z,4,NPI (<12m history)
+naive,3,57,60,14,622.0,328.0,1205.5833333333333,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,58,Established
+naive,3,57,60,15,715.0,819.0,1205.5833333333333,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,12,Established
+naive,3,57,60,16,177.0,174.0,542.5,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,58,Established
+naive,3,57,60,17,318.0,240.0,542.5,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,11,NPI (<12m history)
+naive,3,57,60,18,331.0,360.0,955.5,SV-E1,Servers,6000.0,4320.0,smooth,B,X,58,Established
+naive,3,57,60,19,739.0,588.0,955.5,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,20,Established
+naive,3,57,60,20,333.0,241.0,809.75,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,58,Established
+naive,3,57,60,21,408.0,826.0,809.75,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,7,NPI (<12m history)
+naive,3,57,60,22,148.0,132.0,332.16666666666663,SV-P1,Servers,45000.0,32400.0,erratic,A,Y,58,Established
+naive,3,57,60,23,207.0,132.0,332.16666666666663,SV-P2,Servers,48600.0,34992.0,smooth,A,X,18,Established
+naive,3,57,60,24,86.0,92.0,210.66666666666663,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,58,Established
+naive,3,57,60,25,63.2,113.0,210.66666666666663,ST-E2,Storage Arrays,43200.0,23760.000000000004,new,A,Z,5,NPI (<12m history)
+naive,3,57,60,26,84.0,50.0,191.25,ST-M1,Storage Arrays,110000.0,60500.00000000001,smooth,A,Z,58,Established
+naive,3,57,60,27,94.0,63.0,191.25,ST-M2,Storage Arrays,118800.0,65340.000000000015,smooth,A,Z,11,NPI (<12m history)
+naive,3,57,60,28,37.0,21.0,89.41666666666666,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,58,Established
+naive,3,57,60,29,30.0,31.0,89.41666666666666,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,16,Established
+naive,3,57,60,30,2290.0,1371.0,2076.833333333333,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,58,Established
+naive,3,57,60,31,1032.0,992.0,2076.833333333333,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,8,NPI (<12m history)
+naive,3,57,60,32,994.0,526.0,1121.6666666666663,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,58,Established
+naive,3,57,60,33,336.49999999999994,666.0,1121.6666666666663,SN-M2,Edge Sensors & Modules,1296.0,842.4,new,C,Z,2,NPI (<12m history)
+naive,3,57,60,34,310.0,283.0,510.25,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,58,Established
+naive,3,57,60,35,153.075,222.0,510.25,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,new,C,Z,3,NPI (<12m history)
+sales_fc,3,57,60,0,1762.0,1542.0,8236.333333333334,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,58,Established
+sales_fc,3,57,60,1,4028.0,6217.0,8236.333333333334,PC-E2,Client PCs,702.0,561.6,smooth,A,X,18,Established
+sales_fc,3,57,60,2,1895.0,1659.0,5583.083333333333,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,58,Established
+sales_fc,3,57,60,3,2459.0,2586.0,5583.083333333333,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,6,NPI (<12m history)
+sales_fc,3,57,60,4,890.0,890.0,2412.416666666667,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,58,Established
+sales_fc,3,57,60,5,1290.0,1148.0,2412.416666666667,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,18,Established
+sales_fc,3,57,60,6,8131.0,10276.0,20021.58333333333,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,58,Established
+sales_fc,3,57,60,7,6982.0,8535.0,20021.58333333333,AC-E2,Accessories & Peripherals,86.4,60.48,new,C,Z,1,NPI (<12m history)
+sales_fc,3,57,60,8,6659.0,6233.0,13523.666666666668,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,58,Established
+sales_fc,3,57,60,9,6562.0,9487.0,13523.666666666668,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,17,Established
+sales_fc,3,57,60,10,915.0,1025.0,5559.0,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,58,Established
+sales_fc,3,57,60,11,3166.0,3963.0,5559.0,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,9,NPI (<12m history)
+sales_fc,3,57,60,12,416.0,517.0,1975.0,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,58,Established
+sales_fc,3,57,60,13,962.0,978.0,1975.0,NW-E2,Network Switches,1620.0,1004.4,new,C,Z,4,NPI (<12m history)
+sales_fc,3,57,60,14,456.0,328.0,1205.5833333333333,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,58,Established
+sales_fc,3,57,60,15,554.0,819.0,1205.5833333333333,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,12,Established
+sales_fc,3,57,60,16,241.0,174.0,542.5,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,58,Established
+sales_fc,3,57,60,17,236.0,240.0,542.5,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,11,NPI (<12m history)
+sales_fc,3,57,60,18,303.0,360.0,955.5,SV-E1,Servers,6000.0,4320.0,smooth,B,X,58,Established
+sales_fc,3,57,60,19,490.0,588.0,955.5,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,20,Established
+sales_fc,3,57,60,20,216.0,241.0,809.75,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,58,Established
+sales_fc,3,57,60,21,317.0,826.0,809.75,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,7,NPI (<12m history)
+sales_fc,3,57,60,22,83.0,132.0,332.16666666666663,SV-P1,Servers,45000.0,32400.0,erratic,A,Y,58,Established
+sales_fc,3,57,60,23,144.0,132.0,332.16666666666663,SV-P2,Servers,48600.0,34992.0,smooth,A,X,18,Established
+sales_fc,3,57,60,24,49.0,92.0,210.66666666666663,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,58,Established
+sales_fc,3,57,60,25,78.0,113.0,210.66666666666663,ST-E2,Storage Arrays,43200.0,23760.000000000004,new,A,Z,5,NPI (<12m history)
+sales_fc,3,57,60,26,37.0,50.0,191.25,ST-M1,Storage Arrays,110000.0,60500.00000000001,smooth,A,Z,58,Established
+sales_fc,3,57,60,27,104.0,63.0,191.25,ST-M2,Storage Arrays,118800.0,65340.000000000015,smooth,A,Z,11,NPI (<12m history)
+sales_fc,3,57,60,28,14.0,21.0,89.41666666666666,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,58,Established
+sales_fc,3,57,60,29,24.0,31.0,89.41666666666666,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,16,Established
+sales_fc,3,57,60,30,541.0,1371.0,2076.833333333333,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,58,Established
+sales_fc,3,57,60,31,573.0,992.0,2076.833333333333,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,8,NPI (<12m history)
+sales_fc,3,57,60,32,515.0,526.0,1121.6666666666663,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,58,Established
+sales_fc,3,57,60,33,718.0,666.0,1121.6666666666663,SN-M2,Edge Sensors & Modules,1296.0,842.4,new,C,Z,2,NPI (<12m history)
+sales_fc,3,57,60,34,242.0,283.0,510.25,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,58,Established
+sales_fc,3,57,60,35,369.0,222.0,510.25,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,new,C,Z,3,NPI (<12m history)
+gbm_full,3,57,60,0,4341.085039122088,1542.0,8236.333333333334,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,58,Established
+gbm_full,3,57,60,1,6025.111129916989,6217.0,8236.333333333334,PC-E2,Client PCs,702.0,561.6,smooth,A,X,18,Established
+gbm_full,3,57,60,2,2384.1967746275195,1659.0,5583.083333333333,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,58,Established
+gbm_full,3,57,60,3,3362.5013284406523,2586.0,5583.083333333333,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,6,NPI (<12m history)
+gbm_full,3,57,60,4,958.61214778026,890.0,2412.416666666667,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,58,Established
+gbm_full,3,57,60,5,1343.04059501964,1148.0,2412.416666666667,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,18,Established
+gbm_full,3,57,60,6,13998.9961569474,10276.0,20021.58333333333,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,58,Established
+gbm_full,3,57,60,7,11053.91942175192,8535.0,20021.58333333333,AC-E2,Accessories & Peripherals,86.4,60.48,new,C,Z,1,NPI (<12m history)
+gbm_full,3,57,60,8,5598.59279519717,6233.0,13523.666666666668,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,58,Established
+gbm_full,3,57,60,9,10274.334641624311,9487.0,13523.666666666668,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,17,Established
+gbm_full,3,57,60,10,2562.7161942154366,1025.0,5559.0,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,58,Established
+gbm_full,3,57,60,11,3306.214025598777,3963.0,5559.0,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,9,NPI (<12m history)
+gbm_full,3,57,60,12,951.4869663749624,517.0,1975.0,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,58,Established
+gbm_full,3,57,60,13,1273.106242856171,978.0,1975.0,NW-E2,Network Switches,1620.0,1004.4,new,C,Z,4,NPI (<12m history)
+gbm_full,3,57,60,14,464.5314685388908,328.0,1205.5833333333333,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,58,Established
+gbm_full,3,57,60,15,648.2174222827196,819.0,1205.5833333333333,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,12,Established
+gbm_full,3,57,60,16,225.7701724556174,174.0,542.5,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,58,Established
+gbm_full,3,57,60,17,314.39495322356004,240.0,542.5,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,11,NPI (<12m history)
+gbm_full,3,57,60,18,348.8301356551142,360.0,955.5,SV-E1,Servers,6000.0,4320.0,smooth,B,X,58,Established
+gbm_full,3,57,60,19,671.3394178339887,588.0,955.5,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,20,Established
+gbm_full,3,57,60,20,306.4666534444606,241.0,809.75,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,58,Established
+gbm_full,3,57,60,21,445.7219138099204,826.0,809.75,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,7,NPI (<12m history)
+gbm_full,3,57,60,22,155.3539851967506,132.0,332.16666666666663,SV-P1,Servers,45000.0,32400.0,erratic,A,Y,58,Established
+gbm_full,3,57,60,23,215.43563877646704,132.0,332.16666666666663,SV-P2,Servers,48600.0,34992.0,smooth,A,X,18,Established
+gbm_full,3,57,60,24,150.45647828996957,92.0,210.66666666666663,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,58,Established
+gbm_full,3,57,60,25,145.59168555246714,113.0,210.66666666666663,ST-E2,Storage Arrays,43200.0,23760.000000000004,new,A,Z,5,NPI (<12m history)
+gbm_full,3,57,60,26,98.28108694096704,50.0,191.25,ST-M1,Storage Arrays,110000.0,60500.00000000001,smooth,A,Z,58,Established
+gbm_full,3,57,60,27,134.04240699887038,63.0,191.25,ST-M2,Storage Arrays,118800.0,65340.000000000015,smooth,A,Z,11,NPI (<12m history)
+gbm_full,3,57,60,28,49.43501373403998,21.0,89.41666666666666,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,58,Established
+gbm_full,3,57,60,29,47.94011559224415,31.0,89.41666666666666,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,16,Established
+gbm_full,3,57,60,30,1552.70669113004,1371.0,2076.833333333333,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,58,Established
+gbm_full,3,57,60,31,1726.8754571945208,992.0,2076.833333333333,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,8,NPI (<12m history)
+gbm_full,3,57,60,32,809.7334597918575,526.0,1121.6666666666663,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,58,Established
+gbm_full,3,57,60,33,920.7540591014288,666.0,1121.6666666666663,SN-M2,Edge Sensors & Modules,1296.0,842.4,new,C,Z,2,NPI (<12m history)
+gbm_full,3,57,60,34,297.9883923953145,283.0,510.25,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,58,Established
+gbm_full,3,57,60,35,514.4271136226783,222.0,510.25,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,new,C,Z,3,NPI (<12m history)
+naive,3,58,61,0,4903.0,1850.0,8279.833333333332,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,59,Established
+naive,3,58,61,1,4703.0,4782.0,8279.833333333332,PC-E2,Client PCs,702.0,561.6,smooth,A,X,19,Established
+naive,3,58,61,2,2401.0,2299.0,5582.666666666667,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,59,Established
+naive,3,58,61,3,2904.0,3618.0,5582.666666666667,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,7,NPI (<12m history)
+naive,3,58,61,4,794.0,783.0,2348.0,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,59,Established
+naive,3,58,61,5,1400.0,1309.0,2348.0,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,19,Established
+naive,3,58,61,6,15097.0,6633.0,20112.666666666668,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,59,Established
+naive,3,58,61,7,6033.8,7860.0,20112.666666666668,AC-E2,Accessories & Peripherals,86.4,60.48,new,C,Z,2,NPI (<12m history)
+naive,3,58,61,8,7532.0,9126.0,14253.333333333332,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,59,Established
+naive,3,58,61,9,15594.0,6096.0,14253.333333333332,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,18,Established
+naive,3,58,61,10,1955.0,802.0,5632.916666666666,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,59,Established
+naive,3,58,61,11,4500.0,4348.0,5632.916666666666,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,10,NPI (<12m history)
+naive,3,58,61,12,944.0,329.0,1980.0833333333333,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,59,Established
+naive,3,58,61,13,594.025,1012.0,1980.0833333333333,NW-E2,Network Switches,1620.0,1004.4,new,C,Z,5,NPI (<12m history)
+naive,3,58,61,14,451.0,399.0,1207.75,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,59,Established
+naive,3,58,61,15,670.0,675.0,1207.75,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,13,Established
+naive,3,58,61,16,154.0,179.0,547.9166666666667,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,59,Established
+naive,3,58,61,17,305.0,276.0,547.9166666666667,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,12,Established
+naive,3,58,61,18,336.0,450.0,969.6666666666666,SV-E1,Servers,6000.0,4320.0,smooth,B,X,59,Established
+naive,3,58,61,19,538.0,620.0,969.6666666666666,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,21,Established
+naive,3,58,61,20,260.0,245.0,783.6666666666667,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,59,Established
+naive,3,58,61,21,280.0,460.0,783.6666666666667,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,8,NPI (<12m history)
+naive,3,58,61,22,123.0,109.0,345.5,SV-P1,Servers,45000.0,32400.0,erratic,A,Y,59,Established
+naive,3,58,61,23,254.0,129.0,345.5,SV-P2,Servers,48600.0,34992.0,smooth,A,X,19,Established
+naive,3,58,61,24,118.0,53.0,214.66666666666669,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,59,Established
+naive,3,58,61,25,133.0,159.0,214.66666666666669,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,6,NPI (<12m history)
+naive,3,58,61,26,67.0,50.0,190.8333333333333,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,59,Established
+naive,3,58,61,27,101.0,61.0,190.8333333333333,ST-M2,Storage Arrays,118800.0,65340.000000000015,smooth,A,Z,12,Established
+naive,3,58,61,28,55.0,24.0,94.08333333333334,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,59,Established
+naive,3,58,61,29,45.0,47.0,94.08333333333334,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,17,Established
+naive,3,58,61,30,900.0,967.0,2101.666666666667,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,59,Established
+naive,3,58,61,31,1177.0,1279.0,2101.666666666667,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,9,NPI (<12m history)
+naive,3,58,61,32,931.0,765.0,1177.75,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,59,Established
+naive,3,58,61,33,353.325,612.0,1177.75,SN-M2,Edge Sensors & Modules,1296.0,842.4,new,C,Z,3,NPI (<12m history)
+naive,3,58,61,34,277.0,240.0,524.25,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,59,Established
+naive,3,58,61,35,157.275,320.0,524.25,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,new,C,Z,4,NPI (<12m history)
+sales_fc,3,58,61,0,1149.0,1850.0,8279.833333333332,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,59,Established
+sales_fc,3,58,61,1,4493.0,4782.0,8279.833333333332,PC-E2,Client PCs,702.0,561.6,smooth,A,X,19,Established
+sales_fc,3,58,61,2,1998.0,2299.0,5582.666666666667,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,59,Established
+sales_fc,3,58,61,3,3877.0,3618.0,5582.666666666667,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,7,NPI (<12m history)
+sales_fc,3,58,61,4,738.0,783.0,2348.0,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,59,Established
+sales_fc,3,58,61,5,1405.0,1309.0,2348.0,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,19,Established
+sales_fc,3,58,61,6,4365.0,6633.0,20112.666666666668,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,59,Established
+sales_fc,3,58,61,7,4557.0,7860.0,20112.666666666668,AC-E2,Accessories & Peripherals,86.4,60.48,new,C,Z,2,NPI (<12m history)
+sales_fc,3,58,61,8,4849.0,9126.0,14253.333333333332,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,59,Established
+sales_fc,3,58,61,9,4542.0,6096.0,14253.333333333332,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,18,Established
+sales_fc,3,58,61,10,720.0,802.0,5632.916666666666,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,59,Established
+sales_fc,3,58,61,11,2251.0,4348.0,5632.916666666666,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,10,NPI (<12m history)
+sales_fc,3,58,61,12,629.0,329.0,1980.0833333333333,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,59,Established
+sales_fc,3,58,61,13,1609.0,1012.0,1980.0833333333333,NW-E2,Network Switches,1620.0,1004.4,new,C,Z,5,NPI (<12m history)
+sales_fc,3,58,61,14,937.0,399.0,1207.75,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,59,Established
+sales_fc,3,58,61,15,890.0,675.0,1207.75,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,13,Established
+sales_fc,3,58,61,16,166.0,179.0,547.9166666666667,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,59,Established
+sales_fc,3,58,61,17,297.0,276.0,547.9166666666667,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,12,Established
+sales_fc,3,58,61,18,274.0,450.0,969.6666666666666,SV-E1,Servers,6000.0,4320.0,smooth,B,X,59,Established
+sales_fc,3,58,61,19,611.0,620.0,969.6666666666666,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,21,Established
+sales_fc,3,58,61,20,283.0,245.0,783.6666666666667,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,59,Established
+sales_fc,3,58,61,21,250.0,460.0,783.6666666666667,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,8,NPI (<12m history)
+sales_fc,3,58,61,22,123.0,109.0,345.5,SV-P1,Servers,45000.0,32400.0,erratic,A,Y,59,Established
+sales_fc,3,58,61,23,310.0,129.0,345.5,SV-P2,Servers,48600.0,34992.0,smooth,A,X,19,Established
+sales_fc,3,58,61,24,50.0,53.0,214.66666666666669,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,59,Established
+sales_fc,3,58,61,25,91.0,159.0,214.66666666666669,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,6,NPI (<12m history)
+sales_fc,3,58,61,26,48.0,50.0,190.8333333333333,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,59,Established
+sales_fc,3,58,61,27,67.0,61.0,190.8333333333333,ST-M2,Storage Arrays,118800.0,65340.000000000015,smooth,A,Z,12,Established
+sales_fc,3,58,61,28,14.0,24.0,94.08333333333334,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,59,Established
+sales_fc,3,58,61,29,40.0,47.0,94.08333333333334,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,17,Established
+sales_fc,3,58,61,30,603.0,967.0,2101.666666666667,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,59,Established
+sales_fc,3,58,61,31,1001.0,1279.0,2101.666666666667,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,9,NPI (<12m history)
+sales_fc,3,58,61,32,708.0,765.0,1177.75,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,59,Established
+sales_fc,3,58,61,33,857.0,612.0,1177.75,SN-M2,Edge Sensors & Modules,1296.0,842.4,new,C,Z,3,NPI (<12m history)
+sales_fc,3,58,61,34,288.0,240.0,524.25,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,59,Established
+sales_fc,3,58,61,35,313.0,320.0,524.25,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,new,C,Z,4,NPI (<12m history)
+gbm_full,3,58,61,0,4840.024480063277,1850.0,8279.833333333332,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,59,Established
+gbm_full,3,58,61,1,5342.126637308787,4782.0,8279.833333333332,PC-E2,Client PCs,702.0,561.6,smooth,A,X,19,Established
+gbm_full,3,58,61,2,2366.1226700407647,2299.0,5582.666666666667,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,59,Established
+gbm_full,3,58,61,3,3895.22782961967,3618.0,5582.666666666667,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,7,NPI (<12m history)
+gbm_full,3,58,61,4,900.3526265709559,783.0,2348.0,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,59,Established
+gbm_full,3,58,61,5,1366.0420805276883,1309.0,2348.0,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,19,Established
+gbm_full,3,58,61,6,9246.15407275429,6633.0,20112.666666666668,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,59,Established
+gbm_full,3,58,61,7,10388.45480438708,7860.0,20112.666666666668,AC-E2,Accessories & Peripherals,86.4,60.48,new,C,Z,2,NPI (<12m history)
+gbm_full,3,58,61,8,9884.406563025406,9126.0,14253.333333333332,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,59,Established
+gbm_full,3,58,61,9,7215.791234624962,6096.0,14253.333333333332,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,18,Established
+gbm_full,3,58,61,10,2890.070327568545,802.0,5632.916666666666,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,59,Established
+gbm_full,3,58,61,11,3448.644645941719,4348.0,5632.916666666666,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,10,NPI (<12m history)
+gbm_full,3,58,61,12,949.2715623544032,329.0,1980.0833333333333,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,59,Established
+gbm_full,3,58,61,13,1383.427738239278,1012.0,1980.0833333333333,NW-E2,Network Switches,1620.0,1004.4,new,C,Z,5,NPI (<12m history)
+gbm_full,3,58,61,14,495.25509691499815,399.0,1207.75,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,59,Established
+gbm_full,3,58,61,15,688.3105351171107,675.0,1207.75,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,13,Established
+gbm_full,3,58,61,16,232.52999514890269,179.0,547.9166666666667,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,59,Established
+gbm_full,3,58,61,17,335.4832056824589,276.0,547.9166666666667,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,12,Established
+gbm_full,3,58,61,18,392.42816673198297,450.0,969.6666666666666,SV-E1,Servers,6000.0,4320.0,smooth,B,X,59,Established
+gbm_full,3,58,61,19,613.7398333170805,620.0,969.6666666666666,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,21,Established
+gbm_full,3,58,61,20,301.74931615737955,245.0,783.6666666666667,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,59,Established
+gbm_full,3,58,61,21,472.2575408790301,460.0,783.6666666666667,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,8,NPI (<12m history)
+gbm_full,3,58,61,22,159.32354214267957,109.0,345.5,SV-P1,Servers,45000.0,32400.0,erratic,A,Y,59,Established
+gbm_full,3,58,61,23,281.1285002204582,129.0,345.5,SV-P2,Servers,48600.0,34992.0,smooth,A,X,19,Established
+gbm_full,3,58,61,24,116.81364211336673,53.0,214.66666666666669,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,59,Established
+gbm_full,3,58,61,25,130.99377886547026,159.0,214.66666666666669,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,6,NPI (<12m history)
+gbm_full,3,58,61,26,77.7830468491291,50.0,190.8333333333333,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,59,Established
+gbm_full,3,58,61,27,125.96124979335828,61.0,190.8333333333333,ST-M2,Storage Arrays,118800.0,65340.000000000015,smooth,A,Z,12,Established
+gbm_full,3,58,61,28,54.713418809920285,24.0,94.08333333333334,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,59,Established
+gbm_full,3,58,61,29,50.25887963694142,47.0,94.08333333333334,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,17,Established
+gbm_full,3,58,61,30,1453.9023129154066,967.0,2101.666666666667,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,59,Established
+gbm_full,3,58,61,31,1511.225128600584,1279.0,2101.666666666667,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,9,NPI (<12m history)
+gbm_full,3,58,61,32,799.1533711906583,765.0,1177.75,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,59,Established
+gbm_full,3,58,61,33,1187.3057800303482,612.0,1177.75,SN-M2,Edge Sensors & Modules,1296.0,842.4,new,C,Z,3,NPI (<12m history)
+gbm_full,3,58,61,34,255.08664822369224,240.0,524.25,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,59,Established
+gbm_full,3,58,61,35,465.35772996179554,320.0,524.25,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,new,C,Z,4,NPI (<12m history)
+naive,3,59,62,0,2482.0,1349.0,8123.666666666666,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,60,Established
+naive,3,59,62,1,4938.0,5819.0,8123.666666666666,PC-E2,Client PCs,702.0,561.6,smooth,A,X,20,Established
+naive,3,59,62,2,3164.0,3082.0,5599.25,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,60,Established
+naive,3,59,62,3,4528.0,3139.0,5599.25,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,8,NPI (<12m history)
+naive,3,59,62,4,1113.0,713.0,2351.1666666666665,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,60,Established
+naive,3,59,62,5,2224.0,1297.0,2351.1666666666665,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,20,Established
+naive,3,59,62,6,11445.0,7106.0,20267.916666666668,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,60,Established
+naive,3,59,62,7,6080.375,9019.0,20267.916666666668,AC-E2,Accessories & Peripherals,86.4,60.48,new,C,Z,3,NPI (<12m history)
+naive,3,59,62,8,5317.0,6245.0,14167.25,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,60,Established
+naive,3,59,62,9,7846.0,10463.0,14167.25,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,19,Established
+naive,3,59,62,10,1514.0,512.0,5759.083333333334,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,60,Established
+naive,3,59,62,11,5515.0,5622.0,5759.083333333334,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,11,NPI (<12m history)
+naive,3,59,62,12,701.0,807.0,1955.25,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,60,Established
+naive,3,59,62,13,1104.0,1687.0,1955.25,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,6,NPI (<12m history)
+naive,3,59,62,14,579.0,419.0,1196.9166666666667,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,60,Established
+naive,3,59,62,15,814.0,856.0,1196.9166666666667,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,14,Established
+naive,3,59,62,16,216.0,223.0,530.75,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,60,Established
+naive,3,59,62,17,328.0,320.0,530.75,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,13,Established
+naive,3,59,62,18,554.0,1364.0,1007.75,SV-E1,Servers,6000.0,4320.0,smooth,B,X,60,Established
+naive,3,59,62,19,947.0,723.0,1007.75,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,22,Established
+naive,3,59,62,20,547.0,463.0,821.8333333333333,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,60,Established
+naive,3,59,62,21,624.0,453.0,821.8333333333333,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,9,NPI (<12m history)
+naive,3,59,62,22,226.0,161.0,353.91666666666663,SV-P1,Servers,45000.0,32400.0,erratic,A,Y,60,Established
+naive,3,59,62,23,268.0,300.0,353.91666666666663,SV-P2,Servers,48600.0,34992.0,smooth,A,X,20,Established
+naive,3,59,62,24,223.0,80.0,227.91666666666669,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,60,Established
+naive,3,59,62,25,198.0,239.0,227.91666666666669,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,7,NPI (<12m history)
+naive,3,59,62,26,84.0,56.0,187.91666666666669,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,60,Established
+naive,3,59,62,27,382.0,113.0,187.91666666666669,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,13,Established
+naive,3,59,62,28,52.0,26.0,93.83333333333334,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,60,Established
+naive,3,59,62,29,50.0,70.0,93.83333333333334,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,18,Established
+naive,3,59,62,30,1031.0,681.0,2164.0,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,60,Established
+naive,3,59,62,31,1409.0,1286.0,2164.0,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,10,NPI (<12m history)
+naive,3,59,62,32,635.0,1012.0,1203.6666666666667,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,60,Established
+naive,3,59,62,33,361.1,593.0,1203.6666666666667,SN-M2,Edge Sensors & Modules,1296.0,842.4,new,C,Z,4,NPI (<12m history)
+naive,3,59,62,34,242.0,251.0,532.5833333333334,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,60,Established
+naive,3,59,62,35,159.775,362.0,532.5833333333334,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,new,C,Z,5,NPI (<12m history)
+sales_fc,3,59,62,0,1173.0,1349.0,8123.666666666666,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,60,Established
+sales_fc,3,59,62,1,6160.0,5819.0,8123.666666666666,PC-E2,Client PCs,702.0,561.6,smooth,A,X,20,Established
+sales_fc,3,59,62,2,4093.0,3082.0,5599.25,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,60,Established
+sales_fc,3,59,62,3,2141.0,3139.0,5599.25,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,8,NPI (<12m history)
+sales_fc,3,59,62,4,982.0,713.0,2351.1666666666665,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,60,Established
+sales_fc,3,59,62,5,1245.0,1297.0,2351.1666666666665,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,20,Established
+sales_fc,3,59,62,6,6968.0,7106.0,20267.916666666668,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,60,Established
+sales_fc,3,59,62,7,9422.0,9019.0,20267.916666666668,AC-E2,Accessories & Peripherals,86.4,60.48,new,C,Z,3,NPI (<12m history)
+sales_fc,3,59,62,8,3416.0,6245.0,14167.25,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,60,Established
+sales_fc,3,59,62,9,6040.0,10463.0,14167.25,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,19,Established
+sales_fc,3,59,62,10,452.0,512.0,5759.083333333334,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,60,Established
+sales_fc,3,59,62,11,5452.0,5622.0,5759.083333333334,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,11,NPI (<12m history)
+sales_fc,3,59,62,12,395.0,807.0,1955.25,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,60,Established
+sales_fc,3,59,62,13,1325.0,1687.0,1955.25,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,6,NPI (<12m history)
+sales_fc,3,59,62,14,476.0,419.0,1196.9166666666667,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,60,Established
+sales_fc,3,59,62,15,707.0,856.0,1196.9166666666667,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,14,Established
+sales_fc,3,59,62,16,179.0,223.0,530.75,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,60,Established
+sales_fc,3,59,62,17,292.0,320.0,530.75,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,13,Established
+sales_fc,3,59,62,18,418.0,1364.0,1007.75,SV-E1,Servers,6000.0,4320.0,smooth,B,X,60,Established
+sales_fc,3,59,62,19,610.0,723.0,1007.75,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,22,Established
+sales_fc,3,59,62,20,345.0,463.0,821.8333333333333,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,60,Established
+sales_fc,3,59,62,21,472.0,453.0,821.8333333333333,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,9,NPI (<12m history)
+sales_fc,3,59,62,22,146.0,161.0,353.91666666666663,SV-P1,Servers,45000.0,32400.0,erratic,A,Y,60,Established
+sales_fc,3,59,62,23,229.0,300.0,353.91666666666663,SV-P2,Servers,48600.0,34992.0,smooth,A,X,20,Established
+sales_fc,3,59,62,24,77.0,80.0,227.91666666666669,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,60,Established
+sales_fc,3,59,62,25,306.0,239.0,227.91666666666669,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,7,NPI (<12m history)
+sales_fc,3,59,62,26,64.0,56.0,187.91666666666669,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,60,Established
+sales_fc,3,59,62,27,81.0,113.0,187.91666666666669,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,13,Established
+sales_fc,3,59,62,28,18.0,26.0,93.83333333333334,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,60,Established
+sales_fc,3,59,62,29,72.0,70.0,93.83333333333334,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,18,Established
+sales_fc,3,59,62,30,819.0,681.0,2164.0,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,60,Established
+sales_fc,3,59,62,31,1530.0,1286.0,2164.0,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,10,NPI (<12m history)
+sales_fc,3,59,62,32,1977.0,1012.0,1203.6666666666667,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,60,Established
+sales_fc,3,59,62,33,908.0,593.0,1203.6666666666667,SN-M2,Edge Sensors & Modules,1296.0,842.4,new,C,Z,4,NPI (<12m history)
+sales_fc,3,59,62,34,205.0,251.0,532.5833333333334,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,60,Established
+sales_fc,3,59,62,35,391.0,362.0,532.5833333333334,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,new,C,Z,5,NPI (<12m history)
+gbm_full,3,59,62,0,3487.8902196765,1349.0,8123.666666666666,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,60,Established
+gbm_full,3,59,62,1,4683.686137482437,5819.0,8123.666666666666,PC-E2,Client PCs,702.0,561.6,smooth,A,X,20,Established
+gbm_full,3,59,62,2,3308.0837653434146,3082.0,5599.25,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,60,Established
+gbm_full,3,59,62,3,3855.735870096508,3139.0,5599.25,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,8,NPI (<12m history)
+gbm_full,3,59,62,4,859.481815091861,713.0,2351.1666666666665,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,60,Established
+gbm_full,3,59,62,5,1497.205827081319,1297.0,2351.1666666666665,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,20,Established
+gbm_full,3,59,62,6,10114.206997508649,7106.0,20267.916666666668,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,60,Established
+gbm_full,3,59,62,7,13163.087090055498,9019.0,20267.916666666668,AC-E2,Accessories & Peripherals,86.4,60.48,new,C,Z,3,NPI (<12m history)
+gbm_full,3,59,62,8,7723.733765007221,6245.0,14167.25,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,60,Established
+gbm_full,3,59,62,9,11180.944947398426,10463.0,14167.25,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,19,Established
+gbm_full,3,59,62,10,2202.628503173683,512.0,5759.083333333334,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,60,Established
+gbm_full,3,59,62,11,5157.09068114263,5622.0,5759.083333333334,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,11,NPI (<12m history)
+gbm_full,3,59,62,12,793.6517596219857,807.0,1955.25,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,60,Established
+gbm_full,3,59,62,13,1423.3227582332988,1687.0,1955.25,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,6,NPI (<12m history)
+gbm_full,3,59,62,14,511.4821680687123,419.0,1196.9166666666667,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,60,Established
+gbm_full,3,59,62,15,739.8339123292935,856.0,1196.9166666666667,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,14,Established
+gbm_full,3,59,62,16,241.9236310557962,223.0,530.75,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,60,Established
+gbm_full,3,59,62,17,329.8541954800888,320.0,530.75,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,13,Established
+gbm_full,3,59,62,18,563.8166557590623,1364.0,1007.75,SV-E1,Servers,6000.0,4320.0,smooth,B,X,60,Established
+gbm_full,3,59,62,19,880.4267156417135,723.0,1007.75,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,22,Established
+gbm_full,3,59,62,20,456.7322305717164,463.0,821.8333333333333,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,60,Established
+gbm_full,3,59,62,21,641.8034561427725,453.0,821.8333333333333,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,9,NPI (<12m history)
+gbm_full,3,59,62,22,192.82669261891084,161.0,353.91666666666663,SV-P1,Servers,45000.0,32400.0,erratic,A,Y,60,Established
+gbm_full,3,59,62,23,308.6349975232328,300.0,353.91666666666663,SV-P2,Servers,48600.0,34992.0,smooth,A,X,20,Established
+gbm_full,3,59,62,24,113.27716597569568,80.0,227.91666666666669,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,60,Established
+gbm_full,3,59,62,25,178.74036560853835,239.0,227.91666666666669,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,7,NPI (<12m history)
+gbm_full,3,59,62,26,81.28991422236815,56.0,187.91666666666669,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,60,Established
+gbm_full,3,59,62,27,119.25084455588892,113.0,187.91666666666669,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,13,Established
+gbm_full,3,59,62,28,49.34082529677667,26.0,93.83333333333334,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,60,Established
+gbm_full,3,59,62,29,57.46370015046753,70.0,93.83333333333334,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,18,Established
+gbm_full,3,59,62,30,1039.136980843739,681.0,2164.0,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,60,Established
+gbm_full,3,59,62,31,1571.9055104161491,1286.0,2164.0,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,10,NPI (<12m history)
+gbm_full,3,59,62,32,1090.6485685171576,1012.0,1203.6666666666667,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,60,Established
+gbm_full,3,59,62,33,1130.483574703792,593.0,1203.6666666666667,SN-M2,Edge Sensors & Modules,1296.0,842.4,new,C,Z,4,NPI (<12m history)
+gbm_full,3,59,62,34,281.65919220223407,251.0,532.5833333333334,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,60,Established
+gbm_full,3,59,62,35,436.5089966583239,362.0,532.5833333333334,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,new,C,Z,5,NPI (<12m history)
+naive,3,60,63,0,1542.0,903.0,8235.333333333334,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,61,Established
+naive,3,60,63,1,6217.0,7450.0,8235.333333333334,PC-E2,Client PCs,702.0,561.6,smooth,A,X,21,Established
+naive,3,60,63,2,1659.0,2075.0,5577.083333333333,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,61,Established
+naive,3,60,63,3,2586.0,2883.0,5577.083333333333,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,9,NPI (<12m history)
+naive,3,60,63,4,890.0,989.0,2364.75,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,61,Established
+naive,3,60,63,5,1148.0,1696.0,2364.75,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,21,Established
+naive,3,60,63,6,10276.0,8467.0,20373.5,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,61,Established
+naive,3,60,63,7,6112.05,12054.0,20373.5,AC-E2,Accessories & Peripherals,86.4,60.48,new,C,Z,4,NPI (<12m history)
+naive,3,60,63,8,6233.0,3632.0,14151.666666666666,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,61,Established
+naive,3,60,63,9,9487.0,10236.0,14151.666666666666,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,20,Established
+naive,3,60,63,10,1025.0,543.0,5755.583333333334,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,61,Established
+naive,3,60,63,11,3963.0,5068.0,5755.583333333334,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,12,Established
+naive,3,60,63,12,517.0,213.0,1952.5833333333333,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,61,Established
+naive,3,60,63,13,978.0,1238.0,1952.5833333333333,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,7,NPI (<12m history)
+naive,3,60,63,14,328.0,476.0,1193.75,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,61,Established
+naive,3,60,63,15,819.0,691.0,1193.75,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,15,Established
+naive,3,60,63,16,174.0,170.0,526.9166666666666,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,61,Established
+naive,3,60,63,17,240.0,350.0,526.9166666666666,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,14,Established
+naive,3,60,63,18,360.0,673.0,1036.8333333333333,SV-E1,Servers,6000.0,4320.0,smooth,B,X,61,Established
+naive,3,60,63,19,588.0,573.0,1036.8333333333333,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,23,Established
+naive,3,60,63,20,241.0,233.0,867.9166666666666,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,61,Established
+naive,3,60,63,21,826.0,402.0,867.9166666666666,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,10,NPI (<12m history)
+naive,3,60,63,22,132.0,230.0,360.8333333333333,SV-P1,Servers,45000.0,32400.0,erratic,A,Y,61,Established
+naive,3,60,63,23,132.0,164.0,360.8333333333333,SV-P2,Servers,48600.0,34992.0,smooth,A,X,21,Established
+naive,3,60,63,24,92.0,124.0,232.41666666666663,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,61,Established
+naive,3,60,63,25,113.0,121.0,232.41666666666663,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,8,NPI (<12m history)
+naive,3,60,63,26,50.0,48.0,185.41666666666669,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,61,Established
+naive,3,60,63,27,63.0,64.0,185.41666666666669,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,14,Established
+naive,3,60,63,28,21.0,11.0,85.5,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,61,Established
+naive,3,60,63,29,31.0,48.0,85.5,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,19,Established
+naive,3,60,63,30,1371.0,560.0,2237.0,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,61,Established
+naive,3,60,63,31,992.0,1732.0,2237.0,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,11,NPI (<12m history)
+naive,3,60,63,32,526.0,612.0,1238.9166666666667,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,61,Established
+naive,3,60,63,33,371.675,756.0,1238.9166666666667,SN-M2,Edge Sensors & Modules,1296.0,842.4,new,C,Z,5,NPI (<12m history)
+naive,3,60,63,34,283.0,267.0,549.0,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,61,Established
+naive,3,60,63,35,222.0,309.0,549.0,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,6,NPI (<12m history)
+sales_fc,3,60,63,0,984.0,903.0,8235.333333333334,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,61,Established
+sales_fc,3,60,63,1,5144.0,7450.0,8235.333333333334,PC-E2,Client PCs,702.0,561.6,smooth,A,X,21,Established
+sales_fc,3,60,63,2,2378.0,2075.0,5577.083333333333,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,61,Established
+sales_fc,3,60,63,3,3102.0,2883.0,5577.083333333333,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,9,NPI (<12m history)
+sales_fc,3,60,63,4,1326.0,989.0,2364.75,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,61,Established
+sales_fc,3,60,63,5,1366.0,1696.0,2364.75,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,21,Established
+sales_fc,3,60,63,6,7439.0,8467.0,20373.5,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,61,Established
+sales_fc,3,60,63,7,12660.0,12054.0,20373.5,AC-E2,Accessories & Peripherals,86.4,60.48,new,C,Z,4,NPI (<12m history)
+sales_fc,3,60,63,8,3588.0,3632.0,14151.666666666666,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,61,Established
+sales_fc,3,60,63,9,8990.0,10236.0,14151.666666666666,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,20,Established
+sales_fc,3,60,63,10,389.0,543.0,5755.583333333334,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,61,Established
+sales_fc,3,60,63,11,5666.0,5068.0,5755.583333333334,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,12,Established
+sales_fc,3,60,63,12,182.0,213.0,1952.5833333333333,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,61,Established
+sales_fc,3,60,63,13,771.0,1238.0,1952.5833333333333,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,7,NPI (<12m history)
+sales_fc,3,60,63,14,564.0,476.0,1193.75,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,61,Established
+sales_fc,3,60,63,15,556.0,691.0,1193.75,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,15,Established
+sales_fc,3,60,63,16,185.0,170.0,526.9166666666666,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,61,Established
+sales_fc,3,60,63,17,175.0,350.0,526.9166666666666,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,14,Established
+sales_fc,3,60,63,18,701.0,673.0,1036.8333333333333,SV-E1,Servers,6000.0,4320.0,smooth,B,X,61,Established
+sales_fc,3,60,63,19,702.0,573.0,1036.8333333333333,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,23,Established
+sales_fc,3,60,63,20,183.0,233.0,867.9166666666666,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,61,Established
+sales_fc,3,60,63,21,337.0,402.0,867.9166666666666,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,10,NPI (<12m history)
+sales_fc,3,60,63,22,81.0,230.0,360.8333333333333,SV-P1,Servers,45000.0,32400.0,erratic,A,Y,61,Established
+sales_fc,3,60,63,23,293.0,164.0,360.8333333333333,SV-P2,Servers,48600.0,34992.0,smooth,A,X,21,Established
+sales_fc,3,60,63,24,38.0,124.0,232.41666666666663,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,61,Established
+sales_fc,3,60,63,25,130.0,121.0,232.41666666666663,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,8,NPI (<12m history)
+sales_fc,3,60,63,26,55.0,48.0,185.41666666666669,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,61,Established
+sales_fc,3,60,63,27,67.0,64.0,185.41666666666669,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,14,Established
+sales_fc,3,60,63,28,11.0,11.0,85.5,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,61,Established
+sales_fc,3,60,63,29,36.0,48.0,85.5,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,19,Established
+sales_fc,3,60,63,30,948.0,560.0,2237.0,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,61,Established
+sales_fc,3,60,63,31,1230.0,1732.0,2237.0,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,11,NPI (<12m history)
+sales_fc,3,60,63,32,800.0,612.0,1238.9166666666667,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,61,Established
+sales_fc,3,60,63,33,710.0,756.0,1238.9166666666667,SN-M2,Edge Sensors & Modules,1296.0,842.4,new,C,Z,5,NPI (<12m history)
+sales_fc,3,60,63,34,494.0,267.0,549.0,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,61,Established
+sales_fc,3,60,63,35,313.0,309.0,549.0,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,6,NPI (<12m history)
+gbm_full,3,60,63,0,2430.9330136996296,903.0,8235.333333333334,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,61,Established
+gbm_full,3,60,63,1,5050.880239613899,7450.0,8235.333333333334,PC-E2,Client PCs,702.0,561.6,smooth,A,X,21,Established
+gbm_full,3,60,63,2,1864.3035511961675,2075.0,5577.083333333333,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,61,Established
+gbm_full,3,60,63,3,2655.3529086637877,2883.0,5577.083333333333,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,9,NPI (<12m history)
+gbm_full,3,60,63,4,779.7797917798724,989.0,2364.75,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,61,Established
+gbm_full,3,60,63,5,1296.925008514996,1696.0,2364.75,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,21,Established
+gbm_full,3,60,63,6,7151.321808399364,8467.0,20373.5,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,61,Established
+gbm_full,3,60,63,7,11577.442536010743,12054.0,20373.5,AC-E2,Accessories & Peripherals,86.4,60.48,new,C,Z,4,NPI (<12m history)
+gbm_full,3,60,63,8,4294.106184523844,3632.0,14151.666666666666,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,61,Established
+gbm_full,3,60,63,9,9040.33693619458,10236.0,14151.666666666666,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,20,Established
+gbm_full,3,60,63,10,1616.8137775815874,543.0,5755.583333333334,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,61,Established
+gbm_full,3,60,63,11,2915.66042024752,5068.0,5755.583333333334,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,12,Established
+gbm_full,3,60,63,12,591.5825436828675,213.0,1952.5833333333333,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,61,Established
+gbm_full,3,60,63,13,1042.8202965870055,1238.0,1952.5833333333333,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,7,NPI (<12m history)
+gbm_full,3,60,63,14,395.9221893236057,476.0,1193.75,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,61,Established
+gbm_full,3,60,63,15,662.9998101373177,691.0,1193.75,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,15,Established
+gbm_full,3,60,63,16,188.869889152868,170.0,526.9166666666666,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,61,Established
+gbm_full,3,60,63,17,265.1757311806394,350.0,526.9166666666666,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,14,Established
+gbm_full,3,60,63,18,402.9379170525893,673.0,1036.8333333333333,SV-E1,Servers,6000.0,4320.0,smooth,B,X,61,Established
+gbm_full,3,60,63,19,621.4565862291901,573.0,1036.8333333333333,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,23,Established
+gbm_full,3,60,63,20,330.1101121828473,233.0,867.9166666666666,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,61,Established
+gbm_full,3,60,63,21,583.4628301158709,402.0,867.9166666666666,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,10,NPI (<12m history)
+gbm_full,3,60,63,22,134.56235983555533,230.0,360.8333333333333,SV-P1,Servers,45000.0,32400.0,erratic,A,Y,61,Established
+gbm_full,3,60,63,23,198.59928856773573,164.0,360.8333333333333,SV-P2,Servers,48600.0,34992.0,smooth,A,X,21,Established
+gbm_full,3,60,63,24,77.86176780692264,124.0,232.41666666666663,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,61,Established
+gbm_full,3,60,63,25,172.20140017623916,121.0,232.41666666666663,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,8,NPI (<12m history)
+gbm_full,3,60,63,26,64.89091868406148,48.0,185.41666666666669,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,61,Established
+gbm_full,3,60,63,27,104.15381554778632,64.0,185.41666666666669,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,14,Established
+gbm_full,3,60,63,28,29.71556345939616,11.0,85.5,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,61,Established
+gbm_full,3,60,63,29,41.56391279328968,48.0,85.5,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,19,Established
+gbm_full,3,60,63,30,993.411569947213,560.0,2237.0,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,61,Established
+gbm_full,3,60,63,31,1207.6745883257906,1732.0,2237.0,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,11,NPI (<12m history)
+gbm_full,3,60,63,32,695.3526170299933,612.0,1238.9166666666667,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,61,Established
+gbm_full,3,60,63,33,888.9137641729892,756.0,1238.9166666666667,SN-M2,Edge Sensors & Modules,1296.0,842.4,new,C,Z,5,NPI (<12m history)
+gbm_full,3,60,63,34,268.40763480535327,267.0,549.0,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,61,Established
+gbm_full,3,60,63,35,364.86071573464017,309.0,549.0,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,6,NPI (<12m history)
+naive,3,61,64,0,1850.0,786.0,8275.083333333332,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,62,Established
+naive,3,61,64,1,4782.0,7892.0,8275.083333333332,PC-E2,Client PCs,702.0,561.6,smooth,A,X,22,Established
+naive,3,61,64,2,2299.0,3687.0,5707.583333333333,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,62,Established
+naive,3,61,64,3,3618.0,3159.0,5707.583333333333,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,10,NPI (<12m history)
+naive,3,61,64,4,783.0,1004.0,2399.25,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,62,Established
+naive,3,61,64,5,1309.0,1449.0,2399.25,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,22,Established
+naive,3,61,64,6,6633.0,9024.0,20384.75,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,62,Established
+naive,3,61,64,7,6115.425,12433.0,20384.75,AC-E2,Accessories & Peripherals,86.4,60.48,new,C,Z,5,NPI (<12m history)
+naive,3,61,64,8,9126.0,4233.0,14075.25,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,62,Established
+naive,3,61,64,9,6096.0,14284.0,14075.25,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,21,Established
+naive,3,61,64,10,802.0,347.0,5740.5,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,62,Established
+naive,3,61,64,11,4348.0,5168.0,5740.5,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,13,Established
+naive,3,61,64,12,329.0,164.0,1969.6666666666667,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,62,Established
+naive,3,61,64,13,1012.0,1328.0,1969.6666666666667,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,8,NPI (<12m history)
+naive,3,61,64,14,399.0,452.0,1191.8333333333337,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,62,Established
+naive,3,61,64,15,675.0,747.0,1191.8333333333337,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,16,Established
+naive,3,61,64,16,179.0,171.0,529.1666666666666,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,62,Established
+naive,3,61,64,17,276.0,259.0,529.1666666666666,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,15,Established
+naive,3,61,64,18,450.0,661.0,1064.75,SV-E1,Servers,6000.0,4320.0,smooth,B,X,62,Established
+naive,3,61,64,19,620.0,793.0,1064.75,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,24,Established
+naive,3,61,64,20,245.0,343.0,860.6666666666667,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,62,Established
+naive,3,61,64,21,460.0,413.0,860.6666666666667,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,11,NPI (<12m history)
+naive,3,61,64,22,109.0,132.0,361.6666666666666,SV-P1,Servers,45000.0,32400.0,erratic,A,Y,62,Established
+naive,3,61,64,23,129.0,279.0,361.6666666666666,SV-P2,Servers,48600.0,34992.0,smooth,A,X,22,Established
+naive,3,61,64,24,53.0,22.0,237.16666666666663,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,62,Established
+naive,3,61,64,25,159.0,194.0,237.16666666666663,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,9,NPI (<12m history)
+naive,3,61,64,26,50.0,64.0,186.75,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,62,Established
+naive,3,61,64,27,61.0,106.0,186.75,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,15,Established
+naive,3,61,64,28,24.0,7.0,87.16666666666666,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,62,Established
+naive,3,61,64,29,47.0,67.0,87.16666666666666,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,20,Established
+naive,3,61,64,30,967.0,645.0,2303.583333333333,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,62,Established
+naive,3,61,64,31,1279.0,1382.0,2303.583333333333,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,12,Established
+naive,3,61,64,32,765.0,564.0,1298.3333333333333,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,62,Established
+naive,3,61,64,33,612.0,934.0,1298.3333333333333,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,6,NPI (<12m history)
+naive,3,61,64,34,240.0,261.0,566.25,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,62,Established
+naive,3,61,64,35,320.0,561.0,566.25,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,7,NPI (<12m history)
+sales_fc,3,61,64,0,771.0,786.0,8275.083333333332,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,62,Established
+sales_fc,3,61,64,1,5778.0,7892.0,8275.083333333332,PC-E2,Client PCs,702.0,561.6,smooth,A,X,22,Established
+sales_fc,3,61,64,2,3098.0,3687.0,5707.583333333333,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,62,Established
+sales_fc,3,61,64,3,2003.0,3159.0,5707.583333333333,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,10,NPI (<12m history)
+sales_fc,3,61,64,4,599.0,1004.0,2399.25,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,62,Established
+sales_fc,3,61,64,5,1402.0,1449.0,2399.25,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,22,Established
+sales_fc,3,61,64,6,11909.0,9024.0,20384.75,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,62,Established
+sales_fc,3,61,64,7,12616.0,12433.0,20384.75,AC-E2,Accessories & Peripherals,86.4,60.48,new,C,Z,5,NPI (<12m history)
+sales_fc,3,61,64,8,4191.0,4233.0,14075.25,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,62,Established
+sales_fc,3,61,64,9,19995.0,14284.0,14075.25,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,21,Established
+sales_fc,3,61,64,10,423.0,347.0,5740.5,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,62,Established
+sales_fc,3,61,64,11,3115.0,5168.0,5740.5,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,13,Established
+sales_fc,3,61,64,12,116.0,164.0,1969.6666666666667,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,62,Established
+sales_fc,3,61,64,13,1321.0,1328.0,1969.6666666666667,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,8,NPI (<12m history)
+sales_fc,3,61,64,14,440.0,452.0,1191.8333333333337,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,62,Established
+sales_fc,3,61,64,15,975.0,747.0,1191.8333333333337,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,16,Established
+sales_fc,3,61,64,16,184.0,171.0,529.1666666666666,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,62,Established
+sales_fc,3,61,64,17,221.0,259.0,529.1666666666666,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,15,Established
+sales_fc,3,61,64,18,560.0,661.0,1064.75,SV-E1,Servers,6000.0,4320.0,smooth,B,X,62,Established
+sales_fc,3,61,64,19,465.0,793.0,1064.75,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,24,Established
+sales_fc,3,61,64,20,431.0,343.0,860.6666666666667,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,62,Established
+sales_fc,3,61,64,21,527.0,413.0,860.6666666666667,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,11,NPI (<12m history)
+sales_fc,3,61,64,22,225.0,132.0,361.6666666666666,SV-P1,Servers,45000.0,32400.0,erratic,A,Y,62,Established
+sales_fc,3,61,64,23,231.0,279.0,361.6666666666666,SV-P2,Servers,48600.0,34992.0,smooth,A,X,22,Established
+sales_fc,3,61,64,24,43.0,22.0,237.16666666666663,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,62,Established
+sales_fc,3,61,64,25,119.0,194.0,237.16666666666663,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,9,NPI (<12m history)
+sales_fc,3,61,64,26,37.0,64.0,186.75,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,62,Established
+sales_fc,3,61,64,27,69.0,106.0,186.75,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,15,Established
+sales_fc,3,61,64,28,6.0,7.0,87.16666666666666,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,62,Established
+sales_fc,3,61,64,29,38.0,67.0,87.16666666666666,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,20,Established
+sales_fc,3,61,64,30,681.0,645.0,2303.583333333333,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,62,Established
+sales_fc,3,61,64,31,1549.0,1382.0,2303.583333333333,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,12,Established
+sales_fc,3,61,64,32,744.0,564.0,1298.3333333333333,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,62,Established
+sales_fc,3,61,64,33,1053.0,934.0,1298.3333333333333,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,6,NPI (<12m history)
+sales_fc,3,61,64,34,412.0,261.0,566.25,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,62,Established
+sales_fc,3,61,64,35,771.0,561.0,566.25,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,7,NPI (<12m history)
+gbm_full,3,61,64,0,2222.0091439123125,786.0,8275.083333333332,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,62,Established
+gbm_full,3,61,64,1,5003.207440202679,7892.0,8275.083333333332,PC-E2,Client PCs,702.0,561.6,smooth,A,X,22,Established
+gbm_full,3,61,64,2,3194.862802534524,3687.0,5707.583333333333,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,62,Established
+gbm_full,3,61,64,3,3909.831084329804,3159.0,5707.583333333333,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,10,NPI (<12m history)
+gbm_full,3,61,64,4,864.1914256885626,1004.0,2399.25,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,62,Established
+gbm_full,3,61,64,5,1410.6453143317538,1449.0,2399.25,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,22,Established
+gbm_full,3,61,64,6,7605.148188201174,9024.0,20384.75,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,62,Established
+gbm_full,3,61,64,7,13641.476599169797,12433.0,20384.75,AC-E2,Accessories & Peripherals,86.4,60.48,new,C,Z,5,NPI (<12m history)
+gbm_full,3,61,64,8,4384.944933161617,4233.0,14075.25,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,62,Established
+gbm_full,3,61,64,9,9242.322273641084,14284.0,14075.25,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,21,Established
+gbm_full,3,61,64,10,1524.5492163623046,347.0,5740.5,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,62,Established
+gbm_full,3,61,64,11,3229.5692308098883,5168.0,5740.5,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,13,Established
+gbm_full,3,61,64,12,519.5019968609934,164.0,1969.6666666666667,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,62,Established
+gbm_full,3,61,64,13,1079.5633765713758,1328.0,1969.6666666666667,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,8,NPI (<12m history)
+gbm_full,3,61,64,14,355.6508333828327,452.0,1191.8333333333337,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,62,Established
+gbm_full,3,61,64,15,666.7303121957376,747.0,1191.8333333333337,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,16,Established
+gbm_full,3,61,64,16,175.0694885382296,171.0,529.1666666666666,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,62,Established
+gbm_full,3,61,64,17,245.1534187671411,259.0,529.1666666666666,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,15,Established
+gbm_full,3,61,64,18,566.8690533418405,661.0,1064.75,SV-E1,Servers,6000.0,4320.0,smooth,B,X,62,Established
+gbm_full,3,61,64,19,606.0695643087657,793.0,1064.75,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,24,Established
+gbm_full,3,61,64,20,291.1989793505143,343.0,860.6666666666667,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,62,Established
+gbm_full,3,61,64,21,520.8729489994246,413.0,860.6666666666667,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,11,NPI (<12m history)
+gbm_full,3,61,64,22,115.9021109519927,132.0,361.6666666666666,SV-P1,Servers,45000.0,32400.0,erratic,A,Y,62,Established
+gbm_full,3,61,64,23,187.13130108517063,279.0,361.6666666666666,SV-P2,Servers,48600.0,34992.0,smooth,A,X,22,Established
+gbm_full,3,61,64,24,61.84665889684272,22.0,237.16666666666663,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,62,Established
+gbm_full,3,61,64,25,144.6361801336304,194.0,237.16666666666663,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,9,NPI (<12m history)
+gbm_full,3,61,64,26,61.64749292714084,64.0,186.75,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,62,Established
+gbm_full,3,61,64,27,93.13929589474394,106.0,186.75,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,15,Established
+gbm_full,3,61,64,28,22.75229652026289,7.0,87.16666666666666,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,62,Established
+gbm_full,3,61,64,29,46.92454043043238,67.0,87.16666666666666,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,20,Established
+gbm_full,3,61,64,30,698.5181729400097,645.0,2303.583333333333,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,62,Established
+gbm_full,3,61,64,31,1332.86939585002,1382.0,2303.583333333333,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,12,Established
+gbm_full,3,61,64,32,452.49567000675535,564.0,1298.3333333333333,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,62,Established
+gbm_full,3,61,64,33,866.1178507270412,934.0,1298.3333333333333,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,6,NPI (<12m history)
+gbm_full,3,61,64,34,230.2894825976869,261.0,566.25,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,62,Established
+gbm_full,3,61,64,35,386.4238452163264,561.0,566.25,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,7,NPI (<12m history)
+naive,3,62,65,0,1349.0,628.0,8241.5,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,63,Established
+naive,3,62,65,1,5819.0,8216.0,8241.5,PC-E2,Client PCs,702.0,561.6,smooth,A,X,23,Established
+naive,3,62,65,2,3082.0,3552.0,5745.75,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,63,Established
+naive,3,62,65,3,3139.0,3797.0,5745.75,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,11,NPI (<12m history)
+naive,3,62,65,4,713.0,1094.0,2383.75,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,63,Established
+naive,3,62,65,5,1297.0,1698.0,2383.75,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,23,Established
+naive,3,62,65,6,7106.0,10267.0,19316.5,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,63,Established
+naive,3,62,65,7,9019.0,10247.0,19316.5,AC-E2,Accessories & Peripherals,86.4,60.48,smooth,C,Z,6,NPI (<12m history)
+naive,3,62,65,8,6245.0,2643.0,14180.833333333334,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,63,Established
+naive,3,62,65,9,10463.0,9744.0,14180.833333333334,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,22,Established
+naive,3,62,65,10,512.0,239.0,5846.833333333334,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,63,Established
+naive,3,62,65,11,5622.0,8548.0,5846.833333333334,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,14,Established
+naive,3,62,65,12,807.0,140.0,2034.25,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,63,Established
+naive,3,62,65,13,1687.0,1838.0,2034.25,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,9,NPI (<12m history)
+naive,3,62,65,14,419.0,450.0,1211.5833333333333,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,63,Established
+naive,3,62,65,15,856.0,716.0,1211.5833333333333,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,17,Established
+naive,3,62,65,16,223.0,226.0,535.0833333333334,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,63,Established
+naive,3,62,65,17,320.0,315.0,535.0833333333334,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,16,Established
+naive,3,62,65,18,1364.0,569.0,1148.5833333333337,SV-E1,Servers,6000.0,4320.0,smooth,B,X,63,Established
+naive,3,62,65,19,723.0,761.0,1148.5833333333337,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,25,Established
+naive,3,62,65,20,463.0,558.0,870.5,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,63,Established
+naive,3,62,65,21,453.0,683.0,870.5,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,12,Established
+naive,3,62,65,22,161.0,407.0,369.3333333333333,SV-P1,Servers,45000.0,32400.0,smooth,A,Y,63,Established
+naive,3,62,65,23,300.0,220.0,369.3333333333333,SV-P2,Servers,48600.0,34992.0,smooth,A,X,23,Established
+naive,3,62,65,24,80.0,53.0,245.5833333333333,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,63,Established
+naive,3,62,65,25,239.0,204.0,245.5833333333333,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,10,NPI (<12m history)
+naive,3,62,65,26,56.0,78.0,188.0833333333333,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,63,Established
+naive,3,62,65,27,113.0,118.0,188.0833333333333,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,16,Established
+naive,3,62,65,28,26.0,15.0,80.91666666666667,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,63,Established
+naive,3,62,65,29,70.0,81.0,80.91666666666667,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,21,Established
+naive,3,62,65,30,681.0,282.0,2332.666666666667,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,63,Established
+naive,3,62,65,31,1286.0,1772.0,2332.666666666667,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,13,Established
+naive,3,62,65,32,1012.0,614.0,1366.25,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,63,Established
+naive,3,62,65,33,593.0,1180.0,1366.25,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,7,NPI (<12m history)
+naive,3,62,65,34,251.0,478.0,582.6666666666667,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,63,Established
+naive,3,62,65,35,362.0,453.0,582.6666666666667,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,8,NPI (<12m history)
+sales_fc,3,62,65,0,639.0,628.0,8241.5,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,63,Established
+sales_fc,3,62,65,1,8744.0,8216.0,8241.5,PC-E2,Client PCs,702.0,561.6,smooth,A,X,23,Established
+sales_fc,3,62,65,2,2892.0,3552.0,5745.75,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,63,Established
+sales_fc,3,62,65,3,4987.0,3797.0,5745.75,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,11,NPI (<12m history)
+sales_fc,3,62,65,4,1883.0,1094.0,2383.75,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,63,Established
+sales_fc,3,62,65,5,1349.0,1698.0,2383.75,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,23,Established
+sales_fc,3,62,65,6,8960.0,10267.0,19316.5,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,63,Established
+sales_fc,3,62,65,7,8746.0,10247.0,19316.5,AC-E2,Accessories & Peripherals,86.4,60.48,smooth,C,Z,6,NPI (<12m history)
+sales_fc,3,62,65,8,3769.0,2643.0,14180.833333333334,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,63,Established
+sales_fc,3,62,65,9,14287.0,9744.0,14180.833333333334,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,22,Established
+sales_fc,3,62,65,10,301.0,239.0,5846.833333333334,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,63,Established
+sales_fc,3,62,65,11,6155.0,8548.0,5846.833333333334,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,14,Established
+sales_fc,3,62,65,12,130.0,140.0,2034.25,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,63,Established
+sales_fc,3,62,65,13,870.0,1838.0,2034.25,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,9,NPI (<12m history)
+sales_fc,3,62,65,14,453.0,450.0,1211.5833333333333,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,63,Established
+sales_fc,3,62,65,15,287.0,716.0,1211.5833333333333,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,17,Established
+sales_fc,3,62,65,16,177.0,226.0,535.0833333333334,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,63,Established
+sales_fc,3,62,65,17,314.0,315.0,535.0833333333334,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,16,Established
+sales_fc,3,62,65,18,467.0,569.0,1148.5833333333337,SV-E1,Servers,6000.0,4320.0,smooth,B,X,63,Established
+sales_fc,3,62,65,19,939.0,761.0,1148.5833333333337,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,25,Established
+sales_fc,3,62,65,20,854.0,558.0,870.5,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,63,Established
+sales_fc,3,62,65,21,432.0,683.0,870.5,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,12,Established
+sales_fc,3,62,65,22,117.0,407.0,369.3333333333333,SV-P1,Servers,45000.0,32400.0,smooth,A,Y,63,Established
+sales_fc,3,62,65,23,302.0,220.0,369.3333333333333,SV-P2,Servers,48600.0,34992.0,smooth,A,X,23,Established
+sales_fc,3,62,65,24,39.0,53.0,245.5833333333333,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,63,Established
+sales_fc,3,62,65,25,193.0,204.0,245.5833333333333,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,10,NPI (<12m history)
+sales_fc,3,62,65,26,73.0,78.0,188.0833333333333,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,63,Established
+sales_fc,3,62,65,27,88.0,118.0,188.0833333333333,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,16,Established
+sales_fc,3,62,65,28,6.0,15.0,80.91666666666667,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,63,Established
+sales_fc,3,62,65,29,56.0,81.0,80.91666666666667,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,21,Established
+sales_fc,3,62,65,30,400.0,282.0,2332.666666666667,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,63,Established
+sales_fc,3,62,65,31,2320.0,1772.0,2332.666666666667,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,13,Established
+sales_fc,3,62,65,32,711.0,614.0,1366.25,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,63,Established
+sales_fc,3,62,65,33,1568.0,1180.0,1366.25,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,7,NPI (<12m history)
+sales_fc,3,62,65,34,411.0,478.0,582.6666666666667,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,63,Established
+sales_fc,3,62,65,35,624.0,453.0,582.6666666666667,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,8,NPI (<12m history)
+gbm_full,3,62,65,0,1989.246544520316,628.0,8241.5,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,63,Established
+gbm_full,3,62,65,1,5098.996733791371,8216.0,8241.5,PC-E2,Client PCs,702.0,561.6,smooth,A,X,23,Established
+gbm_full,3,62,65,2,2768.207893309198,3552.0,5745.75,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,63,Established
+gbm_full,3,62,65,3,3274.8464908552965,3797.0,5745.75,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,11,NPI (<12m history)
+gbm_full,3,62,65,4,903.5378242391516,1094.0,2383.75,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,63,Established
+gbm_full,3,62,65,5,1450.0821609012733,1698.0,2383.75,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,23,Established
+gbm_full,3,62,65,6,7656.965320548094,10267.0,19316.5,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,63,Established
+gbm_full,3,62,65,7,9982.165895173915,10247.0,19316.5,AC-E2,Accessories & Peripherals,86.4,60.48,smooth,C,Z,6,NPI (<12m history)
+gbm_full,3,62,65,8,3766.365613473818,2643.0,14180.833333333334,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,63,Established
+gbm_full,3,62,65,9,8008.122687435929,9744.0,14180.833333333334,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,22,Established
+gbm_full,3,62,65,10,1377.3980560449866,239.0,5846.833333333334,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,63,Established
+gbm_full,3,62,65,11,4424.660935211212,8548.0,5846.833333333334,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,14,Established
+gbm_full,3,62,65,12,573.6805083907748,140.0,2034.25,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,63,Established
+gbm_full,3,62,65,13,1532.157306550091,1838.0,2034.25,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,9,NPI (<12m history)
+gbm_full,3,62,65,14,454.73638476130367,450.0,1211.5833333333333,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,63,Established
+gbm_full,3,62,65,15,765.457959108588,716.0,1211.5833333333333,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,17,Established
+gbm_full,3,62,65,16,224.7384135974311,226.0,535.0833333333334,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,63,Established
+gbm_full,3,62,65,17,343.60357697292886,315.0,535.0833333333334,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,16,Established
+gbm_full,3,62,65,18,721.7023331786513,569.0,1148.5833333333337,SV-E1,Servers,6000.0,4320.0,smooth,B,X,63,Established
+gbm_full,3,62,65,19,938.524075214744,761.0,1148.5833333333337,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,25,Established
+gbm_full,3,62,65,20,603.8013754817921,558.0,870.5,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,63,Established
+gbm_full,3,62,65,21,683.3848227814125,683.0,870.5,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,12,Established
+gbm_full,3,62,65,22,179.58741572054484,407.0,369.3333333333333,SV-P1,Servers,45000.0,32400.0,smooth,A,Y,63,Established
+gbm_full,3,62,65,23,309.1890789661281,220.0,369.3333333333333,SV-P2,Servers,48600.0,34992.0,smooth,A,X,23,Established
+gbm_full,3,62,65,24,60.17166032548886,53.0,245.5833333333333,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,63,Established
+gbm_full,3,62,65,25,184.93979158161875,204.0,245.5833333333333,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,10,NPI (<12m history)
+gbm_full,3,62,65,26,78.36237731307693,78.0,188.0833333333333,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,63,Established
+gbm_full,3,62,65,27,126.9654798373904,118.0,188.0833333333333,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,16,Established
+gbm_full,3,62,65,28,20.12895853271924,15.0,80.91666666666667,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,63,Established
+gbm_full,3,62,65,29,54.66195207585675,81.0,80.91666666666667,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,21,Established
+gbm_full,3,62,65,30,682.2538256879418,282.0,2332.666666666667,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,63,Established
+gbm_full,3,62,65,31,1544.3733267241266,1772.0,2332.666666666667,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,13,Established
+gbm_full,3,62,65,32,520.8114358662697,614.0,1366.25,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,63,Established
+gbm_full,3,62,65,33,1080.751629227712,1180.0,1366.25,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,7,NPI (<12m history)
+gbm_full,3,62,65,34,280.8626759611573,478.0,582.6666666666667,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,63,Established
+gbm_full,3,62,65,35,499.9921492556693,453.0,582.6666666666667,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,8,NPI (<12m history)
+naive,3,63,66,0,903.0,470.0,8394.75,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,64,Established
+naive,3,63,66,1,7450.0,8615.0,8394.75,PC-E2,Client PCs,702.0,561.6,smooth,A,X,24,Established
+naive,3,63,66,2,2075.0,2411.0,5800.5,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,64,Established
+naive,3,63,66,3,2883.0,6069.0,5800.5,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,12,Established
+naive,3,63,66,4,989.0,1472.0,2411.75,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,64,Established
+naive,3,63,66,5,1696.0,2194.0,2411.75,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,24,Established
+naive,3,63,66,6,8467.0,15361.0,18864.25,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,64,Established
+naive,3,63,66,7,12054.0,13157.0,18864.25,AC-E2,Accessories & Peripherals,86.4,60.48,smooth,C,Z,7,NPI (<12m history)
+naive,3,63,66,8,3632.0,2251.0,14194.666666666668,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,64,Established
+naive,3,63,66,9,10236.0,18998.0,14194.666666666668,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,23,Established
+naive,3,63,66,10,543.0,301.0,5831.25,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,64,Established
+naive,3,63,66,11,5068.0,6335.0,5831.25,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,15,Established
+naive,3,63,66,12,213.0,98.0,2030.6666666666667,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,64,Established
+naive,3,63,66,13,1238.0,1207.0,2030.6666666666667,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,10,NPI (<12m history)
+naive,3,63,66,14,476.0,432.0,1211.75,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,64,Established
+naive,3,63,66,15,691.0,787.0,1211.75,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,18,Established
+naive,3,63,66,16,170.0,307.0,537.1666666666667,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,64,Established
+naive,3,63,66,17,350.0,266.0,537.1666666666667,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,17,Established
+naive,3,63,66,18,673.0,276.0,1171.0833333333337,SV-E1,Servers,6000.0,4320.0,smooth,B,X,64,Established
+naive,3,63,66,19,573.0,811.0,1171.0833333333337,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,26,Established
+naive,3,63,66,20,233.0,528.0,864.4166666666667,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,64,Established
+naive,3,63,66,21,402.0,419.0,864.4166666666667,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,13,Established
+naive,3,63,66,22,230.0,177.0,378.83333333333337,SV-P1,Servers,45000.0,32400.0,smooth,A,Y,64,Established
+naive,3,63,66,23,164.0,276.0,378.83333333333337,SV-P2,Servers,48600.0,34992.0,smooth,A,X,24,Established
+naive,3,63,66,24,124.0,15.0,252.0,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,64,Established
+naive,3,63,66,25,121.0,355.0,252.0,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,11,NPI (<12m history)
+naive,3,63,66,26,48.0,75.0,187.16666666666669,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,64,Established
+naive,3,63,66,27,64.0,85.0,187.16666666666669,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,17,Established
+naive,3,63,66,28,11.0,7.0,81.58333333333333,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,64,Established
+naive,3,63,66,29,48.0,61.0,81.58333333333333,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,22,Established
+naive,3,63,66,30,560.0,362.0,2382.916666666667,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,64,Established
+naive,3,63,66,31,1732.0,2185.0,2382.916666666667,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,14,Established
+naive,3,63,66,32,612.0,453.0,1396.5833333333333,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,64,Established
+naive,3,63,66,33,756.0,1334.0,1396.5833333333333,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,8,NPI (<12m history)
+naive,3,63,66,34,267.0,410.0,586.0833333333333,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,64,Established
+naive,3,63,66,35,309.0,507.0,586.0833333333333,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,9,NPI (<12m history)
+sales_fc,3,63,66,0,678.0,470.0,8394.75,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,64,Established
+sales_fc,3,63,66,1,10292.0,8615.0,8394.75,PC-E2,Client PCs,702.0,561.6,smooth,A,X,24,Established
+sales_fc,3,63,66,2,2037.0,2411.0,5800.5,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,64,Established
+sales_fc,3,63,66,3,3814.0,6069.0,5800.5,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,12,Established
+sales_fc,3,63,66,4,1132.0,1472.0,2411.75,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,64,Established
+sales_fc,3,63,66,5,1916.0,2194.0,2411.75,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,24,Established
+sales_fc,3,63,66,6,21035.0,15361.0,18864.25,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,64,Established
+sales_fc,3,63,66,7,18235.0,13157.0,18864.25,AC-E2,Accessories & Peripherals,86.4,60.48,smooth,C,Z,7,NPI (<12m history)
+sales_fc,3,63,66,8,1976.0,2251.0,14194.666666666668,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,64,Established
+sales_fc,3,63,66,9,22442.0,18998.0,14194.666666666668,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,23,Established
+sales_fc,3,63,66,10,311.0,301.0,5831.25,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,64,Established
+sales_fc,3,63,66,11,7931.0,6335.0,5831.25,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,15,Established
+sales_fc,3,63,66,12,95.0,98.0,2030.6666666666667,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,64,Established
+sales_fc,3,63,66,13,1198.0,1207.0,2030.6666666666667,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,10,NPI (<12m history)
+sales_fc,3,63,66,14,312.0,432.0,1211.75,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,64,Established
+sales_fc,3,63,66,15,642.0,787.0,1211.75,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,18,Established
+sales_fc,3,63,66,16,174.0,307.0,537.1666666666667,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,64,Established
+sales_fc,3,63,66,17,318.0,266.0,537.1666666666667,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,17,Established
+sales_fc,3,63,66,18,394.0,276.0,1171.0833333333337,SV-E1,Servers,6000.0,4320.0,smooth,B,X,64,Established
+sales_fc,3,63,66,19,622.0,811.0,1171.0833333333337,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,26,Established
+sales_fc,3,63,66,20,597.0,528.0,864.4166666666667,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,64,Established
+sales_fc,3,63,66,21,632.0,419.0,864.4166666666667,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,13,Established
+sales_fc,3,63,66,22,189.0,177.0,378.83333333333337,SV-P1,Servers,45000.0,32400.0,smooth,A,Y,64,Established
+sales_fc,3,63,66,23,173.0,276.0,378.83333333333337,SV-P2,Servers,48600.0,34992.0,smooth,A,X,24,Established
+sales_fc,3,63,66,24,22.0,15.0,252.0,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,64,Established
+sales_fc,3,63,66,25,181.0,355.0,252.0,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,11,NPI (<12m history)
+sales_fc,3,63,66,26,67.0,75.0,187.16666666666669,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,64,Established
+sales_fc,3,63,66,27,100.0,85.0,187.16666666666669,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,17,Established
+sales_fc,3,63,66,28,3.0,7.0,81.58333333333333,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,64,Established
+sales_fc,3,63,66,29,70.0,61.0,81.58333333333333,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,22,Established
+sales_fc,3,63,66,30,293.0,362.0,2382.916666666667,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,64,Established
+sales_fc,3,63,66,31,2342.0,2185.0,2382.916666666667,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,14,Established
+sales_fc,3,63,66,32,633.0,453.0,1396.5833333333333,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,64,Established
+sales_fc,3,63,66,33,1054.0,1334.0,1396.5833333333333,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,8,NPI (<12m history)
+sales_fc,3,63,66,34,382.0,410.0,586.0833333333333,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,64,Established
+sales_fc,3,63,66,35,498.0,507.0,586.0833333333333,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,9,NPI (<12m history)
+gbm_full,3,63,66,0,1679.8360758843044,470.0,8394.75,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,64,Established
+gbm_full,3,63,66,1,5385.457826014728,8615.0,8394.75,PC-E2,Client PCs,702.0,561.6,smooth,A,X,24,Established
+gbm_full,3,63,66,2,1698.9826430055948,2411.0,5800.5,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,64,Established
+gbm_full,3,63,66,3,3331.516085601099,6069.0,5800.5,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,12,Established
+gbm_full,3,63,66,4,1032.698622261196,1472.0,2411.75,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,64,Established
+gbm_full,3,63,66,5,1388.45930988525,2194.0,2411.75,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,24,Established
+gbm_full,3,63,66,6,11114.491981764862,15361.0,18864.25,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,64,Established
+gbm_full,3,63,66,7,14359.390038529107,13157.0,18864.25,AC-E2,Accessories & Peripherals,86.4,60.48,smooth,C,Z,7,NPI (<12m history)
+gbm_full,3,63,66,8,3183.554825061906,2251.0,14194.666666666668,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,64,Established
+gbm_full,3,63,66,9,10723.692666116583,18998.0,14194.666666666668,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,23,Established
+gbm_full,3,63,66,10,1296.366156523589,301.0,5831.25,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,64,Established
+gbm_full,3,63,66,11,4293.69735504841,6335.0,5831.25,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,15,Established
+gbm_full,3,63,66,12,398.7015593791113,98.0,2030.6666666666667,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,64,Established
+gbm_full,3,63,66,13,1355.67161755208,1207.0,2030.6666666666667,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,10,NPI (<12m history)
+gbm_full,3,63,66,14,531.6395822856383,432.0,1211.75,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,64,Established
+gbm_full,3,63,66,15,784.9320209188088,787.0,1211.75,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,18,Established
+gbm_full,3,63,66,16,321.10455178723504,307.0,537.1666666666667,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,64,Established
+gbm_full,3,63,66,17,356.3633738221447,266.0,537.1666666666667,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,17,Established
+gbm_full,3,63,66,18,424.95326678143965,276.0,1171.0833333333337,SV-E1,Servers,6000.0,4320.0,smooth,B,X,64,Established
+gbm_full,3,63,66,19,796.1152488107639,811.0,1171.0833333333337,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,26,Established
+gbm_full,3,63,66,20,471.14827590341,528.0,864.4166666666667,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,64,Established
+gbm_full,3,63,66,21,561.1057812984568,419.0,864.4166666666667,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,13,Established
+gbm_full,3,63,66,22,204.577787922313,177.0,378.83333333333337,SV-P1,Servers,45000.0,32400.0,smooth,A,Y,64,Established
+gbm_full,3,63,66,23,268.50023286440586,276.0,378.83333333333337,SV-P2,Servers,48600.0,34992.0,smooth,A,X,24,Established
+gbm_full,3,63,66,24,56.884496694597566,15.0,252.0,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,64,Established
+gbm_full,3,63,66,25,147.89981382354293,355.0,252.0,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,11,NPI (<12m history)
+gbm_full,3,63,66,26,57.95285141417347,75.0,187.16666666666669,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,64,Established
+gbm_full,3,63,66,27,84.57643419950301,85.0,187.16666666666669,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,17,Established
+gbm_full,3,63,66,28,15.820546945147411,7.0,81.58333333333333,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,64,Established
+gbm_full,3,63,66,29,47.312228662142616,61.0,81.58333333333333,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,22,Established
+gbm_full,3,63,66,30,569.2363891760587,362.0,2382.916666666667,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,64,Established
+gbm_full,3,63,66,31,1617.0734677208245,2185.0,2382.916666666667,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,14,Established
+gbm_full,3,63,66,32,416.4386118857485,453.0,1396.5833333333333,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,64,Established
+gbm_full,3,63,66,33,1001.0275300796412,1334.0,1396.5833333333333,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,8,NPI (<12m history)
+gbm_full,3,63,66,34,372.8269764273814,410.0,586.0833333333333,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,64,Established
+gbm_full,3,63,66,35,397.71605354422405,507.0,586.0833333333333,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,9,NPI (<12m history)
+naive,3,64,67,0,786.0,668.0,8550.583333333334,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,65,Established
+naive,3,64,67,1,7892.0,12102.0,8550.583333333334,PC-E2,Client PCs,702.0,561.6,smooth,A,X,25,Established
+naive,3,64,67,2,3687.0,1745.0,5981.333333333334,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,65,Established
+naive,3,64,67,3,3159.0,5977.0,5981.333333333334,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,13,Established
+naive,3,64,67,4,1004.0,2908.0,2450.6666666666665,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,65,Established
+naive,3,64,67,5,1449.0,2177.0,2450.6666666666665,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,25,Established
+naive,3,64,67,6,9024.0,12016.0,19382.33333333333,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,65,Established
+naive,3,64,67,7,12433.0,12417.0,19382.33333333333,AC-E2,Accessories & Peripherals,86.4,60.48,smooth,C,Z,8,NPI (<12m history)
+naive,3,64,67,8,4233.0,2087.0,14764.416666666668,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,65,Established
+naive,3,64,67,9,14284.0,12323.0,14764.416666666668,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,24,Established
+naive,3,64,67,10,347.0,204.0,5834.166666666666,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,65,Established
+naive,3,64,67,11,5168.0,6646.0,5834.166666666666,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,16,Established
+naive,3,64,67,12,164.0,74.0,2013.4166666666663,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,65,Established
+naive,3,64,67,13,1328.0,1721.0,2013.4166666666663,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,11,NPI (<12m history)
+naive,3,64,67,14,452.0,622.0,1219.8333333333333,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,65,Established
+naive,3,64,67,15,747.0,771.0,1219.8333333333333,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,19,Established
+naive,3,64,67,16,171.0,255.0,488.1666666666666,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,65,Established
+naive,3,64,67,17,259.0,259.0,488.1666666666666,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,18,Established
+naive,3,64,67,18,661.0,378.0,1210.3333333333337,SV-E1,Servers,6000.0,4320.0,smooth,B,X,65,Established
+naive,3,64,67,19,793.0,868.0,1210.3333333333337,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,27,Established
+naive,3,64,67,20,343.0,298.0,865.5833333333333,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,65,Established
+naive,3,64,67,21,413.0,421.0,865.5833333333333,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,14,Established
+naive,3,64,67,22,132.0,229.0,386.75,SV-P1,Servers,45000.0,32400.0,smooth,A,Y,65,Established
+naive,3,64,67,23,279.0,606.0,386.75,SV-P2,Servers,48600.0,34992.0,smooth,A,X,25,Established
+naive,3,64,67,24,22.0,23.0,256.25,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,65,Established
+naive,3,64,67,25,194.0,174.0,256.25,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,12,Established
+naive,3,64,67,26,64.0,89.0,193.5,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,65,Established
+naive,3,64,67,27,106.0,88.0,193.5,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,18,Established
+naive,3,64,67,28,7.0,3.0,83.0,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,65,Established
+naive,3,64,67,29,67.0,116.0,83.0,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,23,Established
+naive,3,64,67,30,645.0,309.0,2401.5,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,65,Established
+naive,3,64,67,31,1382.0,2213.0,2401.5,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,15,Established
+naive,3,64,67,32,564.0,366.0,1419.5,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,65,Established
+naive,3,64,67,33,934.0,1464.0,1419.5,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,9,NPI (<12m history)
+naive,3,64,67,34,261.0,337.0,603.5833333333333,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,65,Established
+naive,3,64,67,35,561.0,479.0,603.5833333333333,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,10,NPI (<12m history)
+sales_fc,3,64,67,0,930.0,668.0,8550.583333333334,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,65,Established
+sales_fc,3,64,67,1,6724.0,12102.0,8550.583333333334,PC-E2,Client PCs,702.0,561.6,smooth,A,X,25,Established
+sales_fc,3,64,67,2,2381.0,1745.0,5981.333333333334,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,65,Established
+sales_fc,3,64,67,3,4609.0,5977.0,5981.333333333334,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,13,Established
+sales_fc,3,64,67,4,2018.0,2908.0,2450.6666666666665,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,65,Established
+sales_fc,3,64,67,5,2317.0,2177.0,2450.6666666666665,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,25,Established
+sales_fc,3,64,67,6,12926.0,12016.0,19382.33333333333,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,65,Established
+sales_fc,3,64,67,7,21640.0,12417.0,19382.33333333333,AC-E2,Accessories & Peripherals,86.4,60.48,smooth,C,Z,8,NPI (<12m history)
+sales_fc,3,64,67,8,2391.0,2087.0,14764.416666666668,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,65,Established
+sales_fc,3,64,67,9,20760.0,12323.0,14764.416666666668,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,24,Established
+sales_fc,3,64,67,10,135.0,204.0,5834.166666666666,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,65,Established
+sales_fc,3,64,67,11,5059.0,6646.0,5834.166666666666,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,16,Established
+sales_fc,3,64,67,12,65.0,74.0,2013.4166666666663,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,65,Established
+sales_fc,3,64,67,13,1110.0,1721.0,2013.4166666666663,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,11,NPI (<12m history)
+sales_fc,3,64,67,14,571.0,622.0,1219.8333333333333,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,65,Established
+sales_fc,3,64,67,15,505.0,771.0,1219.8333333333333,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,19,Established
+sales_fc,3,64,67,16,154.0,255.0,488.1666666666666,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,65,Established
+sales_fc,3,64,67,17,404.0,259.0,488.1666666666666,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,18,Established
+sales_fc,3,64,67,18,352.0,378.0,1210.3333333333337,SV-E1,Servers,6000.0,4320.0,smooth,B,X,65,Established
+sales_fc,3,64,67,19,1149.0,868.0,1210.3333333333337,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,27,Established
+sales_fc,3,64,67,20,384.0,298.0,865.5833333333333,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,65,Established
+sales_fc,3,64,67,21,435.0,421.0,865.5833333333333,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,14,Established
+sales_fc,3,64,67,22,148.0,229.0,386.75,SV-P1,Servers,45000.0,32400.0,smooth,A,Y,65,Established
+sales_fc,3,64,67,23,205.0,606.0,386.75,SV-P2,Servers,48600.0,34992.0,smooth,A,X,25,Established
+sales_fc,3,64,67,24,18.0,23.0,256.25,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,65,Established
+sales_fc,3,64,67,25,175.0,174.0,256.25,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,12,Established
+sales_fc,3,64,67,26,92.0,89.0,193.5,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,65,Established
+sales_fc,3,64,67,27,127.0,88.0,193.5,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,18,Established
+sales_fc,3,64,67,28,5.0,3.0,83.0,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,65,Established
+sales_fc,3,64,67,29,58.0,116.0,83.0,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,23,Established
+sales_fc,3,64,67,30,408.0,309.0,2401.5,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,65,Established
+sales_fc,3,64,67,31,2449.0,2213.0,2401.5,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,15,Established
+sales_fc,3,64,67,32,275.0,366.0,1419.5,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,65,Established
+sales_fc,3,64,67,33,1700.0,1464.0,1419.5,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,9,NPI (<12m history)
+sales_fc,3,64,67,34,504.0,337.0,603.5833333333333,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,65,Established
+sales_fc,3,64,67,35,500.0,479.0,603.5833333333333,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,10,NPI (<12m history)
+gbm_full,3,64,67,0,1702.7755745708537,668.0,8550.583333333334,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,65,Established
+gbm_full,3,64,67,1,6151.487208740069,12102.0,8550.583333333334,PC-E2,Client PCs,702.0,561.6,smooth,A,X,25,Established
+gbm_full,3,64,67,2,1731.8187989492023,1745.0,5981.333333333334,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,65,Established
+gbm_full,3,64,67,3,3749.0884495965593,5977.0,5981.333333333334,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,13,Established
+gbm_full,3,64,67,4,1602.812022217876,2908.0,2450.6666666666665,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,65,Established
+gbm_full,3,64,67,5,1787.718704163686,2177.0,2450.6666666666665,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,25,Established
+gbm_full,3,64,67,6,9949.63037218796,12016.0,19382.33333333333,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,65,Established
+gbm_full,3,64,67,7,13220.363429662948,12417.0,19382.33333333333,AC-E2,Accessories & Peripherals,86.4,60.48,smooth,C,Z,8,NPI (<12m history)
+gbm_full,3,64,67,8,3240.864259686785,2087.0,14764.416666666668,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,65,Established
+gbm_full,3,64,67,9,10827.426750297984,12323.0,14764.416666666668,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,24,Established
+gbm_full,3,64,67,10,1047.7773333820512,204.0,5834.166666666666,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,65,Established
+gbm_full,3,64,67,11,4525.739443209353,6646.0,5834.166666666666,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,16,Established
+gbm_full,3,64,67,12,324.6915108456747,74.0,2013.4166666666663,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,65,Established
+gbm_full,3,64,67,13,1386.348435585315,1721.0,2013.4166666666663,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,11,NPI (<12m history)
+gbm_full,3,64,67,14,566.9056202936421,622.0,1219.8333333333333,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,65,Established
+gbm_full,3,64,67,15,797.5953275028569,771.0,1219.8333333333333,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,19,Established
+gbm_full,3,64,67,16,225.77420392369785,255.0,488.1666666666666,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,65,Established
+gbm_full,3,64,67,17,305.2273399797767,259.0,488.1666666666666,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,18,Established
+gbm_full,3,64,67,18,328.96351855021413,378.0,1210.3333333333337,SV-E1,Servers,6000.0,4320.0,smooth,B,X,65,Established
+gbm_full,3,64,67,19,893.9622894552846,868.0,1210.3333333333337,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,27,Established
+gbm_full,3,64,67,20,402.7477114745888,298.0,865.5833333333333,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,65,Established
+gbm_full,3,64,67,21,578.370417915824,421.0,865.5833333333333,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,14,Established
+gbm_full,3,64,67,22,248.4135795152627,229.0,386.75,SV-P1,Servers,45000.0,32400.0,smooth,A,Y,65,Established
+gbm_full,3,64,67,23,282.6679102645711,606.0,386.75,SV-P2,Servers,48600.0,34992.0,smooth,A,X,25,Established
+gbm_full,3,64,67,24,40.10679342987987,23.0,256.25,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,65,Established
+gbm_full,3,64,67,25,192.7123228353817,174.0,256.25,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,12,Established
+gbm_full,3,64,67,26,106.7231978114448,89.0,193.5,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,65,Established
+gbm_full,3,64,67,27,130.0794914055686,88.0,193.5,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,18,Established
+gbm_full,3,64,67,28,11.84020286056546,3.0,83.0,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,65,Established
+gbm_full,3,64,67,29,52.01474615495202,116.0,83.0,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,23,Established
+gbm_full,3,64,67,30,510.6001728224985,309.0,2401.5,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,65,Established
+gbm_full,3,64,67,31,1648.069866650653,2213.0,2401.5,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,15,Established
+gbm_full,3,64,67,32,398.8127121025661,366.0,1419.5,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,65,Established
+gbm_full,3,64,67,33,934.8500147157404,1464.0,1419.5,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,9,NPI (<12m history)
+gbm_full,3,64,67,34,325.7774883129421,337.0,603.5833333333333,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,65,Established
+gbm_full,3,64,67,35,492.0233801984104,479.0,603.5833333333333,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,10,NPI (<12m history)
+naive,3,65,68,0,628.0,351.0,8706.083333333332,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,66,Established
+naive,3,65,68,1,8216.0,11127.0,8706.083333333332,PC-E2,Client PCs,702.0,561.6,smooth,A,X,26,Established
+naive,3,65,68,2,3552.0,2543.0,6116.75,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,66,Established
+naive,3,65,68,3,3797.0,7308.0,6116.75,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,14,Established
+naive,3,65,68,4,1094.0,1613.0,2467.0,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,66,Established
+naive,3,65,68,5,1698.0,2000.0,2467.0,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,26,Established
+naive,3,65,68,6,10267.0,9727.0,19812.666666666668,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,66,Established
+naive,3,65,68,7,10247.0,15543.0,19812.666666666668,AC-E2,Accessories & Peripherals,86.4,60.48,smooth,C,Z,9,NPI (<12m history)
+naive,3,65,68,8,2643.0,1609.0,14940.916666666666,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,66,Established
+naive,3,65,68,9,9744.0,14789.0,14940.916666666666,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,25,Established
+naive,3,65,68,10,239.0,116.0,6152.5,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,66,Established
+naive,3,65,68,11,8548.0,5745.0,6152.5,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,17,Established
+naive,3,65,68,12,140.0,58.0,1994.9166666666663,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,66,Established
+naive,3,65,68,13,1838.0,1765.0,1994.9166666666663,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,12,Established
+naive,3,65,68,14,450.0,745.0,1225.6666666666667,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,66,Established
+naive,3,65,68,15,716.0,881.0,1225.6666666666667,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,20,Established
+naive,3,65,68,16,226.0,168.0,487.83333333333337,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,66,Established
+naive,3,65,68,17,315.0,371.0,487.83333333333337,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,19,Established
+naive,3,65,68,18,569.0,308.0,1235.1666666666663,SV-E1,Servers,6000.0,4320.0,smooth,B,X,66,Established
+naive,3,65,68,19,761.0,1112.0,1235.1666666666663,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,28,Established
+naive,3,65,68,20,558.0,387.0,878.9166666666667,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,66,Established
+naive,3,65,68,21,683.0,776.0,878.9166666666667,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,15,Established
+naive,3,65,68,22,407.0,185.0,402.6666666666667,SV-P1,Servers,45000.0,32400.0,smooth,A,Y,66,Established
+naive,3,65,68,23,220.0,259.0,402.6666666666667,SV-P2,Servers,48600.0,34992.0,smooth,A,X,26,Established
+naive,3,65,68,24,53.0,13.0,253.91666666666669,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,66,Established
+naive,3,65,68,25,204.0,248.0,253.91666666666669,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,13,Established
+naive,3,65,68,26,78.0,72.0,178.0,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,66,Established
+naive,3,65,68,27,118.0,115.0,178.0,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,19,Established
+naive,3,65,68,28,15.0,2.0,84.08333333333333,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,66,Established
+naive,3,65,68,29,81.0,84.0,84.08333333333333,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,24,Established
+naive,3,65,68,30,282.0,189.0,2309.083333333333,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,66,Established
+naive,3,65,68,31,1772.0,2114.0,2309.083333333333,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,16,Established
+naive,3,65,68,32,614.0,260.0,1476.8333333333337,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,66,Established
+naive,3,65,68,33,1180.0,2239.0,1476.8333333333337,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,10,NPI (<12m history)
+naive,3,65,68,34,478.0,261.0,642.75,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,66,Established
+naive,3,65,68,35,453.0,678.0,642.75,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,11,NPI (<12m history)
+sales_fc,3,65,68,0,493.0,351.0,8706.083333333332,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,66,Established
+sales_fc,3,65,68,1,14662.0,11127.0,8706.083333333332,PC-E2,Client PCs,702.0,561.6,smooth,A,X,26,Established
+sales_fc,3,65,68,2,1861.0,2543.0,6116.75,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,66,Established
+sales_fc,3,65,68,3,11443.0,7308.0,6116.75,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,14,Established
+sales_fc,3,65,68,4,3107.0,1613.0,2467.0,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,66,Established
+sales_fc,3,65,68,5,3328.0,2000.0,2467.0,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,26,Established
+sales_fc,3,65,68,6,13763.0,9727.0,19812.666666666668,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,66,Established
+sales_fc,3,65,68,7,9921.0,15543.0,19812.666666666668,AC-E2,Accessories & Peripherals,86.4,60.48,smooth,C,Z,9,NPI (<12m history)
+sales_fc,3,65,68,8,1942.0,1609.0,14940.916666666666,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,66,Established
+sales_fc,3,65,68,9,9413.0,14789.0,14940.916666666666,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,25,Established
+sales_fc,3,65,68,10,142.0,116.0,6152.5,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,66,Established
+sales_fc,3,65,68,11,8897.0,5745.0,6152.5,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,17,Established
+sales_fc,3,65,68,12,73.0,58.0,1994.9166666666663,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,66,Established
+sales_fc,3,65,68,13,2267.0,1765.0,1994.9166666666663,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,12,Established
+sales_fc,3,65,68,14,1373.0,745.0,1225.6666666666667,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,66,Established
+sales_fc,3,65,68,15,603.0,881.0,1225.6666666666667,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,20,Established
+sales_fc,3,65,68,16,163.0,168.0,487.83333333333337,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,66,Established
+sales_fc,3,65,68,17,368.0,371.0,487.83333333333337,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,19,Established
+sales_fc,3,65,68,18,269.0,308.0,1235.1666666666663,SV-E1,Servers,6000.0,4320.0,smooth,B,X,66,Established
+sales_fc,3,65,68,19,514.0,1112.0,1235.1666666666663,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,28,Established
+sales_fc,3,65,68,20,294.0,387.0,878.9166666666667,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,66,Established
+sales_fc,3,65,68,21,446.0,776.0,878.9166666666667,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,15,Established
+sales_fc,3,65,68,22,124.0,185.0,402.6666666666667,SV-P1,Servers,45000.0,32400.0,smooth,A,Y,66,Established
+sales_fc,3,65,68,23,183.0,259.0,402.6666666666667,SV-P2,Servers,48600.0,34992.0,smooth,A,X,26,Established
+sales_fc,3,65,68,24,33.0,13.0,253.91666666666669,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,66,Established
+sales_fc,3,65,68,25,320.0,248.0,253.91666666666669,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,13,Established
+sales_fc,3,65,68,26,208.0,72.0,178.0,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,66,Established
+sales_fc,3,65,68,27,178.0,115.0,178.0,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,19,Established
+sales_fc,3,65,68,28,5.0,2.0,84.08333333333333,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,66,Established
+sales_fc,3,65,68,29,130.0,84.0,84.08333333333333,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,24,Established
+sales_fc,3,65,68,30,159.0,189.0,2309.083333333333,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,66,Established
+sales_fc,3,65,68,31,2258.0,2114.0,2309.083333333333,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,16,Established
+sales_fc,3,65,68,32,399.0,260.0,1476.8333333333337,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,66,Established
+sales_fc,3,65,68,33,2136.0,2239.0,1476.8333333333337,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,10,NPI (<12m history)
+sales_fc,3,65,68,34,287.0,261.0,642.75,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,66,Established
+sales_fc,3,65,68,35,629.0,678.0,642.75,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,11,NPI (<12m history)
+gbm_full,3,65,68,0,1383.242975406265,351.0,8706.083333333332,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,66,Established
+gbm_full,3,65,68,1,7398.030302687373,11127.0,8706.083333333332,PC-E2,Client PCs,702.0,561.6,smooth,A,X,26,Established
+gbm_full,3,65,68,2,1966.301978130026,2543.0,6116.75,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,66,Established
+gbm_full,3,65,68,3,4545.2665984472505,7308.0,6116.75,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,14,Established
+gbm_full,3,65,68,4,1456.7933998763,1613.0,2467.0,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,66,Established
+gbm_full,3,65,68,5,1898.368154585592,2000.0,2467.0,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,26,Established
+gbm_full,3,65,68,6,6582.865319125922,9727.0,19812.666666666668,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,66,Established
+gbm_full,3,65,68,7,13464.217817119976,15543.0,19812.666666666668,AC-E2,Accessories & Peripherals,86.4,60.48,smooth,C,Z,9,NPI (<12m history)
+gbm_full,3,65,68,8,2299.723936140766,1609.0,14940.916666666666,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,66,Established
+gbm_full,3,65,68,9,10927.377759349863,14789.0,14940.916666666666,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,25,Established
+gbm_full,3,65,68,10,927.6098199031736,116.0,6152.5,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,66,Established
+gbm_full,3,65,68,11,4888.554245699725,5745.0,6152.5,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,17,Established
+gbm_full,3,65,68,12,270.9405927077362,58.0,1994.9166666666663,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,66,Established
+gbm_full,3,65,68,13,1937.850610303904,1765.0,1994.9166666666663,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,12,Established
+gbm_full,3,65,68,14,802.648341802285,745.0,1225.6666666666667,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,66,Established
+gbm_full,3,65,68,15,905.15927142672,881.0,1225.6666666666667,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,20,Established
+gbm_full,3,65,68,16,135.13712177685264,168.0,487.83333333333337,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,66,Established
+gbm_full,3,65,68,17,335.622636985788,371.0,487.83333333333337,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,19,Established
+gbm_full,3,65,68,18,300.0262555713692,308.0,1235.1666666666663,SV-E1,Servers,6000.0,4320.0,smooth,B,X,66,Established
+gbm_full,3,65,68,19,830.1178535989063,1112.0,1235.1666666666663,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,28,Established
+gbm_full,3,65,68,20,288.34395174248544,387.0,878.9166666666667,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,66,Established
+gbm_full,3,65,68,21,600.4759740213112,776.0,878.9166666666667,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,15,Established
+gbm_full,3,65,68,22,269.31958852822027,185.0,402.6666666666667,SV-P1,Servers,45000.0,32400.0,smooth,A,Y,66,Established
+gbm_full,3,65,68,23,284.5661234316024,259.0,402.6666666666667,SV-P2,Servers,48600.0,34992.0,smooth,A,X,26,Established
+gbm_full,3,65,68,24,34.70267694627457,13.0,253.91666666666669,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,66,Established
+gbm_full,3,65,68,25,199.8158221949353,248.0,253.91666666666669,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,13,Established
+gbm_full,3,65,68,26,94.44787295440231,72.0,178.0,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,66,Established
+gbm_full,3,65,68,27,131.34986786813798,115.0,178.0,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,19,Established
+gbm_full,3,65,68,28,11.972826791557017,2.0,84.08333333333333,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,66,Established
+gbm_full,3,65,68,29,82.58351218177094,84.0,84.08333333333333,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,24,Established
+gbm_full,3,65,68,30,418.5484358399592,189.0,2309.083333333333,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,66,Established
+gbm_full,3,65,68,31,2267.6163313790667,2114.0,2309.083333333333,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,16,Established
+gbm_full,3,65,68,32,409.76515957493535,260.0,1476.8333333333337,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,66,Established
+gbm_full,3,65,68,33,1444.3317520151895,2239.0,1476.8333333333337,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,10,NPI (<12m history)
+gbm_full,3,65,68,34,264.88243951779464,261.0,642.75,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,66,Established
+gbm_full,3,65,68,35,645.523288295856,678.0,642.75,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,11,NPI (<12m history)
+naive,3,66,69,0,470.0,261.0,8799.083333333332,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,67,Established
+naive,3,66,69,1,8615.0,8695.0,8799.083333333332,PC-E2,Client PCs,702.0,561.6,smooth,A,X,27,Established
+naive,3,66,69,2,2411.0,1175.0,6358.25,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,67,Established
+naive,3,66,69,3,6069.0,6412.0,6358.25,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,15,Established
+naive,3,66,69,4,1472.0,954.0,2534.083333333333,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,67,Established
+naive,3,66,69,5,2194.0,1761.0,2534.083333333333,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,27,Established
+naive,3,66,69,6,15361.0,6057.0,20650.083333333336,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,67,Established
+naive,3,66,69,7,13157.0,21165.0,20650.083333333336,AC-E2,Accessories & Peripherals,86.4,60.48,smooth,C,Z,10,NPI (<12m history)
+naive,3,66,69,8,2251.0,1116.0,15764.75,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,67,Established
+naive,3,66,69,9,18998.0,13435.0,15764.75,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,26,Established
+naive,3,66,69,10,301.0,143.0,6242.833333333333,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,67,Established
+naive,3,66,69,11,6335.0,6710.0,6242.833333333333,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,18,Established
+naive,3,66,69,12,98.0,48.0,1990.0833333333333,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,67,Established
+naive,3,66,69,13,1207.0,2059.0,1990.0833333333333,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,13,Established
+naive,3,66,69,14,432.0,546.0,1223.0833333333333,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,67,Established
+naive,3,66,69,15,787.0,686.0,1223.0833333333333,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,21,Established
+naive,3,66,69,16,307.0,144.0,496.6666666666666,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,67,Established
+naive,3,66,69,17,266.0,504.0,496.6666666666666,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,20,Established
+naive,3,66,69,18,276.0,193.0,1246.25,SV-E1,Servers,6000.0,4320.0,smooth,B,X,67,Established
+naive,3,66,69,19,811.0,828.0,1246.25,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,29,Established
+naive,3,66,69,20,528.0,248.0,906.25,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,67,Established
+naive,3,66,69,21,419.0,601.0,906.25,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,16,Established
+naive,3,66,69,22,177.0,150.0,415.6666666666666,SV-P1,Servers,45000.0,32400.0,smooth,A,Y,67,Established
+naive,3,66,69,23,276.0,232.0,415.6666666666666,SV-P2,Servers,48600.0,34992.0,smooth,A,X,27,Established
+naive,3,66,69,24,15.0,14.0,264.5,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,67,Established
+naive,3,66,69,25,355.0,237.0,264.5,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,14,Established
+naive,3,66,69,26,75.0,39.0,179.66666666666669,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,67,Established
+naive,3,66,69,27,85.0,86.0,179.66666666666669,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,20,Established
+naive,3,66,69,28,7.0,3.0,79.08333333333333,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,67,Established
+naive,3,66,69,29,61.0,66.0,79.08333333333333,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,25,Established
+naive,3,66,69,30,362.0,200.0,2342.75,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,67,Established
+naive,3,66,69,31,2185.0,2370.0,2342.75,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,17,Established
+naive,3,66,69,32,453.0,247.0,1540.9166666666663,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,67,Established
+naive,3,66,69,33,1334.0,1888.0,1540.9166666666663,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,11,NPI (<12m history)
+naive,3,66,69,34,410.0,319.0,668.4166666666667,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,67,Established
+naive,3,66,69,35,507.0,624.0,668.4166666666667,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,12,Established
+sales_fc,3,66,69,0,351.0,261.0,8799.083333333332,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,67,Established
+sales_fc,3,66,69,1,14710.0,8695.0,8799.083333333332,PC-E2,Client PCs,702.0,561.6,smooth,A,X,27,Established
+sales_fc,3,66,69,2,1671.0,1175.0,6358.25,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,67,Established
+sales_fc,3,66,69,3,5482.0,6412.0,6358.25,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,15,Established
+sales_fc,3,66,69,4,1460.0,954.0,2534.083333333333,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,67,Established
+sales_fc,3,66,69,5,3020.0,1761.0,2534.083333333333,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,27,Established
+sales_fc,3,66,69,6,9001.0,6057.0,20650.083333333336,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,67,Established
+sales_fc,3,66,69,7,33621.0,21165.0,20650.083333333336,AC-E2,Accessories & Peripherals,86.4,60.48,smooth,C,Z,10,NPI (<12m history)
+sales_fc,3,66,69,8,1244.0,1116.0,15764.75,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,67,Established
+sales_fc,3,66,69,9,11044.0,13435.0,15764.75,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,26,Established
+sales_fc,3,66,69,10,105.0,143.0,6242.833333333333,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,67,Established
+sales_fc,3,66,69,11,12039.0,6710.0,6242.833333333333,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,18,Established
+sales_fc,3,66,69,12,57.0,48.0,1990.0833333333333,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,67,Established
+sales_fc,3,66,69,13,2988.0,2059.0,1990.0833333333333,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,13,Established
+sales_fc,3,66,69,14,943.0,546.0,1223.0833333333333,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,67,Established
+sales_fc,3,66,69,15,1666.0,686.0,1223.0833333333333,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,21,Established
+sales_fc,3,66,69,16,168.0,144.0,496.6666666666666,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,67,Established
+sales_fc,3,66,69,17,387.0,504.0,496.6666666666666,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,20,Established
+sales_fc,3,66,69,18,278.0,193.0,1246.25,SV-E1,Servers,6000.0,4320.0,smooth,B,X,67,Established
+sales_fc,3,66,69,19,1550.0,828.0,1246.25,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,29,Established
+sales_fc,3,66,69,20,285.0,248.0,906.25,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,67,Established
+sales_fc,3,66,69,21,533.0,601.0,906.25,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,16,Established
+sales_fc,3,66,69,22,102.0,150.0,415.6666666666666,SV-P1,Servers,45000.0,32400.0,smooth,A,Y,67,Established
+sales_fc,3,66,69,23,259.0,232.0,415.6666666666666,SV-P2,Servers,48600.0,34992.0,smooth,A,X,27,Established
+sales_fc,3,66,69,24,10.0,14.0,264.5,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,67,Established
+sales_fc,3,66,69,25,319.0,237.0,264.5,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,14,Established
+sales_fc,3,66,69,26,49.0,39.0,179.66666666666669,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,67,Established
+sales_fc,3,66,69,27,79.0,86.0,179.66666666666669,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,20,Established
+sales_fc,3,66,69,28,3.0,3.0,79.08333333333333,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,67,Established
+sales_fc,3,66,69,29,39.0,66.0,79.08333333333333,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,25,Established
+sales_fc,3,66,69,30,364.0,200.0,2342.75,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,67,Established
+sales_fc,3,66,69,31,2711.0,2370.0,2342.75,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,17,Established
+sales_fc,3,66,69,32,244.0,247.0,1540.9166666666663,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,67,Established
+sales_fc,3,66,69,33,2458.0,1888.0,1540.9166666666663,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,11,NPI (<12m history)
+sales_fc,3,66,69,34,314.0,319.0,668.4166666666667,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,67,Established
+sales_fc,3,66,69,35,914.0,624.0,668.4166666666667,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,12,Established
+gbm_full,3,66,69,0,948.7763023039336,261.0,8799.083333333332,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,67,Established
+gbm_full,3,66,69,1,7715.2914769349,8695.0,8799.083333333332,PC-E2,Client PCs,702.0,561.6,smooth,A,X,27,Established
+gbm_full,3,66,69,2,1396.3137369285569,1175.0,6358.25,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,67,Established
+gbm_full,3,66,69,3,4675.593576803883,6412.0,6358.25,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,15,Established
+gbm_full,3,66,69,4,768.0504311881239,954.0,2534.083333333333,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,67,Established
+gbm_full,3,66,69,5,2099.677290853557,1761.0,2534.083333333333,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,27,Established
+gbm_full,3,66,69,6,7844.375397220589,6057.0,20650.083333333336,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,67,Established
+gbm_full,3,66,69,7,15920.903789705228,21165.0,20650.083333333336,AC-E2,Accessories & Peripherals,86.4,60.48,smooth,C,Z,10,NPI (<12m history)
+gbm_full,3,66,69,8,1588.920748175821,1116.0,15764.75,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,67,Established
+gbm_full,3,66,69,9,11105.720815445917,13435.0,15764.75,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,26,Established
+gbm_full,3,66,69,10,778.994920011672,143.0,6242.833333333333,AC-P1,Accessories & Peripherals,260.0,182.0,smooth,C,Y,67,Established
+gbm_full,3,66,69,11,6321.923723915816,6710.0,6242.833333333333,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,18,Established
+gbm_full,3,66,69,12,242.23526544834596,48.0,1990.0833333333333,NW-E1,Network Switches,1500.0,930.0,smooth,B,Y,67,Established
+gbm_full,3,66,69,13,1605.6651633406257,2059.0,1990.0833333333333,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,13,Established
+gbm_full,3,66,69,14,697.6010281640774,546.0,1223.0833333333333,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,67,Established
+gbm_full,3,66,69,15,868.9922427184181,686.0,1223.0833333333333,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,21,Established
+gbm_full,3,66,69,16,136.78700357637467,144.0,496.6666666666666,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,67,Established
+gbm_full,3,66,69,17,321.44963469480456,504.0,496.6666666666666,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,20,Established
+gbm_full,3,66,69,18,179.3409106294464,193.0,1246.25,SV-E1,Servers,6000.0,4320.0,smooth,B,X,67,Established
+gbm_full,3,66,69,19,844.2955270415164,828.0,1246.25,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,29,Established
+gbm_full,3,66,69,20,250.5829750029587,248.0,906.25,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,67,Established
+gbm_full,3,66,69,21,533.4972269152908,601.0,906.25,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,16,Established
+gbm_full,3,66,69,22,121.05393855880818,150.0,415.6666666666666,SV-P1,Servers,45000.0,32400.0,smooth,A,Y,67,Established
+gbm_full,3,66,69,23,284.59257259034683,232.0,415.6666666666666,SV-P2,Servers,48600.0,34992.0,smooth,A,X,27,Established
+gbm_full,3,66,69,24,32.260215189335995,14.0,264.5,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,67,Established
+gbm_full,3,66,69,25,216.2890267382809,237.0,264.5,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,14,Established
+gbm_full,3,66,69,26,52.92640823545633,39.0,179.66666666666669,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,67,Established
+gbm_full,3,66,69,27,121.4129738720399,86.0,179.66666666666669,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,20,Established
+gbm_full,3,66,69,28,10.449958450347165,3.0,79.08333333333333,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,67,Established
+gbm_full,3,66,69,29,68.53870216404069,66.0,79.08333333333333,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,25,Established
+gbm_full,3,66,69,30,310.37814658899384,200.0,2342.75,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,67,Established
+gbm_full,3,66,69,31,2495.2770395639,2370.0,2342.75,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,17,Established
+gbm_full,3,66,69,32,276.6859285357647,247.0,1540.9166666666663,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,67,Established
+gbm_full,3,66,69,33,1809.7758706188984,1888.0,1540.9166666666663,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,11,NPI (<12m history)
+gbm_full,3,66,69,34,179.21715172177596,319.0,668.4166666666667,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,67,Established
+gbm_full,3,66,69,35,716.0357251744672,624.0,668.4166666666667,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,12,Established
+naive,3,67,70,0,668.0,182.0,9065.0,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,68,Established
+naive,3,67,70,1,12102.0,9148.0,9065.0,PC-E2,Client PCs,702.0,561.6,smooth,A,X,28,Established
+naive,3,67,70,2,1745.0,1042.0,6458.916666666667,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,68,Established
+naive,3,67,70,3,5977.0,6939.0,6458.916666666667,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,16,Established
+naive,3,67,70,4,2908.0,831.0,2746.666666666667,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,68,Established
+naive,3,67,70,5,2177.0,2611.0,2746.666666666667,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,28,Established
+naive,3,67,70,6,12016.0,4724.0,21084.25,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,68,Established
+naive,3,67,70,7,12417.0,16758.0,21084.25,AC-E2,Accessories & Peripherals,86.4,60.48,smooth,C,Z,11,NPI (<12m history)
+naive,3,67,70,8,2087.0,1100.0,15952.75,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,68,Established
+naive,3,67,70,9,12323.0,15388.0,15952.75,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,27,Established
+naive,3,67,70,10,204.0,67.0,6203.916666666666,AC-P1,Accessories & Peripherals,260.0,182.0,erratic,C,Y,68,Established
+naive,3,67,70,11,6646.0,6964.0,6203.916666666666,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,19,Established
+naive,3,67,70,12,74.0,42.0,1979.0,NW-E1,Network Switches,1500.0,930.0,erratic,B,Y,68,Established
+naive,3,67,70,13,1721.0,1604.0,1979.0,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,14,Established
+naive,3,67,70,14,622.0,999.0,1239.4166666666663,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,68,Established
+naive,3,67,70,15,771.0,909.0,1239.4166666666663,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,22,Established
+naive,3,67,70,16,255.0,116.0,497.08333333333337,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,68,Established
+naive,3,67,70,17,259.0,440.0,497.08333333333337,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,21,Established
+naive,3,67,70,18,378.0,143.0,1263.9166666666663,SV-E1,Servers,6000.0,4320.0,smooth,B,X,68,Established
+naive,3,67,70,19,868.0,1010.0,1263.9166666666663,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,30,Established
+naive,3,67,70,20,298.0,193.0,908.9166666666666,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,68,Established
+naive,3,67,70,21,421.0,610.0,908.9166666666666,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,17,Established
+naive,3,67,70,22,229.0,125.0,462.0,SV-P1,Servers,45000.0,32400.0,smooth,A,Y,68,Established
+naive,3,67,70,23,606.0,302.0,462.0,SV-P2,Servers,48600.0,34992.0,smooth,A,X,28,Established
+naive,3,67,70,24,23.0,5.0,263.75,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,68,Established
+naive,3,67,70,25,174.0,228.0,263.75,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,15,Established
+naive,3,67,70,26,89.0,40.0,182.5,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,68,Established
+naive,3,67,70,27,88.0,128.0,182.5,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,21,Established
+naive,3,67,70,28,3.0,3.0,83.66666666666666,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,68,Established
+naive,3,67,70,29,116.0,72.0,83.66666666666666,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,26,Established
+naive,3,67,70,30,309.0,119.0,2343.833333333333,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,68,Established
+naive,3,67,70,31,2213.0,2810.0,2343.833333333333,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,18,Established
+naive,3,67,70,32,366.0,115.0,1575.0833333333333,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,68,Established
+naive,3,67,70,33,1464.0,2446.0,1575.0833333333333,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,12,Established
+naive,3,67,70,34,337.0,224.0,678.8333333333333,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,68,Established
+naive,3,67,70,35,479.0,1868.0,678.8333333333333,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,13,Established
+sales_fc,3,67,70,0,251.0,182.0,9065.0,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,68,Established
+sales_fc,3,67,70,1,10894.0,9148.0,9065.0,PC-E2,Client PCs,702.0,561.6,smooth,A,X,28,Established
+sales_fc,3,67,70,2,1096.0,1042.0,6458.916666666667,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,68,Established
+sales_fc,3,67,70,3,7077.0,6939.0,6458.916666666667,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,16,Established
+sales_fc,3,67,70,4,1333.0,831.0,2746.666666666667,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,68,Established
+sales_fc,3,67,70,5,3970.0,2611.0,2746.666666666667,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,28,Established
+sales_fc,3,67,70,6,6622.0,4724.0,21084.25,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,68,Established
+sales_fc,3,67,70,7,23971.0,16758.0,21084.25,AC-E2,Accessories & Peripherals,86.4,60.48,smooth,C,Z,11,NPI (<12m history)
+sales_fc,3,67,70,8,946.0,1100.0,15952.75,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,68,Established
+sales_fc,3,67,70,9,14290.0,15388.0,15952.75,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,27,Established
+sales_fc,3,67,70,10,90.0,67.0,6203.916666666666,AC-P1,Accessories & Peripherals,260.0,182.0,erratic,C,Y,68,Established
+sales_fc,3,67,70,11,6369.0,6964.0,6203.916666666666,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,19,Established
+sales_fc,3,67,70,12,58.0,42.0,1979.0,NW-E1,Network Switches,1500.0,930.0,erratic,B,Y,68,Established
+sales_fc,3,67,70,13,1544.0,1604.0,1979.0,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,14,Established
+sales_fc,3,67,70,14,517.0,999.0,1239.4166666666663,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,68,Established
+sales_fc,3,67,70,15,877.0,909.0,1239.4166666666663,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,22,Established
+sales_fc,3,67,70,16,265.0,116.0,497.08333333333337,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,68,Established
+sales_fc,3,67,70,17,448.0,440.0,497.08333333333337,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,21,Established
+sales_fc,3,67,70,18,147.0,143.0,1263.9166666666663,SV-E1,Servers,6000.0,4320.0,smooth,B,X,68,Established
+sales_fc,3,67,70,19,887.0,1010.0,1263.9166666666663,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,30,Established
+sales_fc,3,67,70,20,234.0,193.0,908.9166666666666,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,68,Established
+sales_fc,3,67,70,21,1035.0,610.0,908.9166666666666,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,17,Established
+sales_fc,3,67,70,22,106.0,125.0,462.0,SV-P1,Servers,45000.0,32400.0,smooth,A,Y,68,Established
+sales_fc,3,67,70,23,234.0,302.0,462.0,SV-P2,Servers,48600.0,34992.0,smooth,A,X,28,Established
+sales_fc,3,67,70,24,11.0,5.0,263.75,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,68,Established
+sales_fc,3,67,70,25,158.0,228.0,263.75,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,15,Established
+sales_fc,3,67,70,26,31.0,40.0,182.5,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,68,Established
+sales_fc,3,67,70,27,106.0,128.0,182.5,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,21,Established
+sales_fc,3,67,70,28,2.0,3.0,83.66666666666666,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,68,Established
+sales_fc,3,67,70,29,90.0,72.0,83.66666666666666,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,26,Established
+sales_fc,3,67,70,30,305.0,119.0,2343.833333333333,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,68,Established
+sales_fc,3,67,70,31,3401.0,2810.0,2343.833333333333,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,18,Established
+sales_fc,3,67,70,32,446.0,115.0,1575.0833333333333,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,68,Established
+sales_fc,3,67,70,33,2924.0,2446.0,1575.0833333333333,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,12,Established
+sales_fc,3,67,70,34,260.0,224.0,678.8333333333333,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,68,Established
+sales_fc,3,67,70,35,1188.0,1868.0,678.8333333333333,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,13,Established
+gbm_full,3,67,70,0,803.8958360971214,182.0,9065.0,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,68,Established
+gbm_full,3,67,70,1,8997.803640424536,9148.0,9065.0,PC-E2,Client PCs,702.0,561.6,smooth,A,X,28,Established
+gbm_full,3,67,70,2,949.4699671753712,1042.0,6458.916666666667,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,68,Established
+gbm_full,3,67,70,3,5919.920513398027,6939.0,6458.916666666667,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,16,Established
+gbm_full,3,67,70,4,1021.2765915122166,831.0,2746.666666666667,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,68,Established
+gbm_full,3,67,70,5,2390.946655507709,2611.0,2746.666666666667,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,28,Established
+gbm_full,3,67,70,6,5616.8856496049575,4724.0,21084.25,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,68,Established
+gbm_full,3,67,70,7,11966.888468231198,16758.0,21084.25,AC-E2,Accessories & Peripherals,86.4,60.48,smooth,C,Z,11,NPI (<12m history)
+gbm_full,3,67,70,8,1184.6542360311512,1100.0,15952.75,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,68,Established
+gbm_full,3,67,70,9,12285.934934422094,15388.0,15952.75,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,27,Established
+gbm_full,3,67,70,10,531.8207867700233,67.0,6203.916666666666,AC-P1,Accessories & Peripherals,260.0,182.0,erratic,C,Y,68,Established
+gbm_full,3,67,70,11,4860.845560940811,6964.0,6203.916666666666,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,19,Established
+gbm_full,3,67,70,12,192.53309658189767,42.0,1979.0,NW-E1,Network Switches,1500.0,930.0,erratic,B,Y,68,Established
+gbm_full,3,67,70,13,1952.1848196580129,1604.0,1979.0,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,14,Established
+gbm_full,3,67,70,14,410.60957521418624,999.0,1239.4166666666663,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,68,Established
+gbm_full,3,67,70,15,1071.629020805099,909.0,1239.4166666666663,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,22,Established
+gbm_full,3,67,70,16,138.55343273818534,116.0,497.08333333333337,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,68,Established
+gbm_full,3,67,70,17,373.55073387025976,440.0,497.08333333333337,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,21,Established
+gbm_full,3,67,70,18,168.76524731791574,143.0,1263.9166666666663,SV-E1,Servers,6000.0,4320.0,smooth,B,X,68,Established
+gbm_full,3,67,70,19,848.2890797728735,1010.0,1263.9166666666663,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,30,Established
+gbm_full,3,67,70,20,227.15030448436084,193.0,908.9166666666666,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,68,Established
+gbm_full,3,67,70,21,498.4124181640382,610.0,908.9166666666666,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,17,Established
+gbm_full,3,67,70,22,107.29760343819802,125.0,462.0,SV-P1,Servers,45000.0,32400.0,smooth,A,Y,68,Established
+gbm_full,3,67,70,23,286.1777615600102,302.0,462.0,SV-P2,Servers,48600.0,34992.0,smooth,A,X,28,Established
+gbm_full,3,67,70,24,22.76397415652215,5.0,263.75,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,68,Established
+gbm_full,3,67,70,25,187.8215399207617,228.0,263.75,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,15,Established
+gbm_full,3,67,70,26,43.18914117713043,40.0,182.5,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,68,Established
+gbm_full,3,67,70,27,117.18080717148082,128.0,182.5,ST-M2,Storage Arrays,118800.0,65340.000000000015,erratic,A,Z,21,Established
+gbm_full,3,67,70,28,7.196404476211812,3.0,83.66666666666666,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,68,Established
+gbm_full,3,67,70,29,65.82375076752086,72.0,83.66666666666666,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,26,Established
+gbm_full,3,67,70,30,258.6727647045508,119.0,2343.833333333333,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,68,Established
+gbm_full,3,67,70,31,2086.0500504897523,2810.0,2343.833333333333,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,18,Established
+gbm_full,3,67,70,32,191.59606498936247,115.0,1575.0833333333333,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,68,Established
+gbm_full,3,67,70,33,1328.4790996340278,2446.0,1575.0833333333333,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,12,Established
+gbm_full,3,67,70,34,178.42000476630326,224.0,678.8333333333333,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,68,Established
+gbm_full,3,67,70,35,433.5552804258908,1868.0,678.8333333333333,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,13,Established
+naive,3,68,71,0,351.0,174.0,9093.583333333334,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,69,Established
+naive,3,68,71,1,11127.0,10768.0,9093.583333333334,PC-E2,Client PCs,702.0,561.6,smooth,A,X,29,Established
+naive,3,68,71,2,2543.0,984.0,6684.833333333333,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,69,Established
+naive,3,68,71,3,7308.0,6615.0,6684.833333333333,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,17,Established
+naive,3,68,71,4,1613.0,597.0,2858.416666666667,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,69,Established
+naive,3,68,71,5,2000.0,2474.0,2858.416666666667,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,29,Established
+naive,3,68,71,6,9727.0,4648.0,21724.916666666664,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,69,Established
+naive,3,68,71,7,15543.0,19565.0,21724.916666666664,AC-E2,Accessories & Peripherals,86.4,60.48,smooth,C,Z,12,Established
+naive,3,68,71,8,1609.0,860.0,16208.25,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,69,Established
+naive,3,68,71,9,14789.0,21940.0,16208.25,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,28,Established
+naive,3,68,71,10,116.0,100.0,6186.25,AC-P1,Accessories & Peripherals,260.0,182.0,erratic,C,Y,69,Established
+naive,3,68,71,11,5745.0,7174.0,6186.25,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,20,Established
+naive,3,68,71,12,58.0,49.0,1942.0833333333333,NW-E1,Network Switches,1500.0,930.0,erratic,B,Y,69,Established
+naive,3,68,71,13,1765.0,2144.0,1942.0833333333333,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,15,Established
+naive,3,68,71,14,745.0,317.0,1259.75,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,69,Established
+naive,3,68,71,15,881.0,1081.0,1259.75,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,23,Established
+naive,3,68,71,16,168.0,102.0,502.25,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,69,Established
+naive,3,68,71,17,371.0,481.0,502.25,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,22,Established
+naive,3,68,71,18,308.0,155.0,1277.75,SV-E1,Servers,6000.0,4320.0,smooth,B,X,69,Established
+naive,3,68,71,19,1112.0,1376.0,1277.75,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,31,Established
+naive,3,68,71,20,387.0,194.0,883.4166666666667,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,69,Established
+naive,3,68,71,21,776.0,1071.0,883.4166666666667,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,18,Established
+naive,3,68,71,22,185.0,96.0,446.0833333333333,SV-P1,Servers,45000.0,32400.0,smooth,A,Y,69,Established
+naive,3,68,71,23,259.0,342.0,446.0833333333333,SV-P2,Servers,48600.0,34992.0,smooth,A,X,29,Established
+naive,3,68,71,24,13.0,3.0,263.0,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,69,Established
+naive,3,68,71,25,248.0,753.0,263.0,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,16,Established
+naive,3,68,71,26,72.0,49.0,183.91666666666663,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,69,Established
+naive,3,68,71,27,115.0,187.0,183.91666666666663,ST-M2,Storage Arrays,118800.0,65340.000000000015,smooth,A,Z,22,Established
+naive,3,68,71,28,2.0,3.0,82.5,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,69,Established
+naive,3,68,71,29,84.0,137.0,82.5,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,27,Established
+naive,3,68,71,30,189.0,112.0,2346.6666666666665,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,69,Established
+naive,3,68,71,31,2114.0,2688.0,2346.6666666666665,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,19,Established
+naive,3,68,71,32,260.0,117.0,1640.8333333333337,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,69,Established
+naive,3,68,71,33,2239.0,2206.0,1640.8333333333337,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,13,Established
+naive,3,68,71,34,261.0,124.0,698.25,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,69,Established
+naive,3,68,71,35,678.0,753.0,698.25,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,14,Established
+sales_fc,3,68,71,0,213.0,174.0,9093.583333333334,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,69,Established
+sales_fc,3,68,71,1,11171.0,10768.0,9093.583333333334,PC-E2,Client PCs,702.0,561.6,smooth,A,X,29,Established
+sales_fc,3,68,71,2,990.0,984.0,6684.833333333333,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,69,Established
+sales_fc,3,68,71,3,4579.0,6615.0,6684.833333333333,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,17,Established
+sales_fc,3,68,71,4,611.0,597.0,2858.416666666667,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,69,Established
+sales_fc,3,68,71,5,2490.0,2474.0,2858.416666666667,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,29,Established
+sales_fc,3,68,71,6,6136.0,4648.0,21724.916666666664,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,69,Established
+sales_fc,3,68,71,7,20756.0,19565.0,21724.916666666664,AC-E2,Accessories & Peripherals,86.4,60.48,smooth,C,Z,12,Established
+sales_fc,3,68,71,8,838.0,860.0,16208.25,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,69,Established
+sales_fc,3,68,71,9,40596.0,21940.0,16208.25,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,28,Established
+sales_fc,3,68,71,10,97.0,100.0,6186.25,AC-P1,Accessories & Peripherals,260.0,182.0,erratic,C,Y,69,Established
+sales_fc,3,68,71,11,5741.0,7174.0,6186.25,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,20,Established
+sales_fc,3,68,71,12,51.0,49.0,1942.0833333333333,NW-E1,Network Switches,1500.0,930.0,erratic,B,Y,69,Established
+sales_fc,3,68,71,13,2014.0,2144.0,1942.0833333333333,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,15,Established
+sales_fc,3,68,71,14,404.0,317.0,1259.75,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,69,Established
+sales_fc,3,68,71,15,1840.0,1081.0,1259.75,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,23,Established
+sales_fc,3,68,71,16,150.0,102.0,502.25,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,69,Established
+sales_fc,3,68,71,17,425.0,481.0,502.25,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,22,Established
+sales_fc,3,68,71,18,114.0,155.0,1277.75,SV-E1,Servers,6000.0,4320.0,smooth,B,X,69,Established
+sales_fc,3,68,71,19,1084.0,1376.0,1277.75,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,31,Established
+sales_fc,3,68,71,20,211.0,194.0,883.4166666666667,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,69,Established
+sales_fc,3,68,71,21,1324.0,1071.0,883.4166666666667,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,18,Established
+sales_fc,3,68,71,22,77.0,96.0,446.0833333333333,SV-P1,Servers,45000.0,32400.0,smooth,A,Y,69,Established
+sales_fc,3,68,71,23,385.0,342.0,446.0833333333333,SV-P2,Servers,48600.0,34992.0,smooth,A,X,29,Established
+sales_fc,3,68,71,24,9.0,3.0,263.0,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,69,Established
+sales_fc,3,68,71,25,466.0,753.0,263.0,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,16,Established
+sales_fc,3,68,71,26,68.0,49.0,183.91666666666663,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,69,Established
+sales_fc,3,68,71,27,175.0,187.0,183.91666666666663,ST-M2,Storage Arrays,118800.0,65340.000000000015,smooth,A,Z,22,Established
+sales_fc,3,68,71,28,3.0,3.0,82.5,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,69,Established
+sales_fc,3,68,71,29,155.0,137.0,82.5,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,27,Established
+sales_fc,3,68,71,30,195.0,112.0,2346.6666666666665,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,69,Established
+sales_fc,3,68,71,31,3271.0,2688.0,2346.6666666666665,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,19,Established
+sales_fc,3,68,71,32,150.0,117.0,1640.8333333333337,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,69,Established
+sales_fc,3,68,71,33,1299.0,2206.0,1640.8333333333337,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,13,Established
+sales_fc,3,68,71,34,122.0,124.0,698.25,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,69,Established
+sales_fc,3,68,71,35,1202.0,753.0,698.25,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,14,Established
+gbm_full,3,68,71,0,624.7174301433148,174.0,9093.583333333334,PC-E1,Client PCs,650.0,520.0,smooth,B,Y,69,Established
+gbm_full,3,68,71,1,9179.006766348111,10768.0,9093.583333333334,PC-E2,Client PCs,702.0,561.6,smooth,A,X,29,Established
+gbm_full,3,68,71,2,1253.5976448465335,984.0,6684.833333333333,PC-M1,Client PCs,1000.0,800.0,smooth,A,X,69,Established
+gbm_full,3,68,71,3,6618.487176296447,6615.0,6684.833333333333,PC-M2,Client PCs,1080.0,864.0,smooth,B,Z,17,Established
+gbm_full,3,68,71,4,773.4390775208225,597.0,2858.416666666667,PC-P1,Client PCs,1800.0,1440.0,smooth,B,X,69,Established
+gbm_full,3,68,71,5,2201.765423628476,2474.0,2858.416666666667,PC-P2,Client PCs,1944.0,1555.2000000000005,smooth,B,X,29,Established
+gbm_full,3,68,71,6,4260.109652764672,4648.0,21724.916666666664,AC-E1,Accessories & Peripherals,80.0,56.0,smooth,B,X,69,Established
+gbm_full,3,68,71,7,18020.335268589777,19565.0,21724.916666666664,AC-E2,Accessories & Peripherals,86.4,60.48,smooth,C,Z,12,Established
+gbm_full,3,68,71,8,987.568417623975,860.0,16208.25,AC-M1,Accessories & Peripherals,140.0,98.0,smooth,C,X,69,Established
+gbm_full,3,68,71,9,17664.68028158321,21940.0,16208.25,AC-M2,Accessories & Peripherals,151.20000000000002,105.84,smooth,C,Y,28,Established
+gbm_full,3,68,71,10,445.9690105020936,100.0,6186.25,AC-P1,Accessories & Peripherals,260.0,182.0,erratic,C,Y,69,Established
+gbm_full,3,68,71,11,5756.44911668764,7174.0,6186.25,AC-P2,Accessories & Peripherals,280.8,196.56,smooth,C,Y,20,Established
+gbm_full,3,68,71,12,140.09520087108922,49.0,1942.0833333333333,NW-E1,Network Switches,1500.0,930.0,erratic,B,Y,69,Established
+gbm_full,3,68,71,13,1812.203122653012,2144.0,1942.0833333333333,NW-E2,Network Switches,1620.0,1004.4,smooth,C,Z,15,Established
+gbm_full,3,68,71,14,388.2669868211685,317.0,1259.75,NW-M1,Network Switches,4500.0,2790.0,smooth,B,X,69,Established
+gbm_full,3,68,71,15,988.174750528193,1081.0,1259.75,NW-M2,Network Switches,4860.0,3013.2,smooth,A,X,23,Established
+gbm_full,3,68,71,16,100.97963200450674,102.0,502.25,NW-P1,Network Switches,12000.0,7440.0,smooth,B,X,69,Established
+gbm_full,3,68,71,17,421.3349969478716,481.0,502.25,NW-P2,Network Switches,12960.0,8035.2,smooth,A,Y,22,Established
+gbm_full,3,68,71,18,130.01098111905358,155.0,1277.75,SV-E1,Servers,6000.0,4320.0,smooth,B,X,69,Established
+gbm_full,3,68,71,19,1194.8291716503225,1376.0,1277.75,SV-E2,Servers,6480.0,4665.599999999999,smooth,A,X,31,Established
+gbm_full,3,68,71,20,166.6341792321791,194.0,883.4166666666667,SV-M1,Servers,15000.0,10800.0,smooth,A,Y,69,Established
+gbm_full,3,68,71,21,673.3028464932275,1071.0,883.4166666666667,SV-M2,Servers,16200.000000000002,11664.0,smooth,A,Z,18,Established
+gbm_full,3,68,71,22,113.90099465306898,96.0,446.0833333333333,SV-P1,Servers,45000.0,32400.0,smooth,A,Y,69,Established
+gbm_full,3,68,71,23,323.8555834999363,342.0,446.0833333333333,SV-P2,Servers,48600.0,34992.0,smooth,A,X,29,Established
+gbm_full,3,68,71,24,17.860349306868127,3.0,263.0,ST-E1,Storage Arrays,40000.0,22000.0,smooth,A,X,69,Established
+gbm_full,3,68,71,25,258.478044628935,753.0,263.0,ST-E2,Storage Arrays,43200.0,23760.000000000004,smooth,A,Z,16,Established
+gbm_full,3,68,71,26,43.13900852886461,49.0,183.91666666666663,ST-M1,Storage Arrays,110000.0,60500.00000000001,erratic,A,Z,69,Established
+gbm_full,3,68,71,27,130.82422907783848,187.0,183.91666666666663,ST-M2,Storage Arrays,118800.0,65340.000000000015,smooth,A,Z,22,Established
+gbm_full,3,68,71,28,5.233210824911703,3.0,82.5,ST-P1,Storage Arrays,300000.0,165000.0,smooth,A,Y,69,Established
+gbm_full,3,68,71,29,79.4122056613506,137.0,82.5,ST-P2,Storage Arrays,324000.0,178200.0,smooth,A,Z,27,Established
+gbm_full,3,68,71,30,191.86970270014595,112.0,2346.6666666666665,SN-E1,Edge Sensors & Modules,400.0,260.0,smooth,C,Y,69,Established
+gbm_full,3,68,71,31,2436.760211189101,2688.0,2346.6666666666665,SN-E2,Edge Sensors & Modules,432.0,280.8,smooth,C,Z,19,Established
+gbm_full,3,68,71,32,143.49375892174717,117.0,1640.8333333333337,SN-M1,Edge Sensors & Modules,1200.0,780.0,smooth,C,X,69,Established
+gbm_full,3,68,71,33,1576.8160962507363,2206.0,1640.8333333333337,SN-M2,Edge Sensors & Modules,1296.0,842.4,smooth,C,Z,13,Established
+gbm_full,3,68,71,34,169.14134676200715,124.0,698.25,SN-P1,Edge Sensors & Modules,3500.0,2275.0,smooth,B,X,69,Established
+gbm_full,3,68,71,35,700.8502262086535,753.0,698.25,SN-P2,Edge Sensors & Modules,3780.000000000001,2457.0000000000005,smooth,C,Z,14,Established
